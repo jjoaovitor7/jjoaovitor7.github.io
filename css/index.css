@@ -2,6 +2,10 @@ body{
   background-color: lightblue;
 }
 
-.h1-center{
+.h1-title{
   text-align: center;
+}
+
+.navbar ul li{
+  display: inline;
 }
