@@ -1,0 +1,16 @@
+body{
+  background-color: lightblue;
+}
+
+.h1-title{
+  text-align: center;
+}
+
+.navbar ul{
+  margin: 0% 25% 0% 25%;
+  background-color: #d3dff2;
+}
+
+.navbar ul li{
+  display: inline;
+}
