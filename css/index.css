@@ -13,4 +13,6 @@ body{
 
 .navbar ul li{
   display: inline;
+  padding: 5px;
+  background-color: lightblue;
 }
