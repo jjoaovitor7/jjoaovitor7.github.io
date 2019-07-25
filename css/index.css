@@ -1,5 +1,6 @@
 body{
-  background-color: lightblue;
+  background: lightblue;
+  /*background: linear-gradient(280deg, lightblue 80%, blue 20%)*/
 }
 
 .h1-title{
@@ -7,12 +8,13 @@ body{
 }
 
 .navbar ul{
+  background: #d3dff2;
   margin: 0% 25% 0% 25%;
-  background-color: #d3dff2;
 }
 
 .navbar ul li{
+  background: lightblue;
   display: inline;
   padding: 5px;
-  background-color: lightblue;
+  border-radius: 25px 25px 25px 25px;
 }
