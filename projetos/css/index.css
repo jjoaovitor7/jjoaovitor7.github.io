@@ -1,6 +1,7 @@
 body{
   background: lightblue;
-  /*background: linear-gradient(280deg, lightblue 80%, blue 20%);*/
+  background: linear-gradient(45deg, lightblue 80%, white);
+  background-attachment: fixed;
 }
 
 .h1-title{
