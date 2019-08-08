@@ -24,15 +24,15 @@ body{
 }
 
 .navbar li a:link{
-  color: #1a1aff;
+   color: #1a1aff;
 }
 
 .navbar li a:visited{
-  color: #1a1aff;
+   color: #1a1aff;
 }
 
 p{
-  background: #ffffff;
-  color: #000000;
-  margin: 0% 50% 0% 0%;
+   background: #ffffff;
+   color: #000000;
+   margin: 0% 50% 0% 0%;
 }
