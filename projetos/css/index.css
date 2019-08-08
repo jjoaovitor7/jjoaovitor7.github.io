@@ -11,6 +11,8 @@ body{
 }
 
 .subtitle{
+   font-size: 35px;
+   color: #e6e6ff;
    text-align: center;
    animation-name: fade-in;
    animation-duration: 2.5s;
