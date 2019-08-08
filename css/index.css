@@ -1,21 +1,38 @@
 body{
-  background: lightblue;
-  background: linear-gradient(45deg, lightblue 80%, white);
-  background-attachment: fixed;
+   background: #0052cc;
+   background: linear-gradient(45deg, #003d99, #0052cc);
+   background-attachment: fixed;
 }
 
-.h1-title{
-  text-align: center;
+.title{
+   color: #e6e6ff;
+   font-size: 45px;
+   text-align: center;
 }
 
 .navbar ul{
-  background: #d3dff2;
-  margin: 0% 25% 0% 25%;
+   background: #e6e6ff;
+   padding: 5px;
+   margin: 0% 25% 0% 25%;
 }
 
-.navbar ul li{
-  background: lightblue;
-  display: inline;
-  padding: 5px;
-  border-radius: 25px 25px 25px 25px;
+.navbar li{
+   background: #ccccff;
+   display: inline;
+   padding: 3px;
+   border-radius: 25px 25px 25px 25px;
+}
+
+.navbar li a:link{
+  color: #1a1aff;
+}
+
+.navbar li a:visited{
+  color: #1a1aff;
+}
+
+p{
+  background: #ffffff;
+  color: #000000;
+  margin: 0% 50% 0% 0%;
 }
