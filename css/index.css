@@ -13,9 +13,23 @@ body{
   margin: 0% 25% 0% 25%;
 }
 
-.navbar ul li{
-  background: lightblue;
-  display: inline;
-  padding: 5px;
-  border-radius: 25px 25px 25px 25px;
+.navbar li{
+   background: #ccccff;
+   display: inline;
+   padding: 3px;
+   border-radius: 25px 25px 25px 25px;
+}
+
+.navbar li a:link{
+   color: #1a1aff;
+}
+
+.navbar li a:visited{
+   color: #1a1aff;
+}
+
+p{
+   background: #ffffff;
+   color: #000000;
+   margin: 0% 25% 0% 25%;
 }
