@@ -4,11 +4,11 @@ body{
   background-attachment: fixed;
 }
 
-.h1-title{
+.title{
   text-align: center;
 }
 
-.h3-subtitle{
+.subtitle{
   text-align: center;
   animation-name: fade-in;
   animation-duration: 2.5s;
