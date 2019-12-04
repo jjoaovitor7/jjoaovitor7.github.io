@@ -38,6 +38,12 @@ p{
    margin: 0% 25% 0% 25%;
 }
 
+span{
+   background: #ffffff;
+   color: #000000;
+   margin: 0% 25% 0% 25%;
+}
+
 .span-l{
    border:1px solid #000000;
    padding-left: 3px;
