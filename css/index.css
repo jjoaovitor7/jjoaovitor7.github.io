@@ -39,13 +39,13 @@ p{
 }
 
 .span-l{
-   border:1px solid #000000;
    padding: 0px 3px 0px 3px;
+   border: 1px solid #000000;
 }
 
 .span-r{
+   padding: 0px 3px 0px 3px;
    border-right: 1px solid #000000;
    border-top: 1px solid #000000;
    border-bottom: 1px solid #000000;
-   padding: 0px 3px 0px 3px;
 }
