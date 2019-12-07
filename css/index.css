@@ -40,14 +40,12 @@ p{
 
 .span-l{
    border:1px solid #000000;
-   padding-left: 3px;
-   padding-right: 3px;
+   padding: 0px 3px 0px 3px;
 }
 
 .span-r{
    border-right: 1px solid #000000;
    border-top: 1px solid #000000;
    border-bottom: 1px solid #000000;
-   padding-left: 3px;
-   padding-right: 3px;
+   padding: 0px 3px 0px 3px;
 }
