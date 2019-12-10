@@ -1,16 +1,15 @@
-body{
+body {
    background: #0052cc;
-   background: linear-gradient(45deg, #003d99, #0052cc);
-   background-attachment: fixed;
+   background: linear-gradient(45deg, #003d99, #0052cc) fixed;
 }
 
-.title{
+.title {
    color: #e6e6ff;
    font-size: 45px;
    text-align: center;
 }
 
-.subtitle{
+.subtitle {
    font-size: 35px;
    color: #e6e6ff;
    text-align: center;
@@ -20,51 +19,51 @@ body{
    animation-iteration-count: 1;
 }
 
-@keyframes fade-in{
-   from{
+@keyframes fade-in {
+   from {
       opacity: 0.0;
    }
-   to{
+   to {
       opacity: 1.0;
    }
 }
 
-.navbar ul{
+.navbar ul {
    background: #e6e6ff;
    padding: 5px;
    margin: 0% 25% 0% 25%;
    border-radius: 25px 25px 25px 25px;
 }
 
-.navbar li{
+.navbar li {
    background: #ccccff;
    display: inline;
    padding: 3px;
    border-radius: 25px 25px 25px 25px;
 }
 
-.navbar li a:link{
+.navbar li a:link {
    color: #1a1aff;
 }
 
-.navbar li a:visited{
+.navbar li a:visited {
    color: #1a1aff;
 }
 
-p{
-   background: #ffffff;
-   color: #000000;
+.container {
+   background: #fff;
+   color: #000;
    margin: 0% 25% 0% 25%;
+   padding: 2px;
+   border-radius: 5px;
 }
 
 .span-l{
-   padding: 0px 3px 0px 3px;
-   border: 1px solid #000000;
+   border: 1px solid #000;
 }
 
 .span-r{
    padding: 0px 3px 0px 3px;
-   border-right: 1px solid #000000;
-   border-top: 1px solid #000000;
-   border-bottom: 1px solid #000000;
+   border: solid #000;
+   border-width: 1px 1px 1px 0px;
 }
