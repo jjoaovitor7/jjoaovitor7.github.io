@@ -5,18 +5,48 @@ body {
 
 .title {
    color: #e6e6ff;
-   font-size: 45px;
+   font-size: 2.8em;
    text-align: center;
 }
 
+.navbar ul {
+   background: #e6e6ff;
+   border-radius: 25px 25px 25px 25px;
+   margin: 0% 25% 0% 25%;
+   padding: 5px;
+}
+
+.navbar li {
+   background: #ccccff;
+   border-radius: 25px 25px 25px 25px;
+   display: inline;
+   padding: 3px;
+}
+
+.navbar li a:link {
+   color: #1a1aff;
+}
+
+.navbar li a:visited {
+   color: #2d2da1;
+}
+
+.container {
+   background: #fff;
+   border-radius: 5px;
+   color: #000;
+   margin: 0% 25% 0% 25%;
+   padding: 2px;
+}
+
 .subtitle {
-   font-size: 35px;
-   color: #e6e6ff;
-   text-align: center;
    animation-name: fade-in;
    animation-duration: 2.5s;
    animation-timing-function: ease-in;
    animation-iteration-count: 1;
+   color: #e6e6ff;
+   font-size: 2.2em;
+   text-align: center;
 }
 
 @keyframes fade-in {
@@ -28,41 +58,12 @@ body {
    }
 }
 
-.navbar ul {
-   background: #e6e6ff;
-   padding: 5px;
-   margin: 0% 25% 0% 25%;
-}
-
-.navbar li {
-   background: #ccccff;
-   display: inline;
-   padding: 3px;
-   border-radius: 25px 25px 25px 25px;
-}
-
-.navbar li a:link {
-   color: #1a1aff;
-}
-
-.navbar li a:visited {
-   color: #1a1aff;
-}
-
-.container {
-   background: #fff;
-   color: #000;
-   margin: 0% 25% 0% 25%;
-   padding: 2px;
-   border-radius: 5px;
-}
-
-.span-l{
+.span-l {
    border: 1px solid #000;
 }
 
-.span-r{
-   padding: 0px 3px 0px 3px;
+.span-r {
    border: solid #000;
    border-width: 1px 1px 1px 0px;
+   padding: 0px 3px 0px 3px;
 }
