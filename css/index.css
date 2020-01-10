@@ -30,7 +30,11 @@ body {
 }
 
 .navbar li a:link {
-   color: #1a1aff;
+   color: #003d99;
+}
+
+.navbar li:hover {
+	background: blue;
 }
 
 .navbar li a:visited {
@@ -76,6 +80,10 @@ body {
    border: solid #000;
    border-width: 1px 1px 1px 0px;
    padding: 0px 3px 0px 3px;
+}
+
+.span-r a {
+   text-decoration: none;
 }
 
 /* footer */
