@@ -71,21 +71,6 @@ body {
    }
 }
 
-/* spans */
-.span-l {
-   border: 1px solid #000;
-}
-
-.span-r {
-   border: solid #000;
-   border-width: 1px 1px 1px 0px;
-   padding: 0px 3px 0px 3px;
-}
-
-.span-r a {
-   text-decoration: none;
-}
-
 /* footer */
 .footer {
    background-color: #011f4d;
@@ -97,4 +82,3 @@ body {
    left: 0;
    right: 0;
 }
-
