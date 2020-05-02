@@ -34,7 +34,7 @@ body {
 }
 
 .navbar li:hover {
-	background: blue;
+   background: blue;
 }
 
 .navbar li a:visited {
