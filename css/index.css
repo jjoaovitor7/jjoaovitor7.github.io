@@ -71,6 +71,16 @@ body {
    }
 }
 
+/* preferências */
+.prefs td {
+   border: 1px solid #000;
+   padding: 1px;
+}
+
+.prefs td a {
+   text-decoration: none;
+}
+
 /* footer */
 .footer {
    background-color: #011f4d;
