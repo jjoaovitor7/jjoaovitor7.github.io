@@ -71,7 +71,7 @@ body {
    }
 }
 
-@keyframes -moz-fade-in {
+@-moz-keyframes fade-in {
    from {
       opacity: 0.0;
    }
@@ -80,7 +80,7 @@ body {
    }
 }
 
-@keyframes -webkit-fade-in {
+@-webkit-keyframes fade-in {
    from {
       opacity: 0.0;
    }
@@ -89,7 +89,7 @@ body {
    }
 }
 
-@keyframes -o-fade-in {
+@-o-keyframes fade-in {
    from {
       opacity: 0.0;
    }
@@ -97,6 +97,7 @@ body {
       opacity: 1.0;
    }
 }
+
 /* preferências */
 .prefs td {
    border: 1px solid #000;
