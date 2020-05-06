@@ -22,22 +22,23 @@ body {
    padding: 5px;
 }
 
-.navbar li {
+.navbar ul li {
    background: #ccccff;
    border-radius: 25px;
    display: inline;
    padding: 3px;
 }
 
-.navbar li a:link {
+.navbar ul li:hover {
+   background: #2980b9;
+}
+
+.navbar ul li a:link {
+   text-decoration: none;
    color: #003d99;
 }
 
-.navbar li:hover {
-   background: blue;
-}
-
-.navbar li a:visited {
+.navbar ul li a:visited {
    color: #2d2da1;
 }
 
