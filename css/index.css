@@ -3,7 +3,8 @@
 
 body {
    background: #0052cc;
-   background: linear-gradient(45deg, #003d99, #0052cc) fixed;
+   background:url("assets/bg.png"), linear-gradient(45deg, #003d99, #0052cc) fixed;
+   background-repeat: repeat;
 }
 
 /* título */
