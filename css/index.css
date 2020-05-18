@@ -34,6 +34,11 @@ body {
    background: #2980b9;
 }
 
+.navbar ul li:active {
+   position: relative;
+   top: 1px;
+}
+
 .navbar ul li a:link {
    text-decoration: none;
    color: #003d99;
