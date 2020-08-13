@@ -1,57 +1,103 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
- <head>
-  <!-- meta tags -->
-  <meta charset="utf-8">
-  <meta http-equiv="content-language" content="pt-BR" />
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <meta name="author" content="jjoaovitor7" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="pt_BR">
 
-  <!-- OpenGraph metatags -->
-  <meta property="og:locale" content="pt_BR">
-  <meta property="og:site_name" content="jjoaovitor7">
-  <meta property="og:type" content="website">
+    <head>
+        <!-- metatags -->
+        <meta charset="utf-8">
+        <meta name="author" content="jjoaovitor7" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- favicon -->
-  <link rel="shortcut icon" href="assets/favicon/favicon-32x32.png" />
+        <!-- OpenGraph metatags -->
+        <meta property="og:locale" content="pt_BR">
+        <meta property="og:site_name" content="jjoaovitor7">
+        <meta property="og:type" content="website">
 
-  <link rel="stylesheet" type="text/css" href="css/index.css">
-  <title>jjoaovitor7</title>
- </head>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="/assets/favicon/favicon-32x32.png" />
 
- <body>
-  <header>
-   <!-- título do site -->
-   <h1 class="title">jjoaovitor7</h1>
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="/css/index.css">
+        <link rel="stylesheet" type="text/css" href="/css/partials/navbar.css">
+        <link rel="stylesheet" type="text/css" href="/css/partials/container.css">
+        <link rel="stylesheet" type="text/css" href="/css/partials/footer.css">
 
-   <!-- menu horizontal -->
-   <nav class="navbar">
-    <ul>
-     <li><a href="index.html" tabindex="1">Início</a></li>
-     <li><a href="projetos/index.html" tabindex="2">Projetos</a></li>
-    </ul>
-   </nav>
-  </header>
+        <!-- título do site -->
+        <title>jjoaovitor7</title>
+    </head>
 
-  <main>
-   <br />
-   <!-- conteúdo -->
-   <div class="container">
-    <p>
-     Olá! Meu nome é João Vítor e a minha atual linguagem de programação favorita é Python.
-     <br />Deixarei minhas recomendações aqui e elas (minhas recomendações) podem <i>mudar com o tempo</i>.
-    </p>
 
-    <p>
-     <span class ="span-l">IDE:</span><span class="span-r"><a href="https://atom.io/" tabindex="3">Atom</a></span>
-     <br />
-     <span class="span-l">Guia de Estilo (Python):</span><span class="span-r"><a href="https://python.org/dev/peps/pep-0008/" tabindex="4">PEP8</a></span>
-    </p>
-   </div>
+    <body>
+        <header id="page-header">
+            <!-- título do site -->
+            <h1>jjoaovitor7</h1>
 
-   <!-- footer -->
-   <div class="footer"><p>jjoaovitor7</p></div>
-  </main>
- </body>
+            <!-- menu horizontal -->
+            <nav class="navbar">
+              <ul>
+                <li>
+                  <a href="/" tabindex="1">Início</a>
+                </li>
+
+                <li>
+                  <a href="/projetos/index.html" tabindex="2">Projetos</a>
+                </li>
+              </ul>
+            </nav>
+        </header>
+
+
+        <main>
+          <!-- conteúdo -->
+          <div class="container">
+            <p class="about">
+              Olá! Meu nome é João Vítor e a minha atual linguagem de programação favorita é Python.
+            </p>
+
+            <p class="about">
+              Deixarei minhas recomendações (preferências) aqui e as mesmas podem <i>mudar com o tempo</i>.
+            </p>
+
+            <!-- conteúdo-preferências -->
+            <table class="prefs">
+              <tbody>
+                <tr>
+                  <td>Editor de Imagens</td>
+                  <td>Gimp</td>
+                </tr>
+
+                <tr>
+                  <td>Guia de Estilo (Python)</td>
+                  <td><a target="_blank" href="https://python.org/dev/peps/pep-0008/" tabindex="4">PEP8</a></td>
+                </tr>
+
+                <tr>
+                  <td>IDE</td>
+                  <td>VSCode ou Sublime Text 3</td>
+                </tr>
+
+                <tr>
+                  <td>Sistema Operacional (SO)</td>
+                  <td>Linux</td>
+                </tr>
+
+                <tr>
+                  <td>Git Gui</td>
+                  <td><a target="_blank" href="https://gitfiend.com/" tabindex="5">GitFiend</a></td>
+                </tr>
+             </tbody>
+            </table>
+          </div>
+
+          <!-- aviso covid-19 -->
+          <div class="container">
+            <p class="aviso">Fique(m) em casa! Stay in Home!</p>
+          </div>
+        </main>
+
+        <!-- footer -->
+        <footer>
+          <p>jjoaovitor7</p>
+        </footer>
+    </body>
+
 </html>

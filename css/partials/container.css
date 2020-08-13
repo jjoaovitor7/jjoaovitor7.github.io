@@ -1,0 +1,25 @@
+
+/* container */
+.container {
+    background: var(--color-background-container);
+    border-radius: 5px;
+    color: var(--color-text-container);
+    margin: 5px 25% 5px 25%;
+    padding: 10px 5px;
+}
+
+.container p.about {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   margin: 5px;
+}
+
+.container p.aviso {
+   font-family: 'Times New Roman', sans-serif;
+   font-size: 1.1rem;
+}
+
+.container div {
+    text-align: center;
+    margin: 15px;
+}
