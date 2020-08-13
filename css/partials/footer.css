@@ -1,0 +1,15 @@
+/* footer */
+footer {
+    background-color: var(--color-background-footer);
+    color: var(--color-text-footer);
+    padding: 10px;
+    position: fixed;
+   
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer p {
+    text-shadow: 4px 4px 4px blue;
+}
