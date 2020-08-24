@@ -4,12 +4,16 @@
     animation-duration: 2.5s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
-    color: #e6e6ff;
-    font-size: 2.2rem;
+
+    color: var(--color-text-title);
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+
+    margin: 1rem 0rem;
     text-align: center;
-    margin: 1rem;
 }
- 
+
+/* animação */
 @keyframes fade-in {
     from {
        opacity: 0.0;
