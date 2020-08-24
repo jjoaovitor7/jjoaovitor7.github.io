@@ -1,6 +1,6 @@
 :root {
     --color-background: #00428c; /* Porto Blue */
-    --color-text-title: #e6e6ff;
+    --color-text-title: #d7d7f7;
     --color-background-container: #ededed;
     --color-text-container: #000;
     --color-background-footer:#011f4d;
@@ -23,10 +23,10 @@ body {
 /* título */
 #page-header h1 {
     color: var(--color-text-title);
-    font-size: 2.8rem;
+    font-size: 3rem;
     margin: 1rem; /* 15px */
     text-align: center;
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Lobster', cursive;
 }
 /* preferências */
 .prefs td {
