@@ -1,5 +1,5 @@
 /* menu horizontal */
-.navbar ul {
+#page-navbar ul {
     background: #e6e6ff;
     background: linear-gradient(to right, #00d2ff 0%, #3a7bd5 50%, #00d2ff 100%);
     border-radius: 25px;
@@ -7,14 +7,14 @@
     padding: 5px;
 }
 @media (max-width: 1100px) {
-    .navbar ul {
+    #page-navbar ul {
         margin-left: 25%;
         margin-right: 25%;
     }
 }
 
  
- .navbar ul li {
+ #page-navbar ul li {
     background: #ccccff;
     border-radius: 1.5rem; /* 25px */
     display: inline;
@@ -23,21 +23,21 @@
     transition: 0.3s;
 }
  
- .navbar ul li:hover {
+ #page-navbar ul li:hover {
     background: #2980b9;
 }
  
- .navbar ul li:active {
+ #page-navbar ul li:active {
     position: relative;
     top: 1px;
 }
  
- .navbar ul li a:link {
+ #page-navbar ul li a:link {
     text-decoration: none;
     color: #003d99;
 }
  
- .navbar ul li a:visited {
+ #page-navbar ul li a:visited {
     color: #2d2da1;
 }
  
