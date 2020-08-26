@@ -1,5 +1,5 @@
 /* footer */
-footer {
+#page-footer {
     background-color: var(--color-background-footer);
     color: var(--color-text-footer);
     padding: 10px;
@@ -10,7 +10,7 @@ footer {
     right: 0;
 }
 
-footer p {
+#page-footer p {
     text-shadow: 4px 4px 4px blue;
     font-family: 'Lobster', cursive;
 }
