@@ -13,4 +13,11 @@
 #page-footer p {
     text-shadow: 4px 4px 4px blue;
     font-family: 'Lobster', cursive;
+    font-size: 18px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: right;
+    margin-top: -25px;
 }

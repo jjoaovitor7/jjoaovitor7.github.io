@@ -9,7 +9,7 @@
     border: 1px solid #000;
     box-shadow: 1px 2.5px 1px #000;
 }
-@media (max-width: 600px){
+@media (max-width: 750px){
     .container {
         width: 100%;
         float: none;
