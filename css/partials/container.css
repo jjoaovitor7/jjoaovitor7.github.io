@@ -4,7 +4,7 @@
     background: var(--color-background-container);
     border-radius: 5px;
     color: var(--color-text-container);
-    margin: 0 25%;
+    margin: 1% 25%;
     padding: 10px 5px;
     border: 1px solid #000;
     box-shadow: 1px 2.5px 1px #000;
@@ -13,7 +13,7 @@
     .container {
         width: 100%;
         float: none;
-        margin: 0 auto;
+        margin: 1% auto;
     }
 
 }
