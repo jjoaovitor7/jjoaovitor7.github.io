@@ -16,14 +16,6 @@
     }
 }
 
-.container p.about {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 300;
-   margin: 5px;
-   border-left: 3.5px solid #2418d6;
-   padding-left: 5px;
-}
-
 .container p.aviso {
    font-family: 'Times New Roman', sans-serif;
    font-size: 1.1rem;
