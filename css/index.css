@@ -83,4 +83,29 @@ body {
     border-left: 3.5px solid #2418d6;
     padding-left: 5px;
  }
- 
+
+
+/* footer */
+#page-footer {
+    background-color: var(--color-background-footer);
+    color: var(--color-text-footer);
+    padding: 10px;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#page-footer .page-author p {
+    text-shadow: 4px 4px 4px blue;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+}
+
+#page-footer .social-media {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -25px;
+    margin-bottom: -8px;
+}
