@@ -74,3 +74,13 @@ body {
 .card a {
     text-decoration: none;
 }
+
+/* about */
+.about p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 10px 0 0 0;
+    border-left: 3.5px solid #2418d6;
+    padding-left: 5px;
+ }
+ 
