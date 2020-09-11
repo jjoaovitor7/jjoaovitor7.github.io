@@ -151,3 +151,11 @@ body {
     margin-top: -25px;
     margin-bottom: -8px;
 }
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    #container-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
