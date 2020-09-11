@@ -44,3 +44,7 @@
 #page-navbar li a i {
     padding: 5px 10px;
 }
+
+.current {
+    color: #fff;
+}
