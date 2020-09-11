@@ -13,9 +13,9 @@
     }
 }
 
- 
  #page-navbar ul li {
-    background: #ccccff;
+    background: none;
+    font-family: 'Open Sans', sans-serif;
     border-radius: 1.5rem; /* 25px */
     display: inline;
     padding: 5px;
