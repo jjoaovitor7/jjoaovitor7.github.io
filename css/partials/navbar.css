@@ -13,7 +13,7 @@
     }
 }
 
- #page-navbar ul li {
+#page-navbar ul li {
     background: none;
     font-family: 'Open Sans', sans-serif;
     border-radius: 1.5rem; /* 25px */
@@ -23,21 +23,24 @@
     transition: 0.3s;
 }
  
- #page-navbar ul li:hover {
+#page-navbar ul li:hover {
     background: #2980b9;
 }
  
- #page-navbar ul li:active {
+#page-navbar ul li:active {
     position: relative;
     top: 1px;
 }
  
- #page-navbar ul li a:link {
+#page-navbar ul li a:link {
     text-decoration: none;
     color: #003d99;
 }
  
- #page-navbar ul li a:visited {
+#page-navbar ul li a:visited {
     color: #2d2da1;
 }
- 
+
+#page-navbar li a i {
+    padding: 5px 10px;
+}
