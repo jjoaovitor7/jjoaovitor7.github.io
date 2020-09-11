@@ -6,12 +6,6 @@
     margin: 0 25rem 1.5rem 25rem;
     padding: 5px;
 }
-@media (max-width: 1100px) {
-    #page-navbar ul {
-        margin-left: 25%;
-        margin-right: 25%;
-    }
-}
 
 #page-navbar ul li {
     background: none;
@@ -47,4 +41,12 @@
 
 .current {
     color: #fff;
+}
+
+/* Media Queries */
+@media (max-width: 1100px) {
+    #page-navbar ul {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
 }
