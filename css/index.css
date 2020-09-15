@@ -154,8 +154,12 @@ body {
 
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1250px) {
     #container-cards {
         grid-template-columns: 1fr;
+
+        display:flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
