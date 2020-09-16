@@ -4,7 +4,7 @@ const options = {
     left: 'unset', // default: 'unset'
     time: '0.8s', // default: '0.3s'
     mixColor: '#00428c', // default: '#fff'
-    backgroundColor: '#00428c',  // default: '#fff'
+    backgroundColor: 'url("../assets/bg.png"), -o-linear-gradient(45deg, #003d99,#00428c) fixed',  // default: '#fff'
     buttonColorDark: '#000',  // default: '#100f2c'
     buttonColorLight: '#fff', // default: '#fff'
     saveInCookies: false, // default: true,
