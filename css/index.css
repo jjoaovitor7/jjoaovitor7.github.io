@@ -150,8 +150,12 @@ body {
     justify-content: flex-end;
     margin-top: -25px;
     margin-bottom: -8px;
+    opacity: 0.8;
 }
 
+#page-footer .social-media:hover {
+    opacity: 1;
+}
 
 /* Media Queries */
 @media screen and (max-width: 1250px) {
