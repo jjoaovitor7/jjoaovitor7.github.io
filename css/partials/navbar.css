@@ -14,11 +14,13 @@
     display: inline;
     padding: 5px;
     margin: 2.5px;
-    transition: 0.3s;
+    transition: background 0.3s;
+    font-size: 16px;
 }
  
 #page-navbar ul li:hover {
     background: #2980b9;
+    font-weight: bold;
 }
  
 #page-navbar ul li:active {
