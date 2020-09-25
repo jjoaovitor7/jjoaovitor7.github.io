@@ -9,19 +9,19 @@
     box-shadow: 1px 2.5px 1px #000;
 }
 
-.container p.aviso {
-   font-family: 'Times New Roman', sans-serif;
-   font-size: 1.1rem;
-}
-
-.container #container-cards .card {
-    text-align: center;
-    margin: 15px;
-}
-
 .container .about {
     text-align: justify;
     font-size: 16px;
+}
+
+.container p.aviso {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 1.1rem;
+ }
+ 
+.container #container-cards .card {
+    text-align: center;
+    margin: 15px;
 }
 
 /* Media Queries */
