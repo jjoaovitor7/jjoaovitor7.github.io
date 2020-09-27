@@ -31,4 +31,9 @@
         float: none;
         margin: 1% auto;
     }
+    
+    .container #container-cards {
+        margin-bottom: 50px;
+    }
+
 }
