@@ -164,13 +164,9 @@ body {
 /* Media Queries */
 @media screen and (max-width: 1250px) {
     #google-translate {
-        display: none;
-        /*
         position: relative;
-        margin-left: 125px;
-        margin-top: 20px;
+        margin: 25px 0 100px 130px;
         height: 0px;
-        */
     }
 }
 
