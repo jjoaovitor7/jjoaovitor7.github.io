@@ -24,6 +24,8 @@ body {
     background: url("../assets/bg.png"), -o-linear-gradient(45deg, #003d99,#00428c) fixed;
 
     background-repeat: repeat;
+    min-height: 0 !important;
+    top: 0 !important;
 }
 
 
@@ -131,6 +133,22 @@ body {
     font-size: 18px;
 }
 
+#google-translate {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    height: 0px;
+}
+
+.goog-te-gadget-simple {
+    border-radius: 15px;
+}
+
+.goog-te-banner-frame {
+    display: none;
+}
+
+
 #page-footer .social-media {
     display: flex;
     justify-content: flex-end;
@@ -144,6 +162,18 @@ body {
 }
 
 /* Media Queries */
+@media screen and (max-width: 1250px) {
+    #google-translate {
+        display: none;
+        /*
+        position: relative;
+        margin-left: 125px;
+        margin-top: 20px;
+        height: 0px;
+        */
+    }
+}
+
 @media screen and (max-width: 1250px) {
     #container-cards {
         grid-template-columns: 1fr;
