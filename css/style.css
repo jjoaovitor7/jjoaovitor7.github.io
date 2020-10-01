@@ -164,8 +164,9 @@ body {
 /* Media Queries */
 @media screen and (max-width: 1250px) {
     #google-translate {
-        position: relative;
-        margin: 25px 0 100px 130px;
+        position: absolute;
+        bottom: 5px;
+        margin-bottom: 35px;
         height: 0px;
     }
 }
