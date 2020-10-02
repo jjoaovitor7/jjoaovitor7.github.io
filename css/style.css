@@ -1,9 +1,10 @@
 :root {
   --color-primary: #00428c; /* Porto Blue */
   --color-primary-lighter: #003d99;
+  --color-primary-darker: #011f4d;
   --color-black: #000;
+  --color-blue: #0000ff;
   --color-white: #fff;
-  --color-background-footer: #011f4d;
 }
 
 /* reset css */
@@ -205,13 +206,13 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   margin: 10px 0 0 0;
-  border-left: 3.5px solid #2418d6;
+  border-left: 3.5px solid var(--color-blue);
   padding-left: 5px;
 }
 
 /* footer */
 #page-footer {
-  background-color: var(--color-background-footer);
+  background-color: var(--color-primary-darker);
   color: var(--color-white);
   padding: 10px;
 
@@ -222,7 +223,7 @@ body {
 }
 
 #page-footer .page-author p {
-  text-shadow: 4px 4px 4px blue;
+  text-shadow: 4px 4px 4px var(--color-blue);
   font-family: "Lobster", cursive;
   font-size: 18px;
 }
