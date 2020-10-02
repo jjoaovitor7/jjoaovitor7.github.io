@@ -1,0 +1,1 @@
+location.href = "https://jjoaovitor7.github.io/pages/projetos";
