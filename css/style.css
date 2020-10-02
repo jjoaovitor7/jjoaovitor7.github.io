@@ -3,7 +3,6 @@
   --color-primary-lighter: #003d99;
   --color-black: #000;
   --color-white: #fff;
-  --color-background-container: #ededed;
   --color-background-footer: #011f4d;
 }
 
@@ -128,7 +127,7 @@ body {
 
 #page-navbar ul li a:link {
   text-decoration: none;
-  color: #003d99;
+  color: var(--color-primary-lighter);
 }
 
 #page-navbar ul li a:visited {
@@ -145,7 +144,7 @@ body {
 
 /* container */
 .container {
-  background: var(--color-background-container);
+  background: #ededed;
   border-radius: 5px;
   color: var(--color-black);
   margin: 1% 25%;
@@ -224,9 +223,6 @@ body {
 
 #page-footer .page-author p {
   text-shadow: 4px 4px 4px blue;
-  -moz-text-shadow: 4px 4px 4px blue;
-  -webkit-text-shadow: 4px 4px 4px blue;
-
   font-family: "Lobster", cursive;
   font-size: 18px;
 }
