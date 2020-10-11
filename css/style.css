@@ -20,13 +20,13 @@ body {
     linear-gradient(45deg, var(--color-primary-lighter), var(--color-primary))
       fixed;
   background: url("../assets/bg.png"),
-    -webkit-linear-gradient(
+    -moz-linear-gradient(
         45deg,
         var(--color-primary-lighter),
         var(--color-primary)
       ) fixed;
   background: url("../assets/bg.png"),
-    -moz-linear-gradient(
+    -webkit-linear-gradient(
         45deg,
         var(--color-primary-lighter),
         var(--color-primary)
@@ -151,7 +151,7 @@ body {
   margin: 1% 25%;
   padding: 10px 5px;
   border: 1px solid var(--color-black);
-  box-shadow: 1px 2.5px 1px var(--color-black)0;
+  box-shadow: 1px 2.5px 1px var(--color-black) 0;
 }
 
 .container .about {
