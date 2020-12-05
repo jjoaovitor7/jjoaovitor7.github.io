@@ -95,6 +95,15 @@ let module = {
     );
 
     divContainerCards.appendChild(card8);
+
+    let card9 = new CardProjects(
+      "https://github.com/jjoaovitor7/ProdutosFirebase",
+      "12",
+      "ProdutosFirebase",
+      "HTML + CSS + JS + Firebase"
+    );
+
+    divContainerCards.appendChild(card9);
   },
 
   renderProjetosUniversidade: () => {
