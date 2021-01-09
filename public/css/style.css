@@ -135,7 +135,7 @@ header h1 {
 #page-footer {
   background-color: var(--color-primary-darker);
   color: var(--color-white);
-  padding: 10px;
+  padding: 21px;
 
   position: fixed;
   bottom: 0;
@@ -145,18 +145,25 @@ header h1 {
 }
 
 #page-footer .page-author p {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
   text-shadow: 4px 4px 4px var(--color-blue);
   font-family: "Lobster", cursive;
   font-size: 18px;
+  margin: 0;
 }
 
 /* footer */
 #page-footer .social-media {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: -25px;
-  margin-bottom: -8px;
+  position: absolute;
   opacity: 0.8;
+  right: 0;
+  bottom: 0;
+}
+
+#page-footer .social-media img {
+  vertical-align: middle;
 }
 
 #page-footer .social-media:hover {
@@ -165,9 +172,12 @@ header h1 {
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
-  #page-navbar ul {
-    position: relative;
-    left: -35px;
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  nav#page-navbar ul {
     width: 250px;
   }
 
@@ -189,7 +199,6 @@ header h1 {
 @media screen and (max-width: 1250px) {
   #container-cards {
     grid-template-columns: 1fr;
-
     display: flex;
     flex-direction: column;
     align-items: center;
