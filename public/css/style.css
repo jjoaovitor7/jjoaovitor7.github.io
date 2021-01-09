@@ -16,21 +16,21 @@
 
 body {
   background: var(--color-primary);
-  background: url("../assets/bg.png"),
-    linear-gradient(45deg, var(--color-primary-lighter), var(--color-primary))
-      fixed;
-  background: url("../assets/bg.png"),
-    -moz-linear-gradient(
-        45deg,
-        var(--color-primary-lighter),
-        var(--color-primary)
-      ) fixed;
-  background: url("../assets/bg.png"),
-    -webkit-linear-gradient(
-        45deg,
-        var(--color-primary-lighter),
-        var(--color-primary)
-      ) fixed;
+  background: linear-gradient(
+    45deg,
+    var(--color-primary-lighter),
+    var(--color-primary)
+  );
+  background: -moz-linear-gradient(
+    45deg,
+    var(--color-primary-lighter),
+    var(--color-primary)
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    var(--color-primary-lighter),
+    var(--color-primary)
+  );
 
   background-repeat: repeat;
 
@@ -43,7 +43,7 @@ body {
 header h1 {
   color: #d7d7f7;
   font-size: 3rem;
-  margin: 1rem; /* 15px */
+  margin: 0.5rem; /* 15px */
   text-align: center;
   font-family: "Lobster", cursive;
 }
