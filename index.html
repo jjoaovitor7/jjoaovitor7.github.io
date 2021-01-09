@@ -1,142 +1,169 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <!-- METATAGS -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="jjoaovitor7" />
+    <meta name="description" content="Site pessoal." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="jjoaovitor7" />
+    <meta property="og:type" content="website" />
 
-<head>
-  <!-- metatags -->
-  <meta charset="UTF-8">
-  <meta name="author" content="jjoaovitor7" />
-  <meta name="description" content="Site pessoal.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- metatags OpenGraph -->
-  <meta property="og:locale" content="pt_BR">
-  <meta property="og:site_name" content="jjoaovitor7">
-  <meta property="og:type" content="website">
+    <!-- ANIMATE.CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-  <!-- css -->
-  <link rel="stylesheet" href="./public/css/main.css">
-  <link rel="stylesheet" href="./public/css/navbar.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./public/css/navbar.css" />
 
-  <!-- favicon -->
-  <link rel="shortcut icon" href="./public/assets/favicon/favicon-32x32.png" />
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="./public/assets/favicon/favicon-32x32.png"
+    />
 
-  <!-- fonts-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+    <!-- FONT-AWESOME -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- font-awesome -->
-  <link
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-  rel="stylesheet"
-  />
+    <!-- FONTS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+    />
 
-  <!-- title -->
-  <title>jjoaovitor7</title>
-</head>
+    <!-- TITLE -->
+    <title>jjoaovitor7</title>
+  </head>
 
-<body>
+  <body>
+    <!-- SHAPEDIVIDER -->
+    <div class="custom-shape-divider-top">
+      <svg
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+          class="shape-fill"
+        ></path>
+      </svg>
+    </div>
 
-  <div class="custom-shape-divider-top">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-    </svg>
-  </div>
+    <header>
+      <!-- TITLE -->
+      <h1>jjoaovitor7</h1>
 
-  <header>
-    <h1>jjoaovitor7</h1>
+      <!-- MENU DESKTOP-->
+      <nav id="desktop-nav">
+        <ul>
+          <li>
+            <a href="/" tabindex="1"
+              ><i class="fas fa-home current"></i>Início</a
+            >
+          </li>
+          <li>
+            <a href="/pages/projetos/" tabindex="2"
+              ><i class="fas fa-bookmark"></i>Projetos</a
+            >
+          </li>
+          <li>
+            <a href="/pages/ferramentas/" tabindex="3"
+              ><i class="fas fa-wrench"></i>Ferramentas</a
+            >
+          </li>
+        </ul>
+      </nav>
 
-    <!-- menu horizontal -->
-    <nav id="desktop-nav">
-      <ul>
-        <li>
+      <!-- MENU MOBILE -->
+      <nav id="mobile-nav">
+        <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <div id="mobile-nav-urls">
           <a href="/" tabindex="1"><i class="fas fa-home current"></i>Início</a>
-        </li>
-
-        <li>
-          <a href="/pages/projetos/" tabindex="2"><i class="fas fa-bookmark"></i>Projetos</a>
-        </li>
-
-        <li>
-          <a href="/pages/ferramentas/" tabindex="3"><i class="fas fa-wrench"></i></i>Ferramentas</a>
-        </li>
-      </ul>
-    </nav>
-
-    <div id="mobile-nav">
-      <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
-        <i class="fa fa-bars"></i>
-      </a>
-      <div id="mobile-nav-urls">
-        <a href="/" tabindex="1"><i class="fas fa-home current"></i>Início</a>
-        <a href="/pages/projetos/" tabindex="2"><i class="fas fa-bookmark"></i>Projetos</a>
-        <a href="/pages/ferramentas/" tabindex="3"><i class="fas fa-wrench"></i></i>Ferramentas</a>
-      </div>
-    </div>
-  </header>
-
-
-  <main>
-    <section>
-      <!-- content -->
-      <div class="container-modified">
-
-        <div class="about">
-          <p>
-            Olá! Meu nome é João Vítor e atualmente estou focando na área de desenvolvimento web c/ HTML, CSS e <abbr
-              title="JavaScript">JS</abbr>.
-          </p>
-
-          <p>
-            Há 2 páginas que você pode visitar.
-          </p>
-
-          <p>
-            A página de Projetos, onde ficam projetos que eu fiz, individualmente, por algum curso ou algo do tipo.
-          </p>
-
-          <p>
-            E a página de Ferramentas, que é onde eu deixo as ferramentas que eu utilizo ou que apenas recomendo por eu
-            já ter usado e ela ser boa na minha opinião.
-          </p>
-
-          <p>
-            Boa navegação =)
-          </p>
+          <a href="/pages/projetos/" tabindex="2"
+            ><i class="fas fa-bookmark"></i>Projetos</a
+          >
+          <a href="/pages/ferramentas/" tabindex="3"
+            ><i class="fas fa-wrench"></i>Ferramentas</a
+          >
         </div>
+      </nav>
+    </header>
 
-      </div>
-    </section>
-
-    <section>
-      <div class="container-modified">
-        <div class="data-hora">
-          <script src="./public/scripts/date.js"></script>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <!-- aviso covid-19 -->
-      <div class="container-aviso">
+    <main>
+      <section>
+        <!-- CONTENT -->
         <div class="container-modified">
-          <p class="aviso">Fique(m) em casa!</p>
+          <div class="about">
+            <p>
+              Olá! Meu nome é João Vítor e atualmente estou focando na área de
+              desenvolvimento web c/ HTML, CSS e
+              <abbr title="JavaScript">JS</abbr>.
+            </p>
+
+            <p>Há 2 páginas que você pode visitar.</p>
+
+            <p>
+              A página de Projetos, onde ficam projetos que eu fiz,
+              individualmente, por algum curso ou algo do tipo.
+            </p>
+
+            <p>
+              E a página de Ferramentas, que é onde eu deixo as ferramentas que
+              eu utilizo ou que apenas recomendo por eu já ter usado e ela ser
+              boa na minha opinião.
+            </p>
+
+            <p>Boa navegação =)</p>
+          </div>
         </div>
+      </section>
+
+      <section>
+        <div class="container-modified">
+          <div class="data-hora">
+            <script src="./public/scripts/date.js"></script>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <!-- COVID-19 WARNING -->
+        <div class="container-aviso">
+          <div class="container-modified">
+            <p class="aviso">Fique(m) em casa!</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="page-author">
+        <p>jjoaovitor7</p>
       </div>
-    </section>
-  </main>
 
-  <!-- footer -->
-  <footer id="page-footer">
-    <div class="page-author">
-      <p>jjoaovitor7</p>
-    </div>
+      <div class="social-media">
+        <a target="_blank" href="https://br.linkedin.com/in/jjoaovitor7">
+          <img src="./public/assets/social-media-1.png" height="35px" />
+        </a>
+      </div>
+    </footer>
 
-    <div class="social-media">
-      <a target="_blank" href="https://br.linkedin.com/in/jjoaovitor7">
-        <img src="./public/assets/social-media-1.png" height="35px">
-      </a>
-    </div>
-  </footer>
-
-  <script src="./public/scripts/mobileNav.js"></script>
-</body>
+    <script src="./public/scripts/mobileNav.js"></script>
+  </body>
 </html>
