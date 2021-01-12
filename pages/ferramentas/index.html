@@ -107,54 +107,14 @@
       <!-- CONTENT -->
       <div class="container-modified">
         <div id="container-cards">
-          <div class="card">
-            <p><b>Editor de Imagens</b></p>
-            <p>
-              <a target="_blank" href="https://www.gimp.org/" tabindex="4"
-                >Gimp</a
-              >
-            </p>
-          </div>
-
-          <div class="card">
-            <p><b>IDE</b></p>
-            <p>
-              <a
-                target="_blank"
-                href="https://code.visualstudio.com/"
-                tabindex="5"
-                >VSCode</a
-              >
-              ou
-              <a
-                target="_blank"
-                href="https://www.sublimetext.com/"
-                tabindex="6"
-                >Sublime Text 3</a
-              >
-            </p>
-          </div>
-
-          <div class="card">
-            <p><b>Sistema Operacional (S.O.)</b></p>
-            <p>
-              <a
-                target="_blank"
-                href="https://www.linuxliteos.com/"
-                tabindex="7"
-                >Linux Lite</a
-              >
-            </p>
-          </div>
-
-          <div class="card">
-            <p><b>Git Gui</b></p>
-            <p>
-              <a target="_blank" href="https://gitfiend.com/" tabindex="8"
-                >GitFiend</a
-              >
-            </p>
-          </div>
+          <!-- prettier-ignore -->
+          <card-tool category="Editor de Imagens" url="https://www.gimp.org/" name="Gimp"></card-tool>
+          <!-- prettier-ignore -->
+          <card-tool category="IDE" url="https://code.visualstudio.com/" name="VSCode"></card-tool>
+          <!-- prettier-ignore -->
+          <card-tool category="Sistema Operacional (S.O.)" url="https://www.linuxliteos.com/" name="Linux Lite"></card-tool>
+          <!-- prettier-ignore -->
+          <card-tool category="Git Gui" url="https://gitfiend.com/" name="GitFiend"></card-tool>
         </div>
       </div>
     </main>
@@ -176,5 +136,6 @@
       </div>
     </footer>
     <script src="../../public/scripts/mobileNav.js"></script>
+    <script src="../../public/scripts/card-ferramenta.js"></script>
   </body>
 </html>
