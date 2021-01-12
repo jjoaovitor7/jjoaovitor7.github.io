@@ -5,6 +5,9 @@
 }
 
 #desktop-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #e6e6ff;
   background: linear-gradient(to right, #00d2ff 0%, #3a7bd5 50%, #00d2ff 100%);
   border-radius: 25px;
