@@ -37,7 +37,12 @@
 </url>
 
 <url>
-  <loc>https://jjoaovitor7.github.io/calculadora-gorjeta/</loc>
+  <loc>https://jjoaovitor7.github.io/MediaCalculator/</loc>
+  <priority>0.85</priority>
+</url>
+
+<url>
+  <loc>https://jjoaovitor7.github.io/2020/</loc>
   <priority>0.85</priority>
 </url>
 
