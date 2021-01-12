@@ -94,7 +94,8 @@ header h1 {
   background: #fff;
   border-radius: 5px;
   color: var(--color-black);
-  margin: 1% 25%;
+  margin: 1% auto;
+  width: 650px;
   padding: 10px 5px;
   border: 1px solid var(--color-black);
   box-shadow: 1px 2.5px 1px var(--color-black) 0;
