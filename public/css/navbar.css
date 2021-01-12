@@ -8,8 +8,9 @@
   background: #e6e6ff;
   background: linear-gradient(to right, #00d2ff 0%, #3a7bd5 50%, #00d2ff 100%);
   border-radius: 25px;
-  margin: 0 25rem;
+  margin: 0 auto;
   padding: 5px;
+  width: 500px;
 }
 
 #desktop-nav ul li {
@@ -89,11 +90,5 @@
   #mobile-nav a.icon {
     color: #2d2da1;
     text-align: center;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  #page-navbar ul {
-    margin: 0 25%;
   }
 }
