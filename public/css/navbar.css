@@ -94,4 +94,8 @@
     color: #2d2da1;
     text-align: center;
   }
+
+  #mobile-nav i {
+    margin: 5px;
+  }
 }
