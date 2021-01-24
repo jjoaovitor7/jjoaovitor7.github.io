@@ -34,7 +34,7 @@ class CardProject extends HTMLElement {
         width: 175px;
         min-height: 100px;
         text-align: center;
-        margin: 10px;
+        margin: 5px;
       }
 
       .card:hover {
