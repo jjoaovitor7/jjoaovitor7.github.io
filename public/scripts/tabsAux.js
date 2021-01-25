@@ -6,11 +6,15 @@ const ex1Tabs4 = document.getElementById("ex1-tab-4");
 function tabsAux1Hidden() {
   document.getElementById("ex1-tabs-2").setAttribute("hidden", true);
   document.getElementById("ex1-tabs-1").removeAttribute("hidden");
+  document.getElementById("ex1-tabs-3").removeAttribute("hidden");
+  document.getElementById("ex1-tabs-4").removeAttribute("hidden");
 }
 
 function tabsAux2Hidden() {
   document.getElementById("ex1-tabs-1").setAttribute("hidden", true);
   document.getElementById("ex1-tabs-2").removeAttribute("hidden");
+  document.getElementById("ex1-tabs-3").setAttribute("hidden", true);
+  document.getElementById("ex1-tabs-4").setAttribute("hidden", true);
 }
 
 function tabsAux3Hidden() {
