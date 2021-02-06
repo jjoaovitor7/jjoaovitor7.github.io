@@ -1,0 +1,44 @@
+:root {
+  --color-primary: #00428c; /* Porto Blue */
+  --color-primary-lighter: #003d99;
+  --color-primary-darker: #011f4d;
+  --color-black: #000;
+  --color-blue: #0000ff;
+  --color-white: #fff;
+  --color-red: #ff0000;
+}
+
+body {
+  background: var(--color-primary);
+  background: linear-gradient(
+    45deg,
+    var(--color-primary-lighter),
+    var(--color-primary)
+  );
+  background: -moz-linear-gradient(
+    45deg,
+    var(--color-primary-lighter),
+    var(--color-primary)
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    var(--color-primary-lighter),
+    var(--color-primary)
+  );
+}
+
+.shadow-red {
+  text-shadow: 1px 1px 1px var(--color-red);
+}
+
+.u-bg-white {
+  background: var(--color-white);
+}
+
+.u-color-black {
+  color: var(--color-black);
+}
+
+.u-decoration-1 {
+  border-left: 3.5px solid var(--color-blue);
+}

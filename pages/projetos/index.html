@@ -17,9 +17,18 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./../../public/css/main.css" />
-    <link rel="stylesheet" href="./../../public/css/animations.css" />
-    <link rel="stylesheet" href="./../../public/css/navbar.css" />
+    <link rel="stylesheet" href="../../public/css/smacss/base/base.css" />
+    <link rel="stylesheet" href="../../public/css/smacss/layout/layout.css" />
+    <link rel="stylesheet" href="../../public/css/smacss/modules/loader.css" />
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="../../public/css/smacss/modules/custom-shape-divider-top.css" />
+    <link rel="stylesheet" href="../../public/css/smacss/modules/navbar.css" />
+    <link rel="stylesheet" href="../../public/css/smacss/modules/modules.css" />
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="../../public/css/smacss/state/animations.css" />
+    <link rel="stylesheet" href="../../public/css/smacss/state/state.css" />
+    <link rel="stylesheet" href="../../public/css/smacss/theme/theme.css" />
+    <link rel="stylesheet" href="../../public/css/smacss/modules/navbar.css" />
 
     <!-- FAVICON -->
     <link
@@ -73,6 +82,7 @@
     <!-- SHAPEDIVIDER -->
     <div class="custom-shape-divider-top">
       <svg
+        class="custom-shape-divider-top__svg"
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1200 120"
@@ -80,15 +90,15 @@
       >
         <path
           d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-          class="shape-fill"
+          class="custom-shape-divider-top__shape-fill"
         ></path>
       </svg>
     </div>
 
-    <header>
-      <h1>
+    <header id="l-header">
+      <h1 id="l-header__title" class="u-font-size-big-3">
         jjoaovitor7
-        <span class="subtitle">/Projetos</span>
+        <span class="l-header__subtitle u-font-size-medium-3">/Projetos</span>
       </h1>
 
       <!-- MENU DESKTOP -->
@@ -131,7 +141,7 @@
 
     <main>
       <!-- CONTENT -->
-      <div class="container-modified">
+      <div class="container-modified u-bg-white">
         <!-- Tabs navs -->
         <ul class="nav nav-tabs" id="ex1" role="tablist">
           <li class="nav-item" role="presentation">
@@ -392,18 +402,18 @@
     </main>
 
     <!-- footer -->
-    <footer>
-      <div class="page-author">
-        <p>jjoaovitor7</p>
+    <footer id="l-footer">
+      <div class="l-footer__page-author">
+        <p class="l-footer__page-author__text">jjoaovitor7</p>
       </div>
 
-      <div class="social-media">
+      <div class="l-footer__social-media">
         <a
           target="_blank"
           href="https://br.linkedin.com/in/jjoaovitor7"
           tabindex="11"
         >
-          <img src="./../../public/assets/social-media-1.png" height="35px" />
+          <img class="l-footer__social-media__img" src="./../../public/assets/social-media-1.png" height="35px" />
         </a>
       </div>
     </footer>
