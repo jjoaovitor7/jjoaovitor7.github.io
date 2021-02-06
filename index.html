@@ -11,9 +11,17 @@
     <meta property="og:type" content="website" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./public/css/animations.css" />
-    <link rel="stylesheet" href="./public/css/main.css" />
-    <link rel="stylesheet" href="./public/css/navbar.css" />
+    <link rel="stylesheet" href="./public/css/smacss/base/base.css" />
+    <link rel="stylesheet" href="./public/css/smacss/layout/layout.css" />
+    <link rel="stylesheet" href="./public/css/smacss/modules/loader.css" />
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="./public/css/smacss/modules/custom-shape-divider-top.css" />
+    <link rel="stylesheet" href="./public/css/smacss/modules/navbar.css" />
+    <link rel="stylesheet" href="./public/css/smacss/modules/modules.css" />
+    <link rel="stylesheet" href="./public/css/smacss/state/animations.css" />
+    <link rel="stylesheet" href="./public/css/smacss/state/state.css" />
+    <link rel="stylesheet" href="./public/css/smacss/theme/theme.css" />
+    <link rel="stylesheet" href="./public/css/smacss/modules/navbar.css" />
 
     <!-- FAVICON -->
     <link
@@ -23,8 +31,8 @@
 
     <!-- FONT-AWESOME -->
     <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
 
     <!-- FONTS -->
@@ -48,6 +56,7 @@
     <!-- SHAPEDIVIDER -->
     <div class="custom-shape-divider-top">
       <svg
+        class="custom-shape-divider-top__svg"
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1200 120"
@@ -55,14 +64,14 @@
       >
         <path
           d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-          class="shape-fill"
+          class="custom-shape-divider-top__shape-fill"
         ></path>
       </svg>
     </div>
 
-    <header>
+    <header id="l-header">
       <!-- TITLE -->
-      <h1>jjoaovitor7</h1>
+      <h1 id="l-header__title" class="u-font-size-big-3">jjoaovitor7</h1>
 
       <!-- MENU DESKTOP-->
       <nav id="desktop-nav">
@@ -105,35 +114,37 @@
     <main>
       <section>
         <!-- CONTENT -->
-        <div class="container-modified">
-          <div class="about">
-            <p>
+        <div class="container-modified u-bg-white">
+          <div class="about u-font-size-default l-textjustify">
+            <p class="u-decoration-1 u-mtb-10 u-pl-5">
               Olá! Meu nome é João Vítor e atualmente estou focando na área de
               desenvolvimento web c/ HTML, CSS e
               <abbr title="JavaScript">JS</abbr>.
             </p>
 
-            <p>Há 2 páginas que você pode visitar.</p>
+            <p class="u-decoration-1 u-mtb-10 u-pl-5">
+              Há 2 páginas que você pode visitar.
+            </p>
 
-            <p>
+            <p class="u-decoration-1 u-mtb-10 u-pl-5">
               A página de Projetos, onde ficam projetos que eu fiz,
               individualmente, por algum curso ou algo do tipo.
             </p>
 
-            <p>
+            <p class="u-decoration-1 u-mtb-10 u-pl-5">
               E a página de Ferramentas, que é onde eu deixo as ferramentas que
               eu utilizo ou que apenas recomendo por eu já ter usado e ela ser
               boa na minha opinião.
             </p>
 
-            <p>Boa navegação =)</p>
+            <p class="u-decoration-1 u-mtb-10 u-pl-5">Boa navegação =)</p>
           </div>
         </div>
       </section>
 
       <section>
-        <div class="container-modified">
-          <div class="data-hora">
+        <div class="container-modified u-bg-white">
+          <div class="dateHour u-font-size-default">
             <script src="./public/scripts/date.js"></script>
           </div>
         </div>
@@ -141,23 +152,29 @@
 
       <section>
         <!-- COVID-19 WARNING -->
-        <div class="container-aviso">
-          <div class="container-modified">
-            <p class="aviso">Fique(m) em casa!</p>
+        <div class="container-warning">
+          <div class="container-modified u-bg-white">
+            <p class="warning u-font-size-default shadow-red">
+              Fique(m) em casa!
+            </p>
           </div>
         </div>
       </section>
     </main>
 
     <!-- FOOTER -->
-    <footer>
-      <div class="page-author">
-        <p>jjoaovitor7</p>
+    <footer id="l-footer">
+      <div class="l-footer__page-author">
+        <p class="l-footer__page-author__text">jjoaovitor7</p>
       </div>
 
-      <div class="social-media">
+      <div class="l-footer__social-media">
         <a target="_blank" href="https://br.linkedin.com/in/jjoaovitor7">
-          <img src="./public/assets/social-media-1.png" height="35px" />
+          <img
+            class="l-footer__social-media__img"
+            src="./public/assets/social-media-1.png"
+            height="35px"
+          />
         </a>
       </div>
     </footer>

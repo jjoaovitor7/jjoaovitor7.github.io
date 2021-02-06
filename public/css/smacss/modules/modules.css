@@ -1,0 +1,133 @@
+.u-font-size-default {
+  font-size: 1.6rem;
+}
+
+.u-font-size-medium {
+  font-size: 1.8rem;
+}
+
+.u-font-size-medium-2 {
+  font-size: 2.5rem;
+}
+
+.u-font-size-medium-3 {
+  font-size: 3rem;
+}
+
+.u-font-size-big {
+  font-size: 5rem;
+}
+
+.u-font-size-big-2 {
+  font-size: 5.5rem;
+}
+
+.u-font-size-big-3 {
+  font-size: 6rem;
+}
+
+.u-mtb-5 {
+  margin: 5px 0;
+}
+
+.u-mtb-10 {
+  margin: 10px 0;
+}
+
+.u-pl-5 {
+  padding-left: 5px;
+}
+
+#l-header__title {
+  color: #d7d7f7;
+  margin: 0.4rem;
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+
+#l-header__subtitle {
+  animation-name: fade-in;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+
+  color: #d7d7f7;
+  font-family: "Lobster", cursive;
+  font-size: 2.5rem;
+
+  margin: 1rem 0rem;
+  text-align: center;
+}
+
+/* CONTAINER-MODIFIED */
+.container-modified {
+  border-radius: 5px;
+  margin: 1% auto;
+  width: 650px;
+  padding: 10px 5px;
+  border: 1px solid var(--color-black);
+  box-shadow: 1px 2.5px 1px var(--color-black) 0;
+  z-index: 1;
+}
+
+/* ABOUT */
+.about {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin: 10px 0 0 0;
+}
+
+/* DATE-HOUR */
+.dateHour {
+  font-family: "Roboto", sans-serif;
+}
+
+/* WARNING */
+.warning {
+  font-family: "Roboto", sans-serif;
+}
+
+/* CONTAINER-CARDS */
+#container-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  z-index: 1;
+}
+
+/* FOOTER */
+#l-footer {
+  background-color: var(--color-primary-darker);
+  color: var(--color-white);
+  padding: 21px;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  line-height: 1.2 !important;
+}
+
+.l-footer__page-author__text {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  text-shadow: 4px 4px 4px var(--color-blue);
+  font-family: "Lobster", cursive;
+  font-size: 18px;
+  margin: 0;
+}
+
+.l-footer__social-media {
+  position: absolute;
+  opacity: 0.8;
+  right: 0;
+  bottom: 0;
+}
+
+.l-footer__social-media__img {
+  vertical-align: middle;
+}
+
+.l-footer__social-media:hover {
+  opacity: 1;
+}
