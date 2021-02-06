@@ -69,7 +69,7 @@
 
     <style>
       @media screen and (max-width: 768px) {
-        .container-modified {
+        .l-container {
           height: 450px;
           overflow: scroll;
         }
@@ -98,7 +98,10 @@
     </div>
 
     <header id="l-header">
-      <h1 id="l-header__title" class="u-font-size-big-3">
+      <h1
+        id="l-header__title"
+        class="u-textcenter u-font-size-big-3 u-color-grey"
+      >
         jjoaovitor7
         <span class="l-header__subtitle u-font-size-medium-3">/Projetos</span>
       </h1>
@@ -143,7 +146,7 @@
 
     <main>
       <!-- CONTENT -->
-      <div class="container-modified u-bg-white">
+      <div class="l-container u-bg-white">
         <!-- Tabs navs -->
         <ul class="nav nav-tabs" id="ex1" role="tablist">
           <li class="nav-item" role="presentation">
@@ -218,7 +221,7 @@
                 role="tabpanel"
                 aria-labelledby="ex1-tab-3"
               >
-                <div id="container-cards">
+                <div class="l-container-cards">
                   <card-project
                     url="https://jjoaovitor7.github.io/2020"
                     name="2020"
@@ -294,7 +297,7 @@
               aria-labelledby="ex1-tab-4"
               hidden
             >
-              <div id="container-cards">
+              <div class="l-container-cards">
                 <card-project
                   url="https://jjoaovitor7.github.io/Bin2Dec"
                   name="Bin2Dec"
@@ -354,7 +357,7 @@
             aria-labelledby="ex1-tab-2"
             hidden
           >
-            <div id="container-cards">
+            <div class="l-container-cards">
               <card-project
                 url="https://github.com/jjoaovitor7-unit/GraphCodeFlow-SR"
                 name="Sistema de Recomendação"
@@ -406,7 +409,7 @@
     <!-- footer -->
     <footer id="l-footer">
       <div class="l-footer__page-author">
-        <p class="l-footer__page-author__text">jjoaovitor7</p>
+        <p class="l-footer__page-author__text shadow-blue-4">jjoaovitor7</p>
       </div>
 
       <div class="l-footer__social-media">
@@ -416,7 +419,7 @@
           tabindex="11"
         >
           <img
-            class="l-footer__social-media__img"
+            class="u-vmiddle"
             src="./../../public/assets/social-media-1.png"
             height="35px"
           />

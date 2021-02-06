@@ -5,13 +5,13 @@
     justify-content: center;
   }
 
-  .container-modified {
+  .l-container {
     width: 100%;
     float: none;
     margin: 1% auto;
   }
 
-  #container-cards {
+  .l-container-cards {
     margin-bottom: 50px;
     grid-template-columns: 1fr;
     display: flex;
