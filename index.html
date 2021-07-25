@@ -1,192 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- METATAGS -->
-    <meta charset="UTF-8" />
-    <meta name="author" content="jjoaovitor7" />
-    <meta name="description" content="Site pessoal." />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta property="og:locale" content="pt_BR" />
-    <meta property="og:site_name" content="jjoaovitor7" />
-    <meta property="og:type" content="website" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./public/css/smacss/base/base.css" />
-    <link rel="stylesheet" href="./public/css/smacss/layout/layout.css" />
-    <link rel="stylesheet" href="./public/css/smacss/modules/loader.css" />
-    <!-- prettier-ignore -->
-    <link rel="stylesheet" href="./public/css/smacss/modules/custom-shape-divider-top.css" />
-    <link rel="stylesheet" href="./public/css/smacss/modules/navbar.css" />
-    <link rel="stylesheet" href="./public/css/smacss/modules/modules.css" />
-    <link rel="stylesheet" href="./public/css/smacss/state/animations.css" />
-    <link rel="stylesheet" href="./public/css/smacss/state/state.css" />
-    <link rel="stylesheet" href="./public/css/smacss/state/mediaqueries.css" />
-    <link rel="stylesheet" href="./public/css/smacss/theme/theme.css" />
-    <link rel="stylesheet" href="./public/css/smacss/modules/navbar.css" />
+<head>
+  <!-- METATAGS -->
+  <meta charset="UTF-8" />
+  <meta name="author" content="jjoaovitor7" />
+  <meta name="description" content="Site pessoal." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="jjoaovitor7" />
+  <meta property="og:type" content="website" />
 
-    <!-- FAVICON -->
-    <link
-      rel="shortcut icon"
-      href="./public/assets/favicon/favicon-32x32.png"
-    />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./public/css/smacss/base.css" />
+  <link rel="stylesheet" href="./public/css/smacss/layout.css" />
+  <link rel="stylesheet" href="./public/css/smacss/modules.css" />
+  <link rel="stylesheet" href="./public/css/smacss/state.css" />
+  <link rel="stylesheet" href="./public/css/smacss/theme.css" />
 
-    <!-- FONT-AWESOME -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="./public/assets/favicon/favicon-32x32.png" />
 
-    <!-- FONTS -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-    />
+  <!-- FONT-AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 
+  <!-- FONTS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" />
+
+  <!-- TITLE -->
+  <title>jjoaovitor7</title>
+</head>
+
+<body>
+  <!-- LOADER -->
+  <div class="loader"></div>
+
+  <!-- SHAPEDIVIDER -->
+  <div class="custom-shape-divider-top">
+    <svg class="custom-shape-divider-top__svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="custom-shape-divider-top__shape-fill"></path>
+    </svg>
+  </div>
+
+  <header id="l-header">
     <!-- TITLE -->
-    <title>jjoaovitor7</title>
-  </head>
+    <h1 id="l-header__title" class="u-textcenter u-color-grey u-font-size-big-3">
+      jjoaovitor7
+    </h1>
 
-  <body>
-    <!-- LOADER -->
-    <div class="loader"></div>
+    <!-- MENU DESKTOP-->
+    <nav id="desktop-nav">
+      <ul>
+        <li>
+          <a href="/" tabindex="1"><i class="fas fa-home is-current"></i>Início</a>
+        </li>
+        <li>
+          <a href="/pages/projetos/" tabindex="2"><i class="fas fa-bookmark"></i>Projetos</a>
+        </li>
+        <li>
+          <a href="/pages/ferramentas/" tabindex="3"><i class="fas fa-wrench"></i>Ferramentas</a>
+        </li>
+      </ul>
+    </nav>
 
-    <!-- SHAPEDIVIDER -->
-    <div class="custom-shape-divider-top">
-      <svg
-        class="custom-shape-divider-top__svg"
-        data-name="Layer 1"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1200 120"
-        preserveAspectRatio="none"
-      >
-        <path
-          d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-          class="custom-shape-divider-top__shape-fill"
-        ></path>
-      </svg>
+    <!-- MENU MOBILE -->
+    <nav id="mobile-nav">
+      <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <div id="mobile-nav-urls">
+        <a href="/" tabindex="1"><i class="fas fa-home is-current"></i>Início</a>
+        <a href="/pages/projetos/" tabindex="2"><i class="fas fa-bookmark"></i>Projetos</a>
+        <a href="/pages/ferramentas/" tabindex="3"><i class="fas fa-wrench"></i>Ferramentas</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <!-- CONTENT -->
+      <div class="l-container u-bg-white">
+        <div class="about u-font-size-default l-textjustify">
+          <p class="u-decoration-1 u-mtb-10 u-pl-5">
+            Olá! Meu nome é João Vítor e atualmente estou focando na área de
+            desenvolvimento web c/ HTML, CSS e
+            <abbr title="JavaScript">JS</abbr>.
+          </p>
+
+          <p class="u-decoration-1 u-mtb-10 u-pl-5">
+            Há 2 páginas que você pode visitar.
+          </p>
+
+          <p class="u-decoration-1 u-mtb-10 u-pl-5">
+            A página de Projetos, onde ficam projetos que eu fiz,
+            individualmente, por algum curso ou algo do tipo.
+          </p>
+
+          <p class="u-decoration-1 u-mtb-10 u-pl-5">
+            E a página de Ferramentas, que é onde eu deixo as ferramentas que
+            eu utilizo ou que apenas recomendo por eu já ter usado e ela ser
+            boa na minha opinião.
+          </p>
+
+          <p class="u-decoration-1 u-mtb-10 u-pl-5">Boa navegação =)</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="l-container u-bg-white">
+        <div class="dateHour u-font-size-default">
+          <script src="./public/scripts/date.js"></script>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!-- COVID-19 WARNING -->
+      <div class="container-warning">
+        <div class="l-container u-bg-white">
+          <p class="warning u-font-size-default shadow-red">
+            Fique(m) em casa!
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="l-footer">
+    <div class="l-footer__page-author">
+      <p class="l-footer__page-author__text shadow-blue-4">jjoaovitor7</p>
     </div>
 
-    <header id="l-header">
-      <!-- TITLE -->
-      <h1
-        id="l-header__title"
-        class="u-textcenter u-color-grey u-font-size-big-3"
-      >
-        jjoaovitor7
-      </h1>
+    <div class="l-footer__social-media">
+      <a target="_blank" href="https://br.linkedin.com/in/jjoaovitor7">
+        <img class="u-vmiddle" src="./public/assets/social-media-1.png" height="35px" />
+      </a>
+    </div>
+  </footer>
+  <script src="./public/scripts/loader.js"></script>
+  <script src="./public/scripts/mobileNav.js"></script>
+</body>
 
-      <!-- MENU DESKTOP-->
-      <nav id="desktop-nav">
-        <ul>
-          <li>
-            <a href="/" tabindex="1"
-              ><i class="fas fa-home is-current"></i>Início</a
-            >
-          </li>
-          <li>
-            <a href="/pages/projetos/" tabindex="2"
-              ><i class="fas fa-bookmark"></i>Projetos</a
-            >
-          </li>
-          <li>
-            <a href="/pages/ferramentas/" tabindex="3"
-              ><i class="fas fa-wrench"></i>Ferramentas</a
-            >
-          </li>
-        </ul>
-      </nav>
-
-      <!-- MENU MOBILE -->
-      <nav id="mobile-nav">
-        <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
-          <i class="fa fa-bars"></i>
-        </a>
-        <div id="mobile-nav-urls">
-          <a href="/" tabindex="1"
-            ><i class="fas fa-home is-current"></i>Início</a
-          >
-          <a href="/pages/projetos/" tabindex="2"
-            ><i class="fas fa-bookmark"></i>Projetos</a
-          >
-          <a href="/pages/ferramentas/" tabindex="3"
-            ><i class="fas fa-wrench"></i>Ferramentas</a
-          >
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <section>
-        <!-- CONTENT -->
-        <div class="l-container u-bg-white">
-          <div class="about u-font-size-default l-textjustify">
-            <p class="u-decoration-1 u-mtb-10 u-pl-5">
-              Olá! Meu nome é João Vítor e atualmente estou focando na área de
-              desenvolvimento web c/ HTML, CSS e
-              <abbr title="JavaScript">JS</abbr>.
-            </p>
-
-            <p class="u-decoration-1 u-mtb-10 u-pl-5">
-              Há 2 páginas que você pode visitar.
-            </p>
-
-            <p class="u-decoration-1 u-mtb-10 u-pl-5">
-              A página de Projetos, onde ficam projetos que eu fiz,
-              individualmente, por algum curso ou algo do tipo.
-            </p>
-
-            <p class="u-decoration-1 u-mtb-10 u-pl-5">
-              E a página de Ferramentas, que é onde eu deixo as ferramentas que
-              eu utilizo ou que apenas recomendo por eu já ter usado e ela ser
-              boa na minha opinião.
-            </p>
-
-            <p class="u-decoration-1 u-mtb-10 u-pl-5">Boa navegação =)</p>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="l-container u-bg-white">
-          <div class="dateHour u-font-size-default">
-            <script src="./public/scripts/date.js"></script>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <!-- COVID-19 WARNING -->
-        <div class="container-warning">
-          <div class="l-container u-bg-white">
-            <p class="warning u-font-size-default shadow-red">
-              Fique(m) em casa!
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- FOOTER -->
-    <footer id="l-footer">
-      <div class="l-footer__page-author">
-        <p class="l-footer__page-author__text shadow-blue-4">jjoaovitor7</p>
-      </div>
-
-      <div class="l-footer__social-media">
-        <a target="_blank" href="https://br.linkedin.com/in/jjoaovitor7">
-          <img
-            class="u-vmiddle"
-            src="./public/assets/social-media-1.png"
-            height="35px"
-          />
-        </a>
-      </div>
-    </footer>
-    <script src="./public/scripts/loader.js"></script>
-    <script src="./public/scripts/mobileNav.js"></script>
-  </body>
 </html>

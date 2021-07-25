@@ -12,5 +12,6 @@
 /* BODY */
 body {
   font-family: "Times New Roman", sans-serif;
-  overflow: hidden;
+  height: 100%;
+  padding-bottom: 2.1rem;
 }

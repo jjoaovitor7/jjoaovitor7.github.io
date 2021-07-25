@@ -29,22 +29,22 @@ class CardProject extends HTMLElement {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
-        width: 175px;
-        min-height: 100px;
+        max-width: 17.5rem;
+        height: 12rem;
         text-align: center;
-        margin: 5px;
+        margin: .5rem;
       }
 
       .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
       }
 
       .card p {
-        margin: 5px;
+        margin: .5rem;
         font-family: "Times New Roman", Times, serif;
-        font-size: 17px;
+        font-size: 1.6rem;
       }
 
       .card a {
