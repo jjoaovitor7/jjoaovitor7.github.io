@@ -26,10 +26,10 @@
 #l-footer {
   background-color: var(--color-primary-darker);
   color: var(--color-white);
-  padding: 21px;
+  padding: 2.1rem;
 
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  bottom: -.5rem;
   left: 0;
   right: 0;
   line-height: 1.2 !important;

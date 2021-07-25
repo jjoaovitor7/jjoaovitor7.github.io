@@ -1,13 +1,15 @@
-const ex1Tabs1 = document.getElementById("ex1-tab-1");
-const ex1Tabs2 = document.getElementById("ex1-tab-2");
-const ex1Tabs3 = document.getElementById("ex1-tab-3");
-const ex1Tabs4 = document.getElementById("ex1-tab-4");
+const tabPessoais = document.getElementById("ex1-tab-1");
+const tabUniversidade = document.getElementById("ex1-tab-2");
+const tabPage1 = document.getElementById("ex1-tab-3");
+const tabPage2 = document.getElementById("ex1-tab-4");
 
 function tabsAux1Hidden() {
   document.getElementById("ex1-tabs-2").setAttribute("hidden", true);
   document.getElementById("ex1-tabs-1").removeAttribute("hidden");
   document.getElementById("ex1-tabs-3").removeAttribute("hidden");
-  document.getElementById("ex1-tabs-4").removeAttribute("hidden");
+  document.getElementById("ex1-tabs-4").setAttribute("hidden", true);
+  document.getElementById("ex1-tabs-3").classList.add("active");
+  document.getElementById("ex1-tabs-4").classList.remove("active");
 }
 
 function tabsAux2Hidden() {
@@ -27,7 +29,7 @@ function tabsAux4Hidden() {
   document.getElementById("ex1-tabs-4").removeAttribute("hidden");
 }
 
-ex1Tabs1.addEventListener("click", tabsAux1Hidden);
-ex1Tabs2.addEventListener("click", tabsAux2Hidden);
-ex1Tabs3.addEventListener("click", tabsAux3Hidden);
-ex1Tabs4.addEventListener("click", tabsAux4Hidden);
+tabPessoais.addEventListener("click", tabsAux1Hidden);
+tabUniversidade.addEventListener("click", tabsAux2Hidden);
+tabPage1.addEventListener("click", tabsAux3Hidden);
+tabPage2.addEventListener("click", tabsAux4Hidden);
