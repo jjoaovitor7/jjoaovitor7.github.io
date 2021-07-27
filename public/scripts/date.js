@@ -1,1 +1,0 @@
-document.write("<p>Data atual: " + Date() + "</p>");
