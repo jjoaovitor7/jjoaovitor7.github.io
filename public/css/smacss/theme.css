@@ -36,3 +36,7 @@ body {
 .u-color-grey {
   color: #d7d7f7;
 }
+
+.nav-tabs .nav-link.active {
+  background: #0c75bb !important;
+}
