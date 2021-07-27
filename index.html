@@ -18,6 +18,10 @@
   <link rel="stylesheet" href="./public/css/smacss/state.css" />
   <link rel="stylesheet" href="./public/css/smacss/theme.css" />
 
+  <!-- BOOTSTRAP 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
   <!-- FAVICON -->
   <link rel="shortcut icon" href="./public/assets/favicon/favicon-32x32.png" />
 
@@ -27,6 +31,7 @@
   <!-- FONTS -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" />
 
   <!-- TITLE -->
   <title>jjoaovitor7</title>
@@ -46,84 +51,147 @@
 
   <header id="l-header">
     <!-- TITLE -->
-    <h1 id="l-header__title" class="u-textcenter u-color-grey u-font-size-big-3">
+    <h1 id="l-header__title" class="text-center u-color-grey display-1 mt-5">
       jjoaovitor7
     </h1>
-
-    <!-- MENU DESKTOP-->
-    <nav id="desktop-nav">
-      <ul>
-        <li>
-          <a href="/" tabindex="1"><i class="fas fa-home is-current"></i>Início</a>
-        </li>
-        <li>
-          <a href="/pages/projetos/" tabindex="2"><i class="fas fa-bookmark"></i>Projetos</a>
-        </li>
-        <li>
-          <a href="/pages/ferramentas/" tabindex="3"><i class="fas fa-wrench"></i>Ferramentas</a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- MENU MOBILE -->
-    <nav id="mobile-nav">
-      <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
-        <i class="fa fa-bars"></i>
-      </a>
-      <div id="mobile-nav-urls">
-        <a href="/" tabindex="1"><i class="fas fa-home is-current"></i>Início</a>
-        <a href="/pages/projetos/" tabindex="2"><i class="fas fa-bookmark"></i>Projetos</a>
-        <a href="/pages/ferramentas/" tabindex="3"><i class="fas fa-wrench"></i>Ferramentas</a>
-      </div>
-    </nav>
   </header>
 
   <main>
-    <section>
-      <!-- CONTENT -->
-      <div class="l-container u-bg-white">
-        <div class="about u-font-size-default l-textjustify">
-          <p class="u-decoration-1 u-mtb-10 u-pl-5">
-            Olá! Meu nome é João Vítor e atualmente estou focando na área de
-            desenvolvimento web c/ HTML, CSS e
-            <abbr title="JavaScript">JS</abbr>.
-          </p>
+    <section id="mainContent" class="mb-5">
+      <ul class="nav nav-tabs mt-5" id="mainTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button"
+            role="tab" aria-controls="about" aria-selected="true"><span class="iconandtext text-dark"><i
+                class="fas fa-home me-1"></i>Sobre</span></button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="personalprojects-tab" data-bs-toggle="tab" data-bs-target="#personalprojects"
+            type="button" role="tab" aria-controls="personalprojects" aria-selected="false"><span
+              class="iconandtext text-dark"><i class="fas fa-bookmark me-2"></i>Projetos Pessoais</span></button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="universityprojects-tab" data-bs-toggle="tab" data-bs-target="#universityprojects"
+            type="button" role="tab" aria-controls="universityprojects" aria-selected="false"><span
+              class="iconandtext text-dark"><i class="fas fa-bookmark me-2"></i>Projetos Universitários</span></button>
+        </li>
+      </ul>
 
-          <p class="u-decoration-1 u-mtb-10 u-pl-5">
-            Há 2 páginas que você pode visitar.
-          </p>
+      <div class="tab-content" id="mainTabContent">
+        <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+          <div class="about l-textjustify">
+            <div class="l-container bg-white">
+              <p class="my-3 pl-2"> Olá! Meu nome é João Vítor e atualmente estou focando na área de desenvolvimento
+                web.</p>
 
-          <p class="u-decoration-1 u-mtb-10 u-pl-5">
-            A página de Projetos, onde ficam projetos que eu fiz,
-            individualmente, por algum curso ou algo do tipo.
-          </p>
+              <p><i class="fas fa-wrench me-2"></i>Ferramentas que eu recomendo:</p>
+              <ul id="tools">
+                <li><a class="nav-link" href="#">Gimp (Editor de Imagens)</a></li>
+                <li><a class="nav-link" href="#">VScode (IDE) </a></li>
+                <li><a class="nav-link" href="#">GitFiend (Git GUI)</a></li>
+              </ul>
+              <p class="my-3">Boa navegação =)</p>
 
-          <p class="u-decoration-1 u-mtb-10 u-pl-5">
-            E a página de Ferramentas, que é onde eu deixo as ferramentas que
-            eu utilizo ou que apenas recomendo por eu já ter usado e ela ser
-            boa na minha opinião.
-          </p>
+              <div class="dateHour">
+                <script>document.write("<p>Data atual: " + Date() + "</p>");</script>
+              </div>
 
-          <p class="u-decoration-1 u-mtb-10 u-pl-5">Boa navegação =)</p>
+              <!-- COVID-19 WARNING -->
+              <p class="warning shadow-red">
+                Fique(m) em casa!
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
 
-    <section>
-      <div class="l-container u-bg-white">
-        <div class="dateHour u-font-size-default">
-          <script src="./public/scripts/date.js"></script>
+        <div class="tab-pane fade" id="personalprojects" role="tabpanel" aria-labelledby="personalprojects-tab">
+          <div class="l-personal bg-white">
+            <card-project url="https://jjoaovitor7.github.io/2020" name="2020" langs="HTML + CSS + JS">
+            </card-project>
+
+            <card-project url="https://jjoaovitor7.github.io/BorderRadiusPreviewer" name="Border Radius Previewer"
+              langs="HTML + CSS + JS">
+            </card-project>
+
+            <card-project url="https://jjoaovitor7.github.io/Calculadora" name="Calculadora" langs="HTML + CSS + JS">
+            </card-project>
+
+            <card-project url="https://github.com/jjoaovitor7/Celular" name="Celular" langs="PHP">
+            </card-project>
+
+            <card-project url="https://github.com/jjoaovitor7/jjao-bot" name="jjao-bot" langs="NodeJS + Firebase">
+            </card-project>
+
+            <card-project url="https://jjoaovitor7.github.io/Piano" name="Piano" langs="HTML + CSS + JS">
+            </card-project>
+
+            <card-project url="https://github.com/jjoaovitor7/ProdutosFirebase" name="ProdutosFirebase"
+              langs="HTML + CSS + JS + Firebase">
+            </card-project>
+
+            <card-project url="https://github.com/jjoaovitor7/rocketq" name="Rocket.Q"
+              langs="HTML + CSS + JS + NodeJS + EJS + MySQL/MariaDB">
+            </card-project>
+
+            <card-project url="https://github.com/jjoaovitor7/TreeGenerator" name="Tree Generator"
+              langs="HTML + CSS + JS">
+            </card-project>
+
+            <card-project url="https://jjoaovitor7.github.io/Bin2Dec" name="Bin2Dec" langs="HTML + CSS + JS">
+            </card-project>
+
+            <card-project url="https://github.com/jjoaovitor7/BirthDayYear" name="BirthDayYear"
+              langs="JavaScript (NodeJS)"></card-project>
+
+            <card-project url="https://github.com/jjoaovitor7/jjBank" name="jjBank" langs="Python3 + MySQL/MariaDB">
+            </card-project>
+
+            <card-project url="https://github.com/jjoaovitor7/Dado" name="Dado" langs="Python3">
+            </card-project>
+
+            <card-project url="https://gist.github.com/jjoaovitor7/7920eef0160f6af7b6c24e698fad2e09"
+              name="Instalador do Stuntrally" langs="ShellScript"></card-project>
+
+            <card-project url="https://github.com/jjoaovitor7/organizador-de-arquivos" name="Organizador de Arquivos"
+              langs="Python3"></card-project>
+
+            <card-project url="https://github.com/jjoaovitor7/vue-todo" name="vue-todo" langs="JavaScript (Vue 3)">
+            </card-project>
+
+            <card-project url="https://github.com/jjoaovitor7/WebScrapingJjoaovitor7Time"
+              name="Web Scraping Jjoaovitor7 Time" langs="Python3"></card-project>
+          </div>
         </div>
-      </div>
-    </section>
 
-    <section>
-      <!-- COVID-19 WARNING -->
-      <div class="container-warning">
-        <div class="l-container u-bg-white">
-          <p class="warning u-font-size-default shadow-red">
-            Fique(m) em casa!
-          </p>
+        <div class="tab-pane fade" id="universityprojects" role="tabpanel" aria-labelledby="universityprojects-tab">
+          <div class="l-university bg-white">
+            <card-project url="https://github.com/jjoaovitor7-unit/GraphCodeFlow-SR" name="Sistema de Recomendação"
+              langs="Python3">
+            </card-project>
+
+            <card-project url="https://github.com/jjoaovitor7-unit/suite-laa" name="Suíte LAA" langs="HTML + CSS + JS">
+            </card-project>
+
+            <card-project url="https://github.com/jjoaovitor7-unit/AdapterDesignPattern"
+              name="Design Pattern Adapter e Iterator" langs="PHP">
+            </card-project>
+
+            <card-project url="https://github.com/jjoaovitor7-unit/APIREST" name="API REST" langs="HTML + CSS + JS">
+            </card-project>
+
+            <card-project url="https://github.com/jjoaovitor7-unit/ObserverDesignPattern" name="Design Pattern Observer"
+              langs="JavaScript (NodeJS)">
+            </card-project>
+
+            <card-project url="https://github.com/jjoaovitor7-unit/LAA-Grafo" name="LAA-Grafo"
+              langs="HTML + CSS + Python3">
+            </card-project>
+
+            <card-project url="https://github.com/jjoaovitor7-unit/ED" name="ED" langs="C# + Github Actions">
+            </card-project>
+
+            <card-project url="https://github.com/jjoaovitor7-unit/Locadora" name="Locadora" langs="C#">
+            </card-project>
+          </div>
         </div>
       </div>
     </section>
@@ -132,7 +200,7 @@
   <!-- FOOTER -->
   <footer id="l-footer">
     <div class="l-footer__page-author">
-      <p class="l-footer__page-author__text shadow-blue-4">jjoaovitor7</p>
+      <p class="l-footer__page-author__text shadow-blue-4 text-white">jjoaovitor7</p>
     </div>
 
     <div class="l-footer__social-media">
@@ -141,8 +209,12 @@
       </a>
     </div>
   </footer>
-  <script src="./public/scripts/loader.js"></script>
-  <script src="./public/scripts/mobileNav.js"></script>
+
+  <!-- BOOTSTRAP 5 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./public/scripts/main.js"></script>
 </body>
 
 </html>
