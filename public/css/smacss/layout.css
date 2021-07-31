@@ -62,3 +62,13 @@
 .iconandtext {
   font-size: 1.4rem;
 }
+
+.fa-linkedin {
+  font-size: 3rem;
+}
+
+.l-footer__social-media {
+  position: absolute;
+  right: 0.5rem;
+  top: 1rem;
+}
