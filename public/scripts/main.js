@@ -1,13 +1,17 @@
 window.onload = function () {
-  document.querySelector(".loader").style.display = "none";
+  const containerToast = document.querySelector(".container__loader");
+  containerToast.style.opacity = "0";
+  containerToast.addEventListener("transitionend", () => {
+    containerToast.remove();
+  });
 };
 
 class CardProject extends HTMLElement {
   constructor() {
     super();
 
-    const url = this.getAttribute("url");
     const name = this.getAttribute("name");
+    const url = this.getAttribute("url");
     const langs = this.getAttribute("langs");
 
     const shadow = this.attachShadow({ mode: "open" });
@@ -47,7 +51,7 @@ class CardProject extends HTMLElement {
   
         .card p {
           margin: .5rem;
-          font-family: "Times New Roman", Times, serif;
+          font-family: "Lato", sans-serif;
           font-size: 1.6rem;
         }
   
