@@ -5,269 +5,173 @@
   <!-- METATAGS -->
   <meta charset="UTF-8" />
   <meta name="author" content="jjoaovitor7" />
-  <meta name="description" content="Site pessoal." />
+  <meta name="description" content="Site pessoal de jjoaovitor7, onde conta com um breve resumo e o portfólio do mesmo." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- METATAGS OPEN GRAPH -->
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:site_name" content="jjoaovitor7" />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://jjoaovitor7.github.io/public/assets/favicon/favicon-32x32.png" />
 
   <!-- CSS -->
-  <link rel="stylesheet" href="./public/css/smacss/base.css" />
-  <link rel="stylesheet" href="./public/css/smacss/layout.css" />
-  <link rel="stylesheet" href="./public/css/smacss/modules.css" />
-  <link rel="stylesheet" href="./public/css/smacss/state.css" />
-  <link rel="stylesheet" href="./public/css/smacss/theme.css" />
-
-  <!-- BOOTSTRAP 5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./public/css/main.css" />
+  <!-- CSS - BOOTSTRAP 5-->
+  <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- CSS - FONT-AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 
   <!-- FAVICON -->
   <link rel="shortcut icon" href="./public/assets/favicon/favicon-32x32.png" />
 
-  <!-- FONT-AWESOME -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-
-  <!-- FONTS -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" />
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 
   <!-- TITLE -->
   <title>jjoaovitor7</title>
 </head>
 
 <body>
-  <!-- LOADER -->
-  <div class="loader"></div>
+  <div id="grid">
+    <!-- LOADER -->
+    <div class="loader"></div>
 
-  <!-- SHAPEDIVIDER -->
-  <div class="custom-shape-divider-top">
-    <svg class="custom-shape-divider-top__svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1200 120" preserveAspectRatio="none">
-      <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="custom-shape-divider-top__shape-fill"></path>
-    </svg>
-  </div>
+    <!-- SHAPEDIVIDER -->
+    <div class="custom-shape-divider-top">
+      <svg class="custom-shape-divider-top__svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="custom-shape-divider-top__shape-fill"></path>
+      </svg>
+    </div>
 
-  <header id="l-header">
-    <!-- TITLE -->
-    <h1 id="l-header__title" class="text-center u-color-grey display-1 mt-5">
-      jjoaovitor7
-    </h1>
-  </header>
+    <!-- HEADER-->
+    <header class="position-relative" style="z-index:1;">
+      <h1 id="l-header__title" class="text-center display-1 mt-5" style="color:#d7d7f7;">
+        jjoaovitor7
+      </h1>
+    </header>
 
-  <main>
-    <section id="mainContent">
-      <ul class="nav nav-tabs mt-5" id="mainTab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button"
-            role="tab" aria-controls="about" aria-selected="true"><span class="iconandtext text-white"><i
-                class="fas fa-home me-1"></i>Sobre</span></button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="personalprojects-tab" data-bs-toggle="tab" data-bs-target="#personalprojects"
-            type="button" role="tab" aria-controls="personalprojects" aria-selected="false"><span
-              class="iconandtext text-white"><i class="fas fa-bookmark me-2"></i>Projetos Pessoais</span></button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="universityprojects-tab" data-bs-toggle="tab" data-bs-target="#universityprojects"
-            type="button" role="tab" aria-controls="universityprojects" aria-selected="false"><span
-              class="iconandtext text-white"><i class="fas fa-bookmark me-2"></i>Projetos Universitários</span></button>
-        </li>
-      </ul>
+    <!-- MAIN CONTENT -->
+    <main>
+      <section class="d-flex flex-column justify-content-center align-items-center">
+        <ul class="nav nav-tabs mt-5" style="z-index:999;" role="tablist">
+          <!-- SOBRE -->
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button"
+              role="tab" aria-controls="about" aria-selected="true"><span class="text-white" style="font-size:1.4rem;"><i
+                  class="fas fa-home me-1"></i>Sobre</span></button>
+          </li>
+          <!-- PORTFÓLIO -->
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="portfolio-tab" data-bs-toggle="tab" data-bs-target="#portfolio"
+              type="button" role="tab" aria-controls="portfolio" aria-selected="false"><span
+                class="text-white" style="font-size:1.4rem;"><i class="fas fa-bookmark me-2"></i>Portfólio</span></button>
+          </li>
+        </ul>
 
-      <div class="tab-content" id="mainTabContent">
-        <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
-          <div class="about l-textjustify">
-            <div class="l-container bg-white">
-              <p class="my-3 pl-2"> Olá! Meu nome é João Vítor e atualmente estou focando na área de desenvolvimento
-                web.</p>
+        <div class="tab-content">
+          <!-- SOBRE -->
+          <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+            <div class="about" style="text-align: justify;">
+              <div class="my-2 mx-auto l-container bg-white">
+                <p class="my-3 pl-2"> Olá! Meu nome é João Vítor e atualmente estou focando na área de desenvolvimento
+                  web.</p>
 
-              <p><i class="fas fa-wrench me-2"></i>Ferramentas que eu recomendo:</p>
-              <ul id="tools">
-                <li><a class="nav-link" href="https://www.gimp.org/" target="_blank">Gimp (Editor de Imagens)</a></li>
-                <li><a class="nav-link" href="https://code.visualstudio.com/" target="_blank">VScode (IDE) </a></li>
-                <li><a class="nav-link" href="https://gitfiend.com/" target="_blank">GitFiend (Git GUI)</a></li>
-              </ul>
-              <p class="my-3">Boa navegação =)</p>
+                <p><i class="fas fa-wrench me-2"></i>Ferramentas que eu recomendo:</p>
+                <ul id="tools">
+                  <li><a class="d-block nav-link" href="https://www.gimp.org/" target="_blank">Gimp (Editor de Imagens)</a></li>
+                  <li><a class="d-block nav-link" href="https://code.visualstudio.com/" target="_blank">VScode (IDE) </a></li>
+                  <li><a class="d-block nav-link" href="https://gitfiend.com/" target="_blank">GitFiend (Git GUI)</a></li>
+                </ul>
+                <p class="my-3">Boa navegação =)</p>
 
-              <div class="dateHour">
-                <script>document.write("<p>Data atual: " + Date() + "</p>");</script>
+                <div class="dateHour">
+                  <script>document.write("<p>Data atual: " + Date() + "</p>");</script>
+                </div>
+
+                <!-- COVID-19 WARNING -->
+                <p class="warning shadow-red">
+                  Fique(m) em casa!<br />(se possível)
+                </p>
               </div>
+            </div>
+          </div>
 
-              <!-- COVID-19 WARNING -->
-              <p class="warning shadow-red">
-                Fique(m) em casa!<br />(se possível)
-              </p>
+          <!-- PORTFÓLIO -->
+          <div class="tab-pane fade" id="portfolio" role="tabpanel" aria-labelledby="portfolio-tab">
+            <div class="my-2 mx-auto l-portfolio bg-white">
+              <card-project url="https://github.com/jjoaovitor7/discord-jokenpo"
+              name="discord-jokenpo"
+              langs="NodeJS">
+              </card-project>
+
+              <card-project url="https://github.com/jjoaovitor7/jjao-bot"
+              name="jjao-bot"
+              langs="NodeJS + Firebase">
+              </card-project>
+
+              <card-project url="https://jjoaovitor7.github.io/Piano"
+              name="Piano"
+              langs="HTML + CSS + JS">
+              </card-project>
+
+              <card-project url="https://github.com/jjoaovitor7/HourWarning"
+              name="HourWarning"
+              langs="C# (GTK#)">
+              </card-project>
+
+              <card-project url="https://jjoaovitor7.github.io/DodgeGame"
+              name="DodgeGame"
+              langs="HTML + CSS + JS">
+              </card-project>
+
+              <card-project
+              url="https://gist.github.com/jjoaovitor7/7920eef0160f6af7b6c24e698fad2e09"
+              name="Instalador do Stuntrally"
+              langs="ShellScript">
+              </card-project>
+
+              <card-project url="https://jjoaovitor7.github.io/BorderRadiusPreviewer"
+              name="Border Radius Previewer"
+              langs="HTML + CSS + JS">
+              </card-project>
+
+              <card-project url="https://github.com/jjoaovitor7/TreeGenerator"
+              name="Tree Generator"
+              langs="HTML + CSS + JS">
+              </card-project>
+
+              <card-project url="https://github.com/jjoaovitor7/jjoaovitor7WordPress"
+              name="jjoaovitor7WordPress"
+              langs="PHP (WordPress)">
+              </card-project>
             </div>
           </div>
         </div>
+      </section>
+    </main>
 
-        <div class="tab-pane fade" id="personalprojects" role="tabpanel" aria-labelledby="personalprojects-tab">
-          <div class="l-personal bg-white">
-            <card-project url="https://github.com/jjoaovitor7/discord-jokenpo"
-            name="discord-jokenpo"
-            langs="NodeJS">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7/jjao-bot"
-            name="jjao-bot"
-            langs="NodeJS + Firebase">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7/jjBank"
-            name="jjBank"
-            langs="Python3 + MySQL/MariaDB">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7/rocketq"
-            name="Rocket.Q"
-            langs="HTML + CSS + JS + NodeJS + EJS + MySQL/MariaDB">
-            </card-project>
-
-            <card-project url="https://jjoaovitor7.github.io/Bin2Dec"
-            name="Bin2Dec"
-            langs="HTML + CSS + JS">
-            </card-project>
-
-            <card-project url="https://jjoaovitor7.github.io/BorderRadiusPreviewer"
-            name="Border Radius Previewer"
-            langs="HTML + CSS + JS">
-            </card-project>
-
-            <card-project url="https://jjoaovitor7.github.io/Calculadora"
-            name="Calculadora"
-            langs="HTML + CSS + JS">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7/Celular"
-            name="Celular"
-            langs="PHP">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7/Dado"
-            name="Dado"
-            langs="Python3">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7/HourWarning"
-            name="HourWarning"
-            langs="C# (GTK#)">
-            </card-project>
-
-            <card-project
-            url="https://gist.github.com/jjoaovitor7/7920eef0160f6af7b6c24e698fad2e09"
-            name="Instalador do Stuntrally"
-            langs="ShellScript">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7/organizador-de-arquivos"
-            name="Organizador de Arquivos"
-            langs="Python3">
-            </card-project>
-
-            <card-project url="https://jjoaovitor7.github.io/Piano"
-            name="Piano"
-            langs="HTML + CSS + JS">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7/ProdutosFirebase"
-            name="ProdutosFirebase"
-            langs="HTML + CSS + JS + Firebase">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7/jjoaovitor7WordPress"
-            name="jjoaovitor7WordPress"
-            langs="PHP (WordPress)">
-            </card-project>
-
-            <card-project url="https://jjoaovitor7.github.io/jogo-da-velha"
-            name="Jogo da Velha"
-            langs="HTML + CSS + JS">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7/TreeGenerator"
-            name="Tree Generator"
-            langs="HTML + CSS + JS">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7/vue-todo"
-            name="vue-todo"
-            langs="JavaScript (Vue 3)">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7/WebScrapingjjTime"
-            name="WebScraping jjTime"
-            langs="Python3">
-            </card-project>
-          </div>
-        </div>
-
-        <div class="tab-pane fade" id="universityprojects" role="tabpanel" aria-labelledby="universityprojects-tab">
-          <div class="l-university bg-white">
-            <card-project url="https://github.com/jjoaovitor7-unit/GraphCodeFlow-SR"
-            name="Sistema de Recomendação"
-            langs="Python3">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7-unit/suite-laa"
-            name="Suíte LAA"
-            langs="HTML + CSS + JS">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7-unit/AdapterDesignPattern"
-            name="Design Pattern Adapter e Iterator"
-            langs="PHP">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7-unit/APIREST"
-            name="API REST"
-            langs="HTML + CSS + JS">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7-unit/ObserverDesignPattern"
-            name="Design Pattern Observer"
-            langs="JavaScript (NodeJS)">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7-unit/LAA-Grafo"
-            name="LAA-Grafo"
-            langs="HTML + CSS + Python3">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7-unit/ED"
-            name="ED"
-            langs="C# + Github Actions">
-            </card-project>
-
-            <card-project url="https://github.com/jjoaovitor7-unit/Locadora"
-            name="Locadora"
-            langs="C#">
-            </card-project>
-          </div>
-        </div>
+    <!-- FOOTER -->
+    <footer id="l-footer" class="w-100 position-relative">
+      <div class="l-footer__page-author">
+        <p class="l-footer__page-author__text shadow-blue-4 text-white">jjoaovitor7</p>
       </div>
-    </section>
-  </main>
 
-  <!-- FOOTER -->
-  <footer id="l-footer">
-    <div class="l-footer__page-author">
-      <p class="l-footer__page-author__text shadow-blue-4 text-white">jjoaovitor7</p>
-    </div>
+      <div class="l-footer__social-media">
+        <a target="_blank" href="https://br.linkedin.com/in/jjoaovitor7">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </footer>
 
-    <div class="l-footer__social-media">
-      <a target="_blank" href="https://br.linkedin.com/in/jjoaovitor7">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </div>
-  </footer>
-
-  <!-- BOOTSTRAP 5 -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script src="./public/scripts/main.js"></script>
+    <!-- BOOTSTRAP 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <script src="./public/scripts/main.js"></script>
+  </div>
 </body>
 
 </html>
