@@ -8,12 +8,27 @@
 
 <url>
   <loc>https://jjoaovitor7.github.io/Piano/</loc>
-  <priority>0.85</priority>
+  <priority>0.80</priority>
 </url>
 
 <url>
   <loc>https://jjoaovitor7.github.io/DodgeGame/</loc>
-  <priority>0.85</priority>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://jjoaovitor7.github.io/Calculadora/</loc>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://jjoaovitor7.github.io/TreeGenerator/</loc>
+  <priority>0.5</priority>
+</url>
+
+<url>
+  <loc>https://jjoaovitor7.github.io/BorderRadiusPreviewer/</loc>
+  <priority>0.5</priority>
 </url>
 
 </urlset>

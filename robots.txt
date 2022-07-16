@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://www.jjoaovitor7.github.io/sitemap.xml
