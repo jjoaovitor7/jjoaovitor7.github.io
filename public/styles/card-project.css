@@ -5,10 +5,10 @@
   align-items: center;
   box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 17.5rem;
+  width: 16rem;
   height: 12rem;
   text-align: center;
-  margin: .5rem;
+  margin: .8rem;
 }
 
 .card:hover {

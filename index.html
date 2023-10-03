@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
+
 <head>
   <!-- METATAGS -->
   <meta charset="UTF-8" />
@@ -17,13 +18,9 @@
   <link rel="shortcut icon" type="image/png" href="./public/assets/favicon/favicon-32x32.png" />
   <link rel="sitemap" type="application/xml" title="Sitemap" href="https://jjoaovitor7.github.io/sitemap.xml">
 
-  <!-- BOOTSTRAP 5 -->
-  <link rel="stylesheet"  href="./public/components/bootstrap/dist/css/bootstrap.min.css" />
-
-  <!-- FONT-AWESOME -->
+  <link rel="stylesheet" href="./public/components/bootstrap/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./public/components/fontawesome/css/all.min.css" />
 
-  <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
@@ -34,16 +31,16 @@
 
 <body>
   <div id="grid">
-    <!-- LOADER -->
-    <div id="container-loader" class="bg-white position-absolute d-flex justify-content-center align-items-center h-100 w-100">
+    <div id="container-loader"
+      class="bg-white position-absolute d-flex justify-content-center align-items-center h-100 w-100">
       <div class="loader"></div>
     </div>
 
-      <header class="position-relative mt-5">
-        <h1 id="l-header__title" class="text-center display-1">
-          jjoaovitor7
-        </h1>
-      </header>
+    <header class="position-relative mt-5">
+      <h1 id="l-header__title" class="text-center display-1">
+        jjoaovitor7
+      </h1>
+    </header>
 
     <main>
       <section id="content" class="d-flex flex-column justify-content-center align-items-center mt-5">
@@ -51,8 +48,8 @@
           <ul class="nav nav-tabs" role="tablist">
             <!-- SOBRE -->
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about"
-                type="button" role="tab" aria-controls="about" aria-selected="true">
+              <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button"
+                role="tab" aria-controls="about" aria-selected="true">
                 <span class="text-white">
                   <i class="fas fa-home me-1"></i>
                   Sobre
@@ -61,8 +58,8 @@
             </li>
             <!-- PORTFÓLIO -->
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="portfolio-tab" data-bs-toggle="tab" data-bs-target="#portfolio"
-                type="button" role="tab" aria-controls="portfolio" aria-selected="false">
+              <button class="nav-link" id="portfolio-tab" data-bs-toggle="tab" data-bs-target="#portfolio" type="button"
+                role="tab" aria-controls="portfolio" aria-selected="false">
                 <span class="text-white">
                   <i class="fas fa-bookmark me-2"></i>
                   Portfólio
@@ -74,64 +71,51 @@
           <div class="tab-content">
             <!-- SOBRE -->
             <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
-                <div class="my-2 mx-auto l-container bg-white">
-                  <p class="my-3 pl-2">
-                    Olá!
-                    <br />
-                    Meu nome é João Vítor e atualmente estou focando na área de desenvolvimento web.
-                  </p>
+              <div class="my-2 mx-2 l-container bg-white">
+                <p class="my-3 pl-2">
+                  Olá!
+                  <br />
+                  Meu nome é João Vítor e atualmente estou focando na área de desenvolvimento web.
+                </p>
 
-                  <div id="date"></div>
-                </div>
+                <div id="date"></div>
+              </div>
             </div>
 
             <!-- PORTFÓLIO -->
             <div class="tab-pane fade" id="portfolio" role="tabpanel" aria-labelledby="portfolio-tab">
-              <div class="my-2 mx-auto l-container l-portfolio bg-white">
-                <card-project url="https://github.com/jjoaovitor7/discord-jokenpo"
-                name="discord-jokenpo"
-                langs="NodeJS">
+              <div class="my-2 px-0 l-container l-portfolio bg-white">
+                <card-project url="https://npmjs.com/package/discord-jokenpo" name="discord-jokenpo" langs="JavaScript">
                 </card-project>
 
-                <card-project url="https://github.com/jjoaovitor7/jjao-bot"
-                name="jjao-bot"
-                langs="NodeJS + Firebase">
+                <card-project url="https://github.com/jjoaovitor7/jjao-bot" name="jjao-bot"
+                  langs="JavaScript & Firebase">
                 </card-project>
 
-                <card-project url="https://jjoaovitor7.github.io/Piano"
-                name="Piano"
-                langs="HTML + CSS + JS">
+                <card-project url="https://jjoaovitor7.github.io/Piano" name="Piano" langs="HTML & CSS & JavaScript">
                 </card-project>
 
-                <card-project url="https://github.com/jjoaovitor7/HourWarning"
-                name="HourWarning"
-                langs="C# (GTK#)">
+                <card-project url="https://github.com/jjoaovitor7/HourWarning" name="HourWarning" langs="C# (GTK#)">
                 </card-project>
 
-                <card-project url="https://jjoaovitor7.github.io/DodgeGame"
-                name="DodgeGame"
-                langs="HTML + CSS + JS">
+                <card-project url="https://jjoaovitor7.github.io/DodgeGame" name="DodgeGame"
+                  langs="HTML & CSS & JavaScript">
                 </card-project>
 
-                <card-project url="https://jjoaovitor7.github.io/Calculadora"
-                name="Calculadora"
-                langs="HTML + CSS + JS">
+                <card-project url="https://jjoaovitor7.github.io/Calculadora" name="Calculadora"
+                  langs="HTML & CSS & JavaScript">
                 </card-project>
 
-                <card-project
-                url="https://gist.github.com/jjoaovitor7/7920eef0160f6af7b6c24e698fad2e09"
-                name="Instalador do Stuntrally"
-                langs="ShellScript">
+                <card-project url="https://jjoaovitor7.github.io/map-sergipe" name="map-sergipe"
+                  langs="HTML & CSS & JavaScript">
                 </card-project>
 
-                <card-project url="https://jjoaovitor7.github.io/BorderRadiusPreviewer"
-                name="Border Radius Previewer"
-                langs="HTML + CSS + JS">
+                <card-project url="https://jjoaovitor7.github.io/BorderRadiusPreviewer" name="Border Radius Previewer"
+                  langs="HTML & CSS & JavaScript">
                 </card-project>
 
-                <card-project url="https://jjoaovitor7.github.io/TreeGenerator"
-                name="Tree Generator"
-                langs="HTML + CSS + JS">
+                <card-project url="https://jjoaovitor7.github.io/TreeGenerator" name="Tree Generator"
+                  langs="HTML & CSS & JavaScript">
                 </card-project>
               </div>
             </div>
@@ -150,10 +134,11 @@
       </div>
     </footer>
 
-      <script src="./public/components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-      <script src="./public/components/node_modules/vanta/vendor/three.r134.min.js"></script>
-      <script src="./public/components/node_modules/vanta/dist/vanta.waves.min.js"></script>
+    <script src="./public/components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./public/components/node_modules/vanta/vendor/three.r134.min.js"></script>
+    <script src="./public/components/node_modules/vanta/dist/vanta.waves.min.js"></script>
     <script src="./public/scripts/main.js"></script>
   </div>
 </body>
+
 </html>
