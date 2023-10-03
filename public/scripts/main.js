@@ -22,7 +22,7 @@ class CardProject extends HTMLElement {
 }
 customElements.define("card-project", CardProject);
 
-window.onload = function() {
+window.onload = function () {
   const container_loader = document.getElementById("container-loader");
   container_loader.style.opacity = "0";
   container_loader.addEventListener("transitionend", () => {
@@ -30,6 +30,21 @@ window.onload = function() {
   });
 
   let today = new Date();
-  let date = `${today.getDate()}-${today.getMonth()+1}-${today.getFullYear()}`;
+  let date = `${today.getDate()}-${today.getMonth() + 1}-${today.getFullYear()}`;
   document.getElementById("date").innerHTML = `<p>Data atual: <br />${date}</p>`;
 };
+
+VANTA.WAVES({
+  el: "body",
+  mouseControls: false,
+  touchControls: false,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  shininess: 0.00,
+  waveHeight: 40.00,
+  waveSpeed: 0.25,
+  zoom: 0.65
+});

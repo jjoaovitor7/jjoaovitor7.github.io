@@ -22,6 +22,8 @@ body {
   min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  position: relative;
+  z-index: 9999;
 }
 
 /* THEME */
@@ -115,4 +117,16 @@ body {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
+}
+
+.nav-link span {
+  font-size: 1.6rem;
+}
+
+#l-footer .fab.fa-linkedin {
+  font-size: 3rem;
+}
+
+#about > .l-container {
+  max-width: 65rem;
 }
