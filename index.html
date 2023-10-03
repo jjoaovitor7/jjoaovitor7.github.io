@@ -18,17 +18,16 @@
   <link rel="sitemap" type="application/xml" title="Sitemap" href="https://jjoaovitor7.github.io/sitemap.xml">
 
   <!-- BOOTSTRAP 5 -->
-  <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet"  href="./public/components/bootstrap/dist/css/bootstrap.min.css" />
 
   <!-- FONT-AWESOME -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="./public/components/fontawesome/css/all.min.css" />
 
   <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-
 
   <title>jjoaovitor7</title>
 </head>
@@ -40,22 +39,11 @@
       <div class="loader"></div>
     </div>
 
-    <div class="position-relative overflow-hidden">
-      <!-- SHAPEDIVIDER -->
-      <div class="position-absolute start-0 top-0 w-100">
-        <svg height="150" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120" preserveAspectRatio="none"
-          style="width: calc(100% + 0.13rem);">
-          <path fill="#0c75bb" d="M1200 120L0 16.48 0 0 1200 0 1200 120z"></path>
-        </svg>
-      </div>
-
       <header class="position-relative mt-5">
         <h1 id="l-header__title" class="text-center display-1">
           jjoaovitor7
         </h1>
       </header>
-    </div>
 
     <main>
       <section id="content" class="d-flex flex-column justify-content-center align-items-center mt-5">
@@ -65,7 +53,7 @@
             <li class="nav-item" role="presentation">
               <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about"
                 type="button" role="tab" aria-controls="about" aria-selected="true">
-                <span class="text-white" style="font-size:1.7rem;">
+                <span class="text-white">
                   <i class="fas fa-home me-1"></i>
                   Sobre
                 </span>
@@ -75,7 +63,7 @@
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="portfolio-tab" data-bs-toggle="tab" data-bs-target="#portfolio"
                 type="button" role="tab" aria-controls="portfolio" aria-selected="false">
-                <span class="text-white" style="font-size:1.7rem;">
+                <span class="text-white">
                   <i class="fas fa-bookmark me-2"></i>
                   Portfólio
                 </span>
@@ -86,7 +74,7 @@
           <div class="tab-content">
             <!-- SOBRE -->
             <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
-                <div class="my-2 mx-auto l-container bg-white" style="max-width: 65rem;">
+                <div class="my-2 mx-auto l-container bg-white">
                   <p class="my-3 pl-2">
                     Olá!
                     <br />
@@ -153,22 +141,18 @@
     </main>
 
     <footer id="l-footer" class="w-100 position-relative">
-      <div>
-        <p id="l-footer__page-author" class="position-absolute bottom-0 shadow-blue text-white">jjoaovitor7</p>
-      </div>
+      <p id="l-footer__page-author" class="position-absolute bottom-0 shadow-blue text-white">jjoaovitor7</p>
 
       <div id="l-footer__social-media" class="position-absolute end-0 top-0 mt-3 me-2">
-        <a target="_blank" href="https://br.linkedin.com/in/jjoaovitor7">
-          <i class="fab fa-linkedin" style="font-size: 3rem;"></i>
+        <a rel="noopener noreferrer" title="LinkedIn" target="_blank" href="https://br.linkedin.com/in/jjoaovitor7">
+          <i class="fab fa-linkedin"></i>
         </a>
       </div>
     </footer>
 
-    <!-- BOOTSTRAP 5 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"></script>
-
+      <script src="./public/components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="./public/components/node_modules/vanta/vendor/three.r134.min.js"></script>
+      <script src="./public/components/node_modules/vanta/dist/vanta.waves.min.js"></script>
     <script src="./public/scripts/main.js"></script>
   </div>
 </body>

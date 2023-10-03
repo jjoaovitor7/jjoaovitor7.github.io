@@ -1,0 +1,15 @@
+{
+  "name": "jjoaovitor7.github.io",
+  "version": "1.0.0",
+  "description": "Site pessoal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jjoaovitor7",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.8.14"
+  }
+}
