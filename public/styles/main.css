@@ -130,3 +130,7 @@ body {
 #about > .l-container {
   max-width: 65rem;
 }
+
+.vanta-canvas {
+  position: fixed !important;
+}
