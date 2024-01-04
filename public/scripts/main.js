@@ -4,14 +4,14 @@ class CardProject extends HTMLElement {
 
     const shadow = this.attachShadow({ mode: "open" });
     const wrapper = document.createElement("div");
-    wrapper.classList = "card";
+    wrapper.classList = "card block my-4";
     wrapper.innerHTML = `
         <p>
           <a target="_blank" href=${this.getAttribute("url")}>
             <strong>${this.getAttribute("name")}</strong>
           </a>
         </p>
-        <p>${this.getAttribute("langs")}</p>`;
+        <p>${this.getAttribute("stack")}</p>`;
 
     const style = document.createElement("link");
     style.setAttribute("rel", "stylesheet");
@@ -29,22 +29,81 @@ window.onload = function () {
     container_loader.remove();
   });
 
-  let today = new Date();
-  let date = `${today.getDate()}-${today.getMonth() + 1}-${today.getFullYear()}`;
-  document.getElementById("date").innerHTML = `<p>Data atual: <br />${date}</p>`;
-};
 
 VANTA.WAVES({
   el: "body",
   mouseControls: false,
   touchControls: false,
   gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
+  minHeight: 256.00,
+  minWidth: 256.00,
   scale: 1.00,
   scaleMobile: 1.00,
   shininess: 0.00,
   waveHeight: 40.00,
   waveSpeed: 0.25,
-  zoom: 0.65
+  zoom: 0.64,
+  color: "#141617"
 });
+
+  const _state = {
+    "click": 0
+  };
+
+  document.addEventListener("click", (e) => {
+    _state.click = 1;
+  });
+
+  document.addEventListener("scroll", (e) => {
+    if (window.innerWidth > 768) {
+      const fadings = document.querySelectorAll(".fading");
+
+      const pageTop = window.scrollY || document.documentElement.scrollTop;
+      const pageBottom = pageTop + (window.innerHeight / 8);
+
+      for (let i = 0; i < fadings.length; i++) {
+        let fading = fadings[i];
+
+        if (fading.getBoundingClientRect().top < pageBottom + 64) {
+          fading.classList.add("active");
+          !_state.click
+            ? document.querySelector(`a[href="#${fading.id}"`).classList.add("active")
+            : null;
+        } else {
+          fading.classList.remove("active");
+          !_state.click
+            ? document.querySelector(`a[href="#${fading.id}"`).classList.remove("active")
+            : null;
+        }
+      }
+
+      if (!_state.click) {
+        const navlinkActive = document.querySelectorAll(`#nav-main .active`);
+        if (navlinkActive.length > 0) {
+          navlinkActive.forEach((el, idx) => {
+            if (idx != navlinkActive.length - 1) {
+              el.classList.remove("active");
+            }
+          });
+        }
+      }
+    }
+
+    _state.click = 0;
+  });
+
+  const blocks = document.querySelectorAll("#about .block");
+  blocks.forEach((i, idx) => {
+    setTimeout((_) => {
+      i.classList.add("active");
+    }, idx * 800 + 512)
+  });
+
+  const navlinkActive = document.querySelectorAll(`#nav-main .nav-link`);
+  navlinkActive.forEach((i) => {
+    i.addEventListener("click", (e) => {
+      Array.from(navlinkActive).forEach((el) => el.classList.remove("active"));
+      e.target.classList.add("active");
+    })
+  })
+};

@@ -2,13 +2,11 @@
 <html lang="pt-br" dir="ltr">
 
 <head>
-  <!-- METATAGS -->
   <meta charset="UTF-8" />
   <meta name="author" content="jjoaovitor7" />
   <meta name="description" content="jjoaovitor7 Portfólio." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="all" />
-  <!-- METATAGS OPEN GRAPH -->
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:site_name" content="jjoaovitor7" />
   <meta property="og:type" content="website" />
@@ -21,124 +19,236 @@
   <link rel="stylesheet" href="./public/components/bootstrap/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./public/components/fontawesome/css/all.min.css" />
 
+  <link rel="stylesheet" href="./public/components/node_modules/bootstrap-icons/font/bootstrap-icons.min.css" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap">
 
   <title>jjoaovitor7</title>
 </head>
 
 <body>
-  <div id="grid">
-    <div id="container-loader"
-      class="bg-white position-absolute d-flex justify-content-center align-items-center h-100 w-100">
-      <div class="loader"></div>
-    </div>
+  <div id="container-loader"
+    class="bg-dark position-fixed d-flex justify-content-center align-items-center h-100 w-100">
+    <div class="loader"></div>
+  </div>
 
-    <header class="position-relative mt-5">
-      <h1 id="l-header__title" class="text-center display-1">
-        jjoaovitor7
-      </h1>
-    </header>
+  <aside id="nav-main">
+    <nav class="navbar w-100 h-100 navbar-expand-lg position-relative">
+      <div class="container-fluid flex-column justify-content-center align-self-start text-center py-4">
 
-    <main>
-      <section id="content" class="d-flex flex-column justify-content-center align-items-center mt-5">
-        <div>
-          <ul class="nav nav-tabs" role="tablist">
-            <!-- SOBRE -->
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button"
-                role="tab" aria-controls="about" aria-selected="true">
-                <span class="text-white">
-                  <i class="fas fa-home me-1"></i>
-                  Sobre
-                </span>
-              </button>
+        <div class="my-2">
+        <h4 id="title-name">João Vítor Silva Ferreira</h4>
+        <h4 id="title-role">Desenvolvedor Full-Stack</h4>
+        </div>
+
+        <button type="button" class="navbar-toggler bg-light" data-bs-toggle="collapse"
+          data-bs-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false"
+          aria-label="Alternar navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-column" id="navbar-main">
+          <ul class="navbar-nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active my-2" href="#about">Início</a>
             </li>
-            <!-- PORTFÓLIO -->
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="portfolio-tab" data-bs-toggle="tab" data-bs-target="#portfolio" type="button"
-                role="tab" aria-controls="portfolio" aria-selected="false">
-                <span class="text-white">
-                  <i class="fas fa-bookmark me-2"></i>
-                  Portfólio
-                </span>
-              </button>
+            <li class="nav-item my-2">
+              <a class="nav-link" href="#education">Educação</a>
+            </li>
+            <li class="nav-item my-2">
+              <a class="nav-link" href="#work">Experiência Profissional</a>
+            </li>
+            <li class="nav-item my-2">
+              <a class="nav-link" href="#pprojects">Projetos Pessoais</a>
             </li>
           </ul>
 
-          <div class="tab-content">
-            <!-- SOBRE -->
-            <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
-              <div class="my-2 mx-2 l-container bg-white">
-                <p class="my-3 pl-2">
-                  Olá!
-                  <br />
-                  Meu nome é João Vítor e atualmente estou focando na área de desenvolvimento web.
-                </p>
+          <footer id="l-footer"
+            class="w-100 d-flex justify-content-center align-items-center position-absolute-md bottom-0 flex-column">
+            <div id="l-footer__social-media">
+              <a rel="noopener noreferrer" title="LinkedIn" target="_blank" href="https://br.linkedin.com/in/jjoaovitor7">
+                <i class="fab fa-linkedin"></i>
+              </a>
 
-                <div id="date"></div>
-              </div>
+              <a rel="noopener noreferrer" title="GitHub" target="_blank" href="https://github.com/jjoaovitor7">
+                <i class="fab fa-square-github text-white"></i>
+              </a>
             </div>
 
-            <!-- PORTFÓLIO -->
-            <div class="tab-pane fade" id="portfolio" role="tabpanel" aria-labelledby="portfolio-tab">
-              <div class="my-2 px-0 l-container l-portfolio bg-white">
-                <card-project url="https://npmjs.com/package/discord-jokenpo" name="discord-jokenpo" langs="JavaScript">
-                </card-project>
+            <p id="l-footer__page-author" class=" shadow-blue text-white">jjoaovitor7</p>
 
-                <card-project url="https://github.com/jjoaovitor7/jjao-bot" name="jjao-bot"
-                  langs="JavaScript & Firebase">
-                </card-project>
+          </footer>
+        </div>
+      </div>
+    </nav>
+  </aside>
 
-                <card-project url="https://jjoaovitor7.github.io/Piano" name="Piano" langs="HTML & CSS & JavaScript">
-                </card-project>
+  <main id="main">
+    <section id="content" class="d-flex flex-column align-items-center mx-2">
+      <section id="about" class="fading active l-container text-white my-4">
+        <h2 class="display-4 fw-semibold my-4">Apresentação</h2>
+        <p class="my-4">
+          Olá, meu nome é João Vítor.
+          <br />Graduado em Ciência da Computação e atuo como desenvolvedor full-stack web & mobile.
+        </p>
 
-                <card-project url="https://github.com/jjoaovitor7/HourWarning" name="HourWarning" langs="C# (GTK#)">
-                </card-project>
-
-                <card-project url="https://jjoaovitor7.github.io/DodgeGame" name="DodgeGame"
-                  langs="HTML & CSS & JavaScript">
-                </card-project>
-
-                <card-project url="https://jjoaovitor7.github.io/Calculadora" name="Calculadora"
-                  langs="HTML & CSS & JavaScript">
-                </card-project>
-
-                <card-project url="https://jjoaovitor7.github.io/map-sergipe" name="map-sergipe"
-                  langs="HTML & CSS & JavaScript">
-                </card-project>
-
-                <card-project url="https://jjoaovitor7.github.io/BorderRadiusPreviewer" name="Border Radius Previewer"
-                  langs="HTML & CSS & JavaScript">
-                </card-project>
-
-                <card-project url="https://jjoaovitor7.github.io/TreeGenerator" name="Tree Generator"
-                  langs="HTML & CSS & JavaScript">
-                </card-project>
-              </div>
+        <div class="row my-4">
+          <div class="col-md-3 my-2">
+            <div class="block">
+              <i class="d-block bi bi-code"></i>
+              Desenvolvedor Full-Stack
+            </div>
+          </div>
+          <div class="col-md-3 my-2">
+            <div class="block">
+              <i class="d-block bi bi-code"></i>
+              Desenvolvedor Web
+            </div>
+          </div>
+          <div class="col-md-3 my-2">
+            <div class="block">
+              <i class="d-block bi bi-code"></i>
+              Desenvolvedor Mobile
+            </div>
+          </div>
+          <div class="col-md-3 my-2">
+            <div class="block">
+              <i class="d-block bi bi-translate"></i>
+              Tradutor
             </div>
           </div>
         </div>
       </section>
-    </main>
 
-    <footer id="l-footer" class="w-100 position-relative">
-      <p id="l-footer__page-author" class="position-absolute bottom-0 shadow-blue text-white">jjoaovitor7</p>
+      <section id="education" class="fading my-4 l-container text-white">
+        <h2 class="display-4 fw-semibold my-4">Educação</h2>
+        <h4>Bacharelado em Ciência da Computação pela Universidade Tiradentes - UNIT.</h4>
+        <small>jan. 2018 - ago. 2023</small>
+      </section>
 
-      <div id="l-footer__social-media" class="position-absolute end-0 top-0 mt-3 me-2">
-        <a rel="noopener noreferrer" title="LinkedIn" target="_blank" href="https://br.linkedin.com/in/jjoaovitor7">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </div>
-    </footer>
+      <section id="work" class="fading my-4 l-container text-white">
+        <h2 class="display-4 fw-semibold my-4 text-white">Experiência Profissional</h2>
+        <div class="my-4">
+          <h4>Desenvolvedor Full-Stack, EMGETIS.</h4>
+          <small>ago. 2021 - até o momento</small>
+          <details>
+            [*] Desenvolvimento e manutenção de mais de 32 sites com o CMS WordPress, PHP, CSS, JavaScript, servidor
+            Apache e SGBD MariaDB.
+            <br />
+            [*] Implantação do Composer para gerenciamento de dependências de temas WordPress e integração com o Bower e
+            o NPM.
+            <br />
+            [*] Implantação do MainWP para monitoramento e gerenciamento de sites WordPress.
+            <br />
+            [*] Criação de shortcodes e blocos customizados para sites WordPress.
+            <br />
+            [*] Configuração e utilização de alguns plugins para WordPress, como ACF, Contact Form 7, Ninja Forms, Smart
+            Slider 3, WP Activity Log, WP Statistics, Yoast SEO e melhorias de segurança.
+            <br />
+            [*] Implantação do Git com Gitea para versionamento do código, integração com CI/CD com Gitea Actions e
+            documentação técnica.
+            <br />
+            [*] Desenvolvimento de aplicação mobile com React Native juntamente com o desenvolvimento de uma API com
+            JavaScript <i>(utilizando o Node.js como compilador)</i>,
+            token JWT como principal forma de comunicação com a API, geração e leitura de QRcode, e banco de dados
+            PostgreSQL.
+            <br />
+            [*] Utilização do Portainer para hospedagem de sites e aplicações em desenvolvimento a partir de Stacks
+            <i>(docker compose)</i>.
+            <br />
+            [*] Webscraping.
+            <br />
+            [*] Utilização de ferramentas como o VSCode, Tabby, Vim, Logcat, Gimp, Kdenlive, LibreOffice, Smb4k, entre
+            outros.
+          </details>
+        </div>
 
-    <script src="./public/components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./public/components/node_modules/vanta/vendor/three.r134.min.js"></script>
+        <div class="my-4">
+          <h4>Estagiário de TI, EMGETIS.</h4>
+          <small>dez. 2019 - ago. 2021</small>
+          <details>
+            Atividades Desempenhadas:
+            <br />
+            [*] Desenvolvimento e manutenção de alguns sites com o CMS WordPress, PHP, CSS, JavaScript, servidor
+            Apache e banco de dados MariaDB.
+            <br />
+            [*] Atendimento de Chamados pelo GLPI (helpdesk).
+            <br />
+            [*] Suporte ao usuário em sistemas do Detran <i>(emulador)</i>, Expresso <i>(e-mail)</i> e Zimbra <i>(e-mail)</i>.
+            <br />
+            [*] Visão Geral do Zabbix (monitoramento de infraestrutura e rede) e do Ansible <i>(automação)</i>.
+            <br />
+            [*] Backup de base de dados mssql utilizando o RDesktop <i>(para acesso remoto a máquina)</i> e o
+            SMSS.
+          </details>
+        </div>
+      </section>
+
+      <section id="pprojects" class="fading my-4 l-container">
+        <h4 class="display-4 fw-semibold my-4 text-white">Projetos Pessoais</h4>
+
+        <div class="l-portfolio">
+          <card-project
+            url="https://npmjs.com/package/discord-jokenpo"
+            name="discord-jokenpo" stack="JavaScript <br />(Node.js)">
+          </card-project>
+
+          <card-project
+            url="https://github.com/jjoaovitor7/jjao-bot"
+            name="jjao-bot" stack="JavaScript <br />(Node.js) <br />Firebase">
+          </card-project>
+
+          <card-project
+            url="https://jjoaovitor7.github.io/Piano"
+            name="Piano"
+            stack="HTML, CSS, JavaScript">
+          </card-project>
+
+          <card-project
+            url="https://github.com/jjoaovitor7/HourWarning"
+            name="HourWarning"
+            stack="C# <br />(GTK#)">
+          </card-project>
+
+          <card-project
+            url="https://jjoaovitor7.github.io/DodgeGame"
+            name="DodgeGame"
+            stack="HTML, CSS, JavaScript">
+          </card-project>
+
+          <card-project
+            url="https://jjoaovitor7.github.io/Calculadora"
+            name="Calculadora"
+            stack="HTML, CSS, JavaScript">
+          </card-project>
+
+          <card-project
+            url="https://jjoaovitor7.github.io/map-sergipe"
+            name="map-sergipe"
+            stack="HTML, CSS, JavaScript">
+          </card-project>
+
+          <card-project
+            url="https://jjoaovitor7.github.io/TreeGenerator"
+            name="Tree Generator"
+            stack="HTML, CSS, JavaScript">
+          </card-project>
+
+          <card-project
+            url="https://github.com/jjoaovitor7/rocketq"
+            name="Rocket.Q"
+            stack="HTML, CSS, JavaScript, MariaDB">
+          </card-project>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="./public/components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./public/components/node_modules/vanta/vendor/three.r134.min.js"></script>
     <script src="./public/components/node_modules/vanta/dist/vanta.waves.min.js"></script>
-    <script src="./public/scripts/main.js"></script>
-  </div>
+  <script src="./public/scripts/main.js"></script>
 </body>
-
 </html>
