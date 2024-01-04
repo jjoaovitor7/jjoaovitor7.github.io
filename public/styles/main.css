@@ -1,29 +1,19 @@
 /* BASE */
 :root {
   font-size: 10px;
-  --color-primary: #00428c;
-  --color-primary-lighter: #003d99;
+  --color-primary: #141617;
 }
 
 * {
   padding: 0;
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Helvetica", sans-serif;
   box-sizing: border-box;
 }
 
 html,
 body {
-  height: 100%;
-  width: 100%;
-}
-
-#grid {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  position: relative;
-  z-index: 9999;
+  scroll-behavior: smooth;
 }
 
 /* THEME */
@@ -35,31 +25,29 @@ body {
   text-shadow: 4px 4px 4px blue;
 }
 
-.nav-tabs .nav-link.active {
-  background: var(--color-primary) !important;
+/* LAYOUT */
+#container-loader {
+  z-index: 999;
+  transition: opacity 2s;
 }
 
-/* LAYOUT */
 .l-container {
-  border-radius: 0.5rem;
-  padding: 1rem 0.5rem;
-  border: 1px solid #000;
-  box-shadow: 0.1rem 0.25rem 0.1rem #000;
+  padding: 1rem .8rem;
+  text-align: justify;
+  font-size: 1.64rem;
 }
 
 .l-portfolio {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 180px);
 }
 
 #l-footer {
-  background-color: #011f4d;
   padding: 2.1rem;
 }
 
-#container-loader {
-  z-index: 999;
-  transition: opacity 1s;
+.block:hover {
+  box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
 }
 
 /* MODULES */
@@ -73,62 +61,168 @@ body {
   animation: spin 2s linear infinite;
 }
 
-#l-header__title {
-  font-family: "Lobster", cursive;
-  color: #d7d7f7;
+#nav-main {
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin: 0 .5rem;
+  font-size: 1.6rem;
+  z-index: 9999;
+}
+
+#nav-main #title-name, #nav-main #title-role, #nav-main .nav-link {
+  font-variant: small-caps;
+}
+
+#nav-main #title-name {
+  font-size: 1.64rem;
+}
+
+#nav-main #title-role {
+  color: #4af626;
+  font-size: 1.32rem;
+}
+
+#nav-main .nav-link {
+  color: #d1d1d1;
+}
+
+#nav-main .navbar-toggler {
+  z-index: 99;
+}
+
+#main {
+  padding-bottom: 4.2rem;
 }
 
 #about {
-  font-weight: 300;
-  margin: 1rem 0 0 0;
-  font-size: 1.7rem;
-  text-align: justify;
+  animation: fade 4.2s;
 }
 
 #l-footer__page-author {
   font-family: "Lobster", cursive;
-  font-size: 1.8rem;
+  font-size: 2rem;
+  color: #000;
+}
+
+#l-footer .fab {
+  font-size: 2.4rem;
+}
+
+.block {
+  border-bottom: 4px solid #00428c;
+  padding: 3.2rem;
+  height: 100%;
+  box-shadow: #000 0 0 32px -16.8px;
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.block.active {
+  opacity: 1;
 }
 
 /* STATE */
+
+@media screen and (max-width: 400px) {
+  .l-portfolio {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .l-container {
+    width: 100%;
+  }
+
+  .l-portfolio {
+    gap: .8rem;
+    padding: 0;
+  }
+
+  #nav-main {
+    position: relative;
+    z-index: 9999;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .l-portfolio {
+    gap: 3.2rem;
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  #nav-main {
+    position: fixed !important;
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin-left: 8%;
+    box-shadow: 0.1rem 0.25rem 0.1rem #000;
+    padding-top: 8rem;
+  }
+
+  #nav-main .nav-link.active {
+    border-bottom: 2px solid #00428c;
+  }
+
+  .fading {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+
+  .fading.active {
+    opacity: 1;
+  }
+
+  .position-absolute-md {
+    position: absolute;
+  }
+
+  .l-container {
+    margin-left: 400px;
+    width: 784px;
+  }
+
+  .l-container details {
+    line-height: 3.2rem;
   }
 }
 
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
-.nav-link span {
-  font-size: 1.6rem;
-}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
 
-#l-footer .fab.fa-linkedin {
-  font-size: 3rem;
-}
-
-#about > .l-container {
-  max-width: 65rem;
+  100% {
+    opacity: 1;
+  }
 }
 
 .vanta-canvas {
