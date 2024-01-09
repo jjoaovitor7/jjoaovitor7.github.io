@@ -29,22 +29,21 @@ window.onload = function () {
     container_loader.remove();
   });
 
-
-VANTA.WAVES({
-  el: "body",
-  mouseControls: false,
-  touchControls: false,
-  gyroControls: false,
-  minHeight: 256.00,
-  minWidth: 256.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  shininess: 0.00,
-  waveHeight: 40.00,
-  waveSpeed: 0.25,
-  zoom: 0.64,
-  color: "#141617"
-});
+  VANTA.WAVES({
+    el: "body",
+    mouseControls: false,
+    touchControls: false,
+    gyroControls: false,
+    minHeight: 256.00,
+    minWidth: 256.00,
+    scale: 0.80,
+    scaleMobile: 0.42,
+    shininess: 0.00,
+    waveHeight: 42.00,
+    waveSpeed: 0.16,
+    zoom: 0.32,
+    color: "#141617"
+  });
 
   const _state = {
     "click": 0
@@ -59,12 +58,11 @@ VANTA.WAVES({
       const fadings = document.querySelectorAll(".fading");
 
       const pageTop = window.scrollY || document.documentElement.scrollTop;
-      const pageBottom = pageTop + (window.innerHeight / 8);
 
       for (let i = 0; i < fadings.length; i++) {
         let fading = fadings[i];
 
-        if (fading.getBoundingClientRect().top < pageBottom + 64) {
+        if (fading.getBoundingClientRect().bottom - fading.clientHeight + 128 < pageTop + 256) {
           fading.classList.add("active");
           !_state.click
             ? document.querySelector(`a[href="#${fading.id}"`).classList.add("active")
@@ -99,9 +97,21 @@ VANTA.WAVES({
     }, idx * 800 + 512)
   });
 
-  const navlinkActive = document.querySelectorAll(`#nav-main .nav-link`);
+  let navlinkActive = document.querySelectorAll(`#nav-main .nav-link`);
   navlinkActive.forEach((i) => {
     i.addEventListener("click", (e) => {
+      e.preventDefault();
+
+      const options = {
+        behavior: 'smooth',
+        block: 'start',
+        inline: 'start'
+      };
+
+      document.getElementById(e.target.href.split("#")[1]).scrollIntoView(options);
+
+      window.scroll(window.scrollY, window.scrollY - 16);
+
       Array.from(navlinkActive).forEach((el) => el.classList.remove("active"));
       e.target.classList.add("active");
     })
