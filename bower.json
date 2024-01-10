@@ -1,0 +1,24 @@
+{
+  "name": "jjoaovitor7.github.io",
+  "description": "Site pessoal.",
+  "main": "index.html",
+  "authors": [
+    "jjoaovitor7"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jjoaovitor7/jjoaovitor7.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "^6.4.2",
+    "bootstrap": "^5.3.2",
+    "particles.js": "^2.0.0"
+  }
+}
