@@ -1,26 +1,29 @@
-class CardProject extends HTMLElement {
-  constructor() {
-    super();
+const _state = {
+  "click": 0
+};
 
-    const shadow = this.attachShadow({ mode: "open" });
-    const wrapper = document.createElement("div");
-    wrapper.classList = "card block my-4";
-    wrapper.innerHTML = `
-        <p>
-          <a target="_blank" href=${this.getAttribute("url")}>
-            <strong>${this.getAttribute("name")}</strong>
-          </a>
-        </p>
-        <p>${this.getAttribute("stack")}</p>`;
+function toggleActive(cond, el) {
+  if (cond) {
+    el.classList.add("active");
+    // if (!_state.click)
+    //   document.querySelector(`a[href="#${el.id}"`).classList.add("active");
+  } else {
+    el.classList.remove("active");
+    // if (!_state.click)
+    //   document.querySelector(`a[href="#${el.id}"`).classList.remove("active");
+  }
 
-    const style = document.createElement("link");
-    style.setAttribute("rel", "stylesheet");
-    style.setAttribute("href", "./public/styles/card-project.css");
-
-    shadow.append(style, wrapper);
+  if (!_state.click) {
+    const navlinkActive = document.querySelectorAll(`#nav-main .active`);
+    if (navlinkActive.length > 0) {
+      navlinkActive.forEach((el, idx) => {
+        if (idx != navlinkActive.length - 1) {
+          el.classList.remove("active");
+        }
+      });
+    }
   }
 }
-customElements.define("card-project", CardProject);
 
 window.onload = function () {
   const container_loader = document.getElementById("container-loader");
@@ -29,66 +32,45 @@ window.onload = function () {
     container_loader.remove();
   });
 
-  VANTA.WAVES({
-    el: "body",
-    mouseControls: false,
-    touchControls: false,
-    gyroControls: false,
-    minHeight: 256.00,
-    minWidth: 256.00,
-    scale: 0.80,
-    scaleMobile: 0.42,
-    shininess: 0.00,
-    waveHeight: 42.00,
-    waveSpeed: 0.16,
-    zoom: 0.32,
-    color: "#141617"
+  particlesJS.load('main', '../public/particles.json', function () {
+    console.log('%ccallback - particles.js config loaded', 'color: #4af626;');
   });
-
-  const _state = {
-    "click": 0
-  };
 
   document.addEventListener("click", (e) => {
     _state.click = 1;
   });
 
-  document.addEventListener("scroll", (e) => {
+  document.addEventListener("scroll", async (e) => {
+    const pageTop = window.scrollY || document.documentElement.scrollTop;
+
     if (window.innerWidth > 768) {
       const fadings = document.querySelectorAll(".fading");
-
-      const pageTop = window.scrollY || document.documentElement.scrollTop;
 
       for (let i = 0; i < fadings.length; i++) {
         let fading = fadings[i];
 
-        if (fading.getBoundingClientRect().bottom - fading.clientHeight + 128 < pageTop + 256) {
-          fading.classList.add("active");
-          !_state.click
-            ? document.querySelector(`a[href="#${fading.id}"`).classList.add("active")
-            : null;
+        if (fading.getBoundingClientRect().bottom - fading.clientHeight < pageTop + 256) {
+          toggleActive(1, fading)
         } else {
-          fading.classList.remove("active");
-          !_state.click
-            ? document.querySelector(`a[href="#${fading.id}"`).classList.remove("active")
-            : null;
+          toggleActive(0, fading)
         }
-      }
 
-      if (!_state.click) {
-        const navlinkActive = document.querySelectorAll(`#nav-main .active`);
-        if (navlinkActive.length > 0) {
-          navlinkActive.forEach((el, idx) => {
-            if (idx != navlinkActive.length - 1) {
-              el.classList.remove("active");
-            }
-          });
-        }
+        // if (!_state.click) {
+        //   const navlinkActive = document.querySelectorAll(`#nav-main .active`);
+        //   if (navlinkActive.length > 0) {
+        //     navlinkActive.forEach((el, idx) => {
+        //       if (idx != navlinkActive.length - 1) {
+        //         el.classList.remove("active");
+        //       }
+        //     });
+        //   }
+        // }
       }
     }
 
     _state.click = 0;
   });
+
 
   const blocks = document.querySelectorAll("#about .block");
   blocks.forEach((i, idx) => {
@@ -102,18 +84,15 @@ window.onload = function () {
     i.addEventListener("click", (e) => {
       e.preventDefault();
 
-      const options = {
-        behavior: 'smooth',
-        block: 'start',
-        inline: 'start'
-      };
-
-      document.getElementById(e.target.href.split("#")[1]).scrollIntoView(options);
-
-      window.scroll(window.scrollY, window.scrollY - 16);
-
-      Array.from(navlinkActive).forEach((el) => el.classList.remove("active"));
-      e.target.classList.add("active");
+      document.getElementById(e.target.href.split("#")[1])
+        .scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+          inline: 'start',
+        });
+      // Array.from(navlinkActive)
+      //   .map((el) => el.classList.remove("active"));
+      // e.target.classList.add("active");
     })
   })
 };
