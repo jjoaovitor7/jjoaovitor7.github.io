@@ -1,4 +1,5 @@
 .card {
+  background-color: var(--color-primary);
   padding: 3.2rem .8rem 0 .8rem;
   margin: .8rem 0;
   border-bottom: 4px solid #00428c;
