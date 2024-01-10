@@ -3,6 +3,7 @@ scss/
 build/
 tests/
 test/
+demo/
 *-lock.json
 *.less
 /public/components/bootstrap/*
