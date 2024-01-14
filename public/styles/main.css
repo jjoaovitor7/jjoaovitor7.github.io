@@ -95,7 +95,9 @@ body {
   z-index: 999;
 }
 
-#nav-main #title-name, #nav-main #title-role, #nav-main .nav-link {
+#nav-main #title-name,
+#nav-main #title-role,
+#nav-main .nav-link {
   font-variant: small-caps;
 }
 
@@ -163,6 +165,25 @@ body {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .l-container {
+    width: 400px !important;
+  }
+
+  .block-col {
+    width: 100% !important;
+  }
+
+  #roles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .l-portfolio {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
 @media screen and (min-width: 768px) {
   #pprojects {
     scroll-margin-top: 0vh;
@@ -203,8 +224,27 @@ body {
   }
 
   .l-container {
-    margin-left: 48rem;
+    margin-left: 24%;
     width: 784px;
+  }
+}
+
+@media screen and (max-width: 256px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .block {
+    padding: 3.2rem 1.6rem 1rem 1.6rem !important;
+    font-size: 1.18rem;
+  }
+
+  .l-container details {
+    margin-right: 1.6rem;
+  }
+
+  .l-portfolio {
+    gap: 0;
   }
 }
 

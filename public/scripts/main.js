@@ -25,6 +25,12 @@ function toggleActive(cond, el) {
   }
 }
 
+const setParticleJS = () => {
+  particlesJS.load('main', '../public/particles.json', function () {
+    console.log('%ccallback - particles.js config loaded', 'color: #4af626;');
+  });
+}
+
 window.onload = function () {
   const container_loader = document.getElementById("container-loader");
   container_loader.style.opacity = "0";
@@ -32,9 +38,11 @@ window.onload = function () {
     container_loader.remove();
   });
 
-  particlesJS.load('main', '../public/particles.json', function () {
-    console.log('%ccallback - particles.js config loaded', 'color: #4af626;');
-  });
+  setParticleJS();
+
+  window.onresize = function () {
+    setParticleJS();
+  }
 
   document.addEventListener("click", (e) => {
     _state.click = 1;
