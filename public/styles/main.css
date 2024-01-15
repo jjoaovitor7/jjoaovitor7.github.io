@@ -163,6 +163,25 @@ body {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .l-container {
+    width: 400px !important;
+  }
+
+  .block-col {
+    width: 100% !important;
+  }
+
+  #roles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .l-portfolio {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
 @media screen and (min-width: 768px) {
   #pprojects {
     scroll-margin-top: 0vh;
