@@ -95,7 +95,9 @@ body {
   z-index: 999;
 }
 
-#nav-main #title-name, #nav-main #title-role, #nav-main .nav-link {
+#nav-main #title-name,
+#nav-main #title-role,
+#nav-main .nav-link {
   font-variant: small-caps;
 }
 
@@ -224,6 +226,25 @@ body {
   .l-container {
     margin-left: 24%;
     width: 784px;
+  }
+}
+
+@media screen and (max-width: 256px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .block {
+    padding: 3.2rem 1.6rem 1rem 1.6rem !important;
+    font-size: 1.18rem;
+  }
+
+  .l-container details {
+    margin-right: 1.6rem;
+  }
+
+  .l-portfolio {
+    gap: 0;
   }
 }
 
