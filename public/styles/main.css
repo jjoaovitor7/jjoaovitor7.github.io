@@ -185,7 +185,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  #pprojects {
+  #projects {
     scroll-margin-top: 0vh;
     margin-top: 0 !important;
   }
