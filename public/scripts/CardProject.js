@@ -5,8 +5,7 @@ class CardProject extends HTMLElement {
     const shadow = this.attachShadow({ mode: "open" });
     const wrapper = document.createElement("div");
     wrapper.classList = "card block my-4";
-    wrapper.innerHTML = `
-        <p>
+    wrapper.innerHTML = `<p>
           <a target="_blank" href=${this.getAttribute("url")}>
             <strong>${this.getAttribute("name")}</strong>
           </a>
