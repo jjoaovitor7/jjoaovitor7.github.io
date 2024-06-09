@@ -1,31 +1,42 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
 /node_modules
-scss/
-build/
-tests/
-test/
-demo/
-*-lock.json
-*.less
-/public/components/bootstrap/*
-/public/components/fontawesome/*
-!dist/
-!css/
-!js/
-!sprites/
-!otfs/
-!svgs/
-!webfonts/
-!sprites/
-!.bower.json
-!composer.json
-!LICENSE*
-!.gitignore
-!.npmrc
-!.babelrc.js
-!.eslint*
-!.gitattributes
-!.editorconfig
-!package.json
-!package.js
-!.style*
-!.browserslistrc
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db

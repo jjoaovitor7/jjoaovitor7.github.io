@@ -1,0 +1,13 @@
+#work details {
+  line-height: 3.2rem;
+}
+
+#work details li {
+  margin: .8rem 0;
+}
+
+@media screen and (max-width: 256px) {
+  #work details {
+    margin-right: 1.6rem;
+  }
+}

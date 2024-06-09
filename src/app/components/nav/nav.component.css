@@ -1,0 +1,50 @@
+#nav-main {
+  position: relative;
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin: 0 .5rem;
+  font-size: 1.6rem;
+  z-index: 999;
+}
+
+#nav-main #title-name,
+#nav-main #title-role,
+#nav-main .nav-link {
+  font-variant: small-caps;
+}
+
+#nav-main #title-name {
+  font-size: 1.64rem;
+}
+
+#nav-main #title-role {
+  color: #4af626;
+  font-size: 1.32rem;
+}
+
+#nav-main .nav-link {
+  color: #d1d1d1;
+}
+
+#nav-main .navbar-toggler {
+  z-index: 99;
+}
+
+@media screen and (min-width: 768px) {
+  #nav-main {
+    position: fixed !important;
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin-left: 8%;
+    box-shadow: 0.1rem 0.25rem 0.1rem #000;
+    padding-top: 8rem;
+  }
+
+  #nav-main .nav-link.active {
+    border-bottom: 2px solid #00428c;
+  }
+}

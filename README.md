@@ -1,29 +1,21 @@
 # jjoaovitor7.github.io
 
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
+<div align="center">
+  <img height="256"
+    src="./public/1.png"
+  />
 
-## :scroll: Sobre
-Meu site pessoal.
+  <strong>
+    Site pessoal / profissional.
+  </strong>
+</div>
 
----
+<div align="center">
+  <p>
+    Tecnologias utilizadas
+  </p>
 
-## :rocket: Tecnologias utilizadas
-* HTML
-* CSS
-* JavaScript
-
----
-
-
-## :computer: Como baixar o projeto
-```bash
-  // Clonar o repositório
-  $ git clone https://github.com/jjoaovitor7/jjoaovitor7.github.io
-
-  // Entrar no diretório
-  $ cd jjoaovitor7.github.io
-```
-
----
+  <img
+    src="https://go-skill-icons.vercel.app/api/icons?i=html,css,bootstrap,angular,js,ts,nodejs&perline=4"
+  />
+</div>

@@ -1,0 +1,36 @@
+.l-portfolio {
+  display: grid;
+  grid-template-columns: repeat(2, 180px);
+  gap: .8rem;
+  padding: 0;
+}
+
+@media screen and (max-width: 400px) {
+  .l-portfolio {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #projects {
+    scroll-margin-top: 0vh;
+    margin-top: 0 !important;
+  }
+
+  .l-portfolio {
+    gap: 1.6rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .l-portfolio {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 256px) {
+  .l-portfolio {
+    gap: 0;
+  }
+}

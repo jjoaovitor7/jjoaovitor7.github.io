@@ -1,15 +1,43 @@
 {
   "name": "jjoaovitor7.github.io",
-  "version": "1.0.0",
-  "description": "Site pessoal.",
-  "main": "index.js",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
-  "keywords": [],
-  "author": "jjoaovitor7",
-  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^18.0.0",
+    "@angular/common": "^18.0.0",
+    "@angular/compiler": "^18.0.0",
+    "@angular/core": "^18.0.0",
+    "@angular/forms": "^18.0.0",
+    "@angular/platform-browser": "^18.0.0",
+    "@angular/platform-browser-dynamic": "^18.0.0",
+    "@angular/router": "^18.0.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "particle.js": "^1.0.7",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.3"
+  },
   "devDependencies": {
-    "bower": "^1.8.14"
+    "@angular-devkit/build-angular": "^18.0.2",
+    "@angular/cli": "^18.0.2",
+    "@angular/compiler-cli": "^18.0.0",
+    "@types/aos": "^3.0.7",
+    "@types/jasmine": "~5.1.0",
+    "bower": "^1.8.14",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.4.2"
   }
 }

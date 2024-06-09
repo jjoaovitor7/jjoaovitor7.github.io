@@ -1,0 +1,13 @@
+p#l-footer__page-author {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  color: #000;
+}
+
+#l-footer {
+  padding: 2.1rem;
+}
+
+#l-footer .bi {
+  font-size: 2rem;
+}
