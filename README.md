@@ -5,9 +5,11 @@
     src="./public/1.png"
   />
 
-  <strong>
-    Site pessoal / profissional.
-  </strong>
+  <p>
+    <strong>
+      Site pessoal / profissional.
+    </strong>
+  </p>
 </div>
 
 <div align="center">

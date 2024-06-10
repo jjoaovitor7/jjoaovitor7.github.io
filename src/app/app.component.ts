@@ -76,7 +76,7 @@ export class AppComponent implements OnInit {
             break;
         }
       }
-    }, 200)
+    }, 164)
   };
 
   ngOnInit(): void {
