@@ -12,7 +12,7 @@ declare var particlesJS: any;
   standalone: true,
   imports: [RouterOutlet, NavComponent, LoaderComponent, ContactComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 
 export class AppComponent implements OnInit {
@@ -40,17 +40,17 @@ export class AppComponent implements OnInit {
           case "about":
             this.currentSection = "education";
             this.router.navigateByUrl(this.currentSection);
-            window.scrollTo(0, 10);
+            window.scrollTo(0, 16);
             break;
           case "education":
             this.currentSection = "work";
             this.router.navigateByUrl(this.currentSection);
-            window.scrollTo(0, 10);
+            window.scrollTo(0, 16);
             break;
           case "work":
             this.currentSection = "projects";
             this.router.navigateByUrl(this.currentSection);
-            window.scrollTo(0, 10);
+            window.scrollTo(0, 16);
             break;
         }
       }
@@ -80,15 +80,6 @@ export class AppComponent implements OnInit {
   };
 
   ngOnInit(): void {
-    const containerLoader = document.getElementById("container-loader");
-
-    if (containerLoader != null) {
-      containerLoader.style.opacity = "0";
-      containerLoader.addEventListener("transitionend", () => {
-        containerLoader.remove();
-      });
-    };
-
     AOS.init();
     window.addEventListener('load', AOS.refresh);
 

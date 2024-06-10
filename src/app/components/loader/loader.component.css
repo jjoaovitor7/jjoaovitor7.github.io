@@ -1,5 +1,5 @@
 #container-loader {
-  z-index: 999;
+  z-index: 99999;
   -webkit-transition: opacity 2s;
   transition: opacity 2s;
 }

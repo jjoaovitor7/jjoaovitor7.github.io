@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-loader',
@@ -7,6 +7,19 @@ import { Component } from '@angular/core';
   templateUrl: './loader.component.html',
   styleUrl: './loader.component.css'
 })
-export class LoaderComponent {
 
+export class LoaderComponent implements OnInit {
+  ngOnInit(): void {
+    const containerLoader = document.getElementById("container-loader");
+
+    if (containerLoader) {
+      setTimeout(() => {
+        containerLoader.style.opacity = "0";
+      }, 256);
+
+      setTimeout(() => {
+        containerLoader?.parentElement?.remove();
+      }, 2000);
+    };
+  }
 }
