@@ -1,3 +1,4 @@
 {
+  "html.format.unformattedContentDelimiter": "<!--ignore-->",
   "typescript.tsdk": "node_modules\\typescript\\lib"
 }
