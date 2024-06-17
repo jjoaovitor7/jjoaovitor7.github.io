@@ -15,15 +15,3 @@ Meu site pessoal.
 * JavaScript
 
 ---
-
-
-## :computer: Como baixar o projeto
-```bash
-  // Clonar o repositório
-  $ git clone https://github.com/jjoaovitor7/jjoaovitor7.github.io
-
-  // Entrar no diretório
-  $ cd jjoaovitor7.github.io
-```
-
----
