@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
+<html dir="ltr">
 <head>
   <meta charset="UTF-8" />
   <meta name="author" content="jjoaovitor7" />
@@ -40,7 +40,9 @@
 
         <div class="my-2">
           <h4 id="title-name">João Vítor Silva Ferreira</h4>
-          <h4 id="title-role">Desenvolvedor Full-Stack</h4>
+          <h4 id="title-role">
+            {{ translations.roles[0] }}
+          </h4>
         </div>
 
         <button type="button" class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#navbar-main"
@@ -50,16 +52,16 @@
         <div class="collapse navbar-collapse flex-column" id="navbar-main">
           <ul class="navbar-nav flex-column">
             <li class="nav-item">
-              <a class="nav-link active my-2" href="#about">Início</a>
+              <a class="nav-link active my-2" href="#about">{{ translations.index }}</a>
             </li>
             <li class="nav-item my-2">
-              <a class="nav-link" href="#education">Educação</a>
+              <a class="nav-link" href="#education">{{ translation.education }}</a>
             </li>
             <li class="nav-item my-2">
-              <a class="nav-link" href="#work">Experiência Profissional</a>
+              <a class="nav-link" href="#work">{{ translations.work }}</a>
             </li>
             <li class="nav-item my-2">
-              <a class="nav-link" href="#projects">Projetos</a>
+              <a class="nav-link" href="#projects">{{ translations.projects }}</a>
             </li>
           </ul>
 
@@ -87,44 +89,41 @@
     <section id="content" class="d-flex flex-column align-items-center w-100 mx-2">
       <section id="about" class="fading active l-container text-white">
         <h2 class="display-4 fw-semibold mb-4">
-          Apresentação
+          {{ translations.presentation }}
         </h2>
         <p class="my-4">
-          Olá, meu nome é João Vítor, sou formado em Ciência da Computação e tenho mais de 3 anos de experiência
-          na área de TI, com foco principalmente no desenvolvimento back-end e front-end (web & mobile).
+          {{ translations.about[0] }}
         </p>
         <p class="my-4">
-          Estou trabalhando como desenvolvedor full-stack na Empresa Sergipana de Tecnologia de Informação (EMGETIS), onde
-          desenvolvo novas funcionalidades para sites de órgãos governamentais e responsável pelo desenvolvimento do app "Gol
-          da Gente" (API, Android, iOS e Web), cujo objetivo é trocar NFe's por ingressos de eventos esportivos.
+          {{ translations.about[1] }}
         </p>
         <p class="my-4">
-          Ah, também tenho familiaridade com Kanban e posso auxiliar em traduções de inglês (en) para português (pt-BR).
+          {{ translations.about[2] }}
         </p>
 
         <div id="roles" class="row my-4">
           <div class="block-col col-md-3 my-2">
             <div class="block">
               <i class="d-block bi bi-code"></i>
-              Desenvolvedor Full-Stack
+              {{ translations.roles[0] }}
             </div>
           </div>
           <div class="block-col col-md-3 my-2">
             <div class="block">
               <i class="d-block bi bi-code"></i>
-              Desenvolvedor Web
+              {{ translations.roles[1] }}
             </div>
           </div>
           <div class="block-col col-md-3 my-2">
             <div class="block">
               <i class="d-block bi bi-code"></i>
-              Desenvolvedor Mobile
+              {{ translations.roles[2] }}
             </div>
           </div>
           <div class="block-col col-md-3 my-2">
             <div class="block">
               <i class="d-block bi bi-translate"></i>
-              Tradutor
+              {{ translations.roles[3] }}
             </div>
           </div>
         </div>
@@ -132,79 +131,65 @@
 
       <section id="education" class="fading l-container text-white">
         <h2 class="display-4 fw-semibold mb-4">
-          Educação
+          {{ translations.education }}
         </h2>
-        <h4>Bacharelado em Ciência da Computação pela Universidade Tiradentes - UNIT.</h4>
-        <small>jan. 2018 - ago. 2023</small>
+        <h4>{{ translations.education_1.title }}</h4>
+        <small>{{ translations.education_1.period }}</small>
       </section>
 
       <section id="work" class="fading l-container text-white">
         <h2 class="display-4 fw-semibold mb-4">Experiência Profissional</h2>
         <div class="my-4">
-          <h4>Desenvolvedor Full-Stack, EMGETIS.</h4>
-          <small>ago. 2021 - até o momento</small>
+          <h4>{{ translations.work_1.title }}</h4>
+          <small>{{ translations.work_1.period }}</small>
           <details>
             <ul>
               <p>
-                <i>(alocado na ARSIN)</i>
+                <i>{{ translations.work_1.info[0] }}</i>
               </p>
               <li>
-                Desenvolvimento e manutenção (com melhorias de segurança) de mais de 32 sites
-                com o CMS WordPress e a stack LAMP (Linux, Apache, MariaDB e PHP).
+                {{ translations.work_1.info[1] }}
               </li>
               <li>
-                Implementação do Composer
-                para gerenciamento de dependências de temas de sites WordPress,
-                o integrando com o Bower e o NPM.
+                {{ translations.work_1.info[2] }}
               </li>
               <li>
-                Criação de shortcodes e blocos customizados,
-                além da implementação e configuração de alguns plugins (ACF, Ninja Forms, entre outros) para sites WordPress
-                buscando melhorar a experiência do usuário,
-                e realização de alguns webscraping.
+                {{ translations.work_1.info[3] }}
               </li>
               <li>
-                Implementação do Git com Gitea para versionamento do código
-                e criação de script CI/CD com Gitea Actions para envio de alterações relacionadas ao tema WordPress de
-                ambiente de "dev." pra ambiente de "prod.".
+                {{ translations.work_1.info[4] }}
               </li>
               <li>
-                Desenvolvimento e disponibilização em lojas virtuais (Google Play Store e Apple App Store) de aplicação mobile com React Native.
-                Desenvolvimento da API com JS/TS, aplicando conceitos como MVC, patterns como Middleware e Repository, entre outros.
-                Integração com a API da Secretaria de Estado da Fazenda (SEFAZ-SE), do gov.br, do IBGE e com o webservice do ViaCEP (json).
-                Port para versão Web.
+                {{ translations.work_1.info[5] }}
               </li>
               <li>
-                Utilização do Portainer para hospedagem de sites e aplicações em desenvolvimento a partir de "Stacks"
-                <i>(docker compose)</i>.
+                {{ translations.work_1.info[6] }}
               </li>
               <li>
-                Customização do GLPI (visual e notificações por e-mail).
+                {{ translations.work_1.info[7] }}
               </li>
             </ul>
           </details>
         </div>
         <div class="my-4">
-          <h4>Estagiário de TI, EMGETIS.</h4>
-          <small>dez. 2019 - ago. 2021</small>
+          <h4>{{ translations.work_2.title }}</h4>
+          <small>{{ translations.work_2.period }}</small>
           <details>
-            Atividades Desempenhadas:
             <ul>
+              <p>
+                {{ translations.work_2.info[0] }}
+              </p>
               <li>
-                Desenvolvimento e manutenção de alguns sites com o CMS WordPress e a stack LAMP.
+                {{ translations.work_2.info[1] }}
               </li>
               <li>
-                Atendimento de chamados pelo GLPI <i>(helpdesk)</i>,
-                além do suporte ao usuário em sistemas do Detran <i>(emulador)</i>,
-                Expresso Livre <i>(e-mail)</i>
-                e Zimbra <i>(e-mail)</i>.
+                {{ translations.work_2.info[2] }}
               </li>
               <li>
-                Visão Geral do Zabbix <i>(monitoramento de infraestrutura e rede)</i> e do Ansible.
+                {{ translations.work_2.info[3] }}
               </li>
               <li>
-                Backup de base de dados <abbr title="Microsoft SQL Server">mssql</abbr> utilizando o RDesktop <i>(para
-                  acesso remoto a máquina)</i> e o <abbr title="Server Management Studio">SMSS</abbr>.
+                {{ translations.work_2.info[4] }}
               </li>
             </ul>
           </details>
@@ -213,7 +198,7 @@
 
       <section id="projects" class="fading l-container text-white">
         <h4 class="display-4 fw-semibold mb-4">
-          Projetos
+          {{ translations.projects }}
         </h4>
 
         <div class="l-portfolio  justify-content-center">
@@ -267,5 +252,6 @@
   <script src="./public/components/particles.js/particles.min.js"></script>
   <script src="./public/scripts/CardProject.js"></script>
   <script src="./public/scripts/main.js"></script>
+  <script src="./public/scripts/translation.js"></script>
 </body>
 </html>
