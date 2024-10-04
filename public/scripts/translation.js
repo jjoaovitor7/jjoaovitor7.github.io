@@ -44,9 +44,8 @@ const translations = {
           Desenvolvimento da API com JS/TS, aplicando conceitos como MVC, patterns como Middleware e Repository, entre outros. \
           Integração com a API da Secretaria de Estado da Fazenda (SEFAZ-SE), do gov.br, do IBGE e com o webservice do ViaCEP (json). \
           Port para versão Web.",
-        "Utilização do Portainer para hospedagem de sites e aplicações em desenvolvimento a partir de \"Stacks\" \
-          <i>(docker compose)</i>.",
-        "Customização do GLPI <i>(visual e notificações por e-mail).</i>"
+        "Customização do GLPI <i>(visual com twig e notificações por e-mail).</i>",
+        "Desenvolvimento de aplicação com Angular, Bootstrap 5, Golang e Docker Compose."
       ],
     },
     "work_2": {
@@ -111,9 +110,8 @@ const translations = {
           API development with JS/TS, applying concepts such as MVC, patterns as Middleware and Repository, among others. \
           Integration with the API of SEFAZ-SE, gov.br, IBGE and the ViaCEP webservice (json). \
           Port for Web version.",
-        "Using Portainer to host websites and applications under development from \"Stacks\" \
-          <i>(docker compose)</i>.",
-        "GLPI customization <i>(visual and email notifications).</i>"
+        "GLPI customization <i>(visual with twig and email notifications).</i>",
+        "Development of application with Angular, Bootstrap 5, Golang and Docker Compose."
       ],
     },
     "work_2": {
