@@ -6,8 +6,8 @@ const translations = {
     "projects": "Projetos",
     "presentation": "Apresentação",
     "about": [
-      "Olá, meu nome é João Vítor, sou formado em Ciência da Computação e tenho mais de 3 anos de experiência \
-        no setor de TI, com foco no desenvolvimento back-end e front-end (web & mobile).",
+      "Sou formado em Ciência da Computação e tenho mais de 3 anos de experiência \
+        no setor de TI, com foco no desenvolvimento de API, web & mobile.",
       "Estou trabalhando como desenvolvedor full-stack na Empresa Sergipana de Tecnologia de Informação (EMGETIS), onde \
         desenvolvo novas funcionalidades para sites de órgãos governamentais e responsável pelo desenvolvimento do app \"Gol \
         da Gente\" (API, Android, iOS e Web), cujo objetivo é trocar NFe's por ingressos de eventos esportivos.",
@@ -47,7 +47,8 @@ const translations = {
           O SGBD selecionado foi o PostgreSQL principalmente pela sua eficiência \
           e foi realizado o <i>port</i> do app para versão web.",
         "Customização visual com twig e das notificações por e-mail do GLPI.",
-        "Desenvolvimento de aplicação com Angular, Bootstrap 5, Golang e Docker Compose."
+        "Desenvolvimento de aplicação com Angular, Bootstrap 5, Golang e Docker Compose.",
+        "Prototipação com o software Lunacy."
       ],
     },
     "work_2": {
@@ -72,8 +73,8 @@ const translations = {
     "projects": "Projects",
     "presentation": "About",
     "about": [
-      "Hi, my name is \"João Vítor\", i'm graduated in Computer Science and i have more than three years of experience \
-        in IT sector, mainly in back-end and front-end development (web & mobile).",
+      "I'm graduated in Computer Science and I have more than three years of experience \
+        in IT sector, mainly in API, web & mobile development.",
       "I'm working as full-stack developer at EMGETIS, where I \
         develop new features for public authority websites and e responsible for the development of the app \"Gol \
         da Gente\" (API, Android, iOS e Web), whose objective is to exchange NF-e's for sporting events tickets.",
@@ -112,7 +113,8 @@ const translations = {
           The selected DBMS was PostgreSQL mainly due to its efficiency\
           and was realized the <i>port</i> of app to the web version.",
         "Visual customization with twig and email notifications of the GLPI.",
-        "Development of application with Angular, Bootstrap 5, Golang and Docker Compose."
+        "Development of application with Angular, Bootstrap 5, Golang and Docker Compose.",
+        "Prototyping with Lunacy software."
       ],
     },
     "work_2": {
