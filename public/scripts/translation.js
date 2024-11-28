@@ -6,12 +6,12 @@ const translations = {
     "projects": "Projetos",
     "presentation": "Apresentação",
     "about": [
-      "Sou formado em Ciência da Computação e tenho mais de 3 anos de experiência \
+      "Sou formado em Ciência da Computação e tenho mais de 4 anos de experiência \
         no setor de TI, com foco no desenvolvimento de API, web & mobile.",
       "Estou trabalhando como desenvolvedor full-stack na Empresa Sergipana de Tecnologia de Informação (EMGETIS), onde \
         desenvolvo novas funcionalidades para sites de órgãos governamentais e responsável pelo desenvolvimento do app \"Gol \
         da Gente\" (API, Android, iOS e Web), cujo objetivo é trocar NFe's por ingressos de eventos esportivos.",
-      "Também tenho familiaridade com Kanban e posso auxiliar em traduções textuais de Inglês (en) para Português Brasileiro (pt-BR).",
+      "Além disso, também tenho familiaridade com Kanban e posso auxiliar em traduções textuais de Inglês (en) para Português Brasileiro (pt-BR).",
     ],
     "roles": [
       "Desenvolvedor Full-Stack",
@@ -55,14 +55,10 @@ const translations = {
       "title": "Estagiário de TI, EMGETIS.",
       "period": "dez. 2019 - ago. 2021",
       "info": [
-        "Desenvolvimento e manutenção de alguns sites com o CMS WordPress e a stack \
-          <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>.",
-        "Atendimento de chamados pelo GLPI, \
-          além do suporte ao usuário em sistemas do Detran <i>(emulador)</i> \
-          e dos softwares de gerenciamento de e-mail \"Expresso Livre\" e \"Zimbra\".",
-        "Visão geral do software de monitoramento \"Zabbix\" e do Ansible.",
-        "Backup de base de dados <abbr title=\"Microsoft SQL Server\">mssql</abbr> utilizando o \
-          <abbr title=\"Server Management Studio\">SMSS</abbr> e o RDesktop para acesso remoto a máquina."
+        "Atuei no desenvolvimento e manutenção de sites WordPress com a stack <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
+        além do suporte à usuários em sistemas do Detran (emulador) e em softwares de e-mail \"Expresso Livre\" e \"Zimbra\", acompanhando e solucionando os chamados através do GLPI. \
+        Obtive uma visão geral do software de monitoramento \"Zabbix\" e do Ansible \
+        e realizei backup de base de dados <abbr title=\"Microsoft SQL Server\">mssql</abbr> usando o <abbr title=\"Server Management Studio\">SMSS</abbr> e acesso remoto via RDesktop."
       ]
     }
   },
@@ -73,12 +69,12 @@ const translations = {
     "projects": "Projects",
     "presentation": "About",
     "about": [
-      "I'm graduated in Computer Science and I have more than three years of experience \
+      "I'm graduated in Computer Science and I have more than 4 years of experience \
         in IT sector, mainly in API, web & mobile development.",
       "I'm working as full-stack developer at EMGETIS, where I \
         develop new features for public authority websites and e responsible for the development of the app \"Gol \
         da Gente\" (API, Android, iOS e Web), whose objective is to exchange NF-e's for sporting events tickets.",
-      "I'm also familiar with Kanban and can help with textual translations from English (en) to Brazilian Portuguese (pt-BR).",
+      "Additionally, I'm also familiar with Kanban and can help with textual translations from English (en) to Brazilian Portuguese (pt-BR).",
     ],
     "roles": [
       "Full-Stack Developer",
@@ -121,14 +117,10 @@ const translations = {
       "title": "IT Intern, EMGETIS.",
       "period": "dec. 2019 - aug. 2021",
       "info": [
-        "Development and maintenance of some websites with the WordPress CMS and the \
-          <abbr title=\"Linux, Apache2, MariaDB and PHP\">LAMP</abbr> stack.",
-        "Answer requests using GLPI, \
-          in addition to user support on Detran systems <i>(emulator)</i>, \
-          and of e-mail management softwares \"Expresso Livre\" and \"Zimbra\".",
-        "Overview of monitoring software \"Zabbix\" and Ansible.",
-        "Backup database <abbr title=\"Microsoft SQL Server\">mssql</abbr> using \
-        <abbr title=\"Server Management Studio\">SMSS</abbr> and RDesktop for remote access to the machine."
+        "I worked on the development and maintenance of WordPress sites using the <abbr title=\"Linux, Apache2, MariaDB, and PHP\">LAMP</abbr> stack, \
+        as well as providing support to users of Detran systems (emulator) and email software \"Expresso Livre\" and \"Zimbra\", tracking and resolving tickets through GLPI. \
+        I obtained an overview of the monitoring software \"Zabbix\" \
+        and Ansible and also performed <abbr title=\"Microsoft SQL Server\">mssql</abbr> database backups using <abbr title=\"Server Management Studio\">SMSS</abbr> and remote access via RDesktop."
       ]
     }
   }
