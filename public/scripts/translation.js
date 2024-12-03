@@ -9,8 +9,9 @@ const translations = {
       "Sou formado em Ciência da Computação e tenho mais de 4 anos de experiência \
         no setor de TI, com foco no desenvolvimento de API, web & mobile.",
       "Estou trabalhando como desenvolvedor full-stack na Empresa Sergipana de Tecnologia de Informação (EMGETIS), onde \
-        desenvolvo novas funcionalidades para sites de órgãos governamentais e responsável pelo desenvolvimento do app \"Gol \
-        da Gente\" (API, Android, iOS e Web), cujo objetivo é trocar NFe's por ingressos de eventos esportivos.",
+        desenvolvo novas funcionalidades para sites de órgãos governamentais \
+        responsável pelo desenvolvimento do app \"Gol da Gente\" (API, Android, iOS e Web), \
+        cujo objetivo é trocar NFe's por ingressos de eventos esportivos.",
       "Além disso, também tenho familiaridade com Kanban e posso auxiliar em traduções textuais de Inglês (en) para Português Brasileiro (pt-BR).",
     ],
     "roles": [
@@ -28,24 +29,21 @@ const translations = {
       "period": "ago. 2021 - até o momento",
       "info": [
         "(alocado na ARSIN)",
-        "Desenvolvimento e manutenção (+32 sites) com o CMS WordPress \
-          e a stack <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>. \
-          Implementação do Composer \
-          para gerenciamento de dependências dos temas desses sites, \
-          o integrando com o Bower e o NPM. Melhorias de segurança.",
-        "Criação de shortcodes e blocos customizados, \
-          além da implementação e configuração de alguns plugins (ACF, Ninja Forms, entre outros) para sites WordPress \
-          buscando melhorar a experiência do usuário, \
-          e realização de alguns webscraping.",
+        "Atuando no desenvolvimento e manutenção de mais de 32 sites WordPress com a stack <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
+        incluindo: \
+          implementação do Composer, o integrando com o Bower e o NPM para gerenciar dependências dos temas, \
+          criação de shortcodes, blocos customizados e \
+          configuração de alguns plugins (ACF, Ninja Forms, entre outros) buscando melhorar a <abbr title=\"Experiência do Usuário\">UX</abbr>, \
+          melhorias de segurança e webscraping.",
         "Implementação do Git com Gitea para versionamento do código \
           e criação de script CI/CD com Gitea Actions para envio de alterações relacionadas ao tema WordPress de \
           ambiente de \"dev.\" pra ambiente de \"prod.\".",
-        "Desenvolvimento com React Native do app mobile \"Gol da Gente\" \
-          e disponibilização em lojas virtuais (Google Play Store e Apple App Store). \
-          Desenvolvimento da API p/ o app com JS/TS, aplicando conceitos como MVC, patterns como Middleware e Repository \
-          e a integrando com a API da SEFAZ-SE, do gov.br, do IBGE e com o webservice do ViaCEP (json). \
-          O SGBD selecionado foi o PostgreSQL principalmente pela sua eficiência \
-          e foi realizado o <i>port</i> do app para versão web.",
+        "Desenvolvi o app mobile \"Gol da Gente\" com React Native \
+          e disponibilizei em lojas virtuais (Google Play Store e Apple App Store), \
+          além disso desenvolvi a API p/ o app com JS/TS e PostgreSQL (pela sua eficiência), \
+          aplicando conceitos como MVC, patterns como Middleware e Repository, \
+          e a integrando com a API da SEFAZ-SE, do gov.br, do IBGE e com o webservice do ViaCEP (json), \
+          e por fim realizei o <i>port</i> do app para versão web.",
         "Customização visual com twig e das notificações por e-mail do GLPI.",
         "Desenvolvimento de aplicação com Angular, Bootstrap 5, Golang e Docker Compose.",
         "Prototipação com o software Lunacy."
@@ -72,8 +70,9 @@ const translations = {
       "I'm graduated in Computer Science and I have more than 4 years of experience \
         in IT sector, mainly in API, web & mobile development.",
       "I'm working as full-stack developer at EMGETIS, where I \
-        develop new features for public authority websites and e responsible for the development of the app \"Gol \
-        da Gente\" (API, Android, iOS e Web), whose objective is to exchange NF-e's for sporting events tickets.",
+        develop new features for public authority websites and \
+        responsible for the development of the app \"Gol da Gente\" (API, Android, iOS and Web), \
+        whose objective is to exchange NF-e's for sporting events tickets.",
       "Additionally, I'm also familiar with Kanban and can help with textual translations from English (en) to Brazilian Portuguese (pt-BR).",
     ],
     "roles": [
@@ -91,23 +90,22 @@ const translations = {
       "period": "aug. 2021 - until now",
       "info": [
         "(allocated at ARSIN)",
-        "Development and maintenance (+32 sites) with the WordPress CMS \
-          and the <abbr title=\"Linux, Apache2, MariaDB and PHP\">LAMP</abbr>. \
-          Composer implementation for theme dependency management of these sites, \
-          integrating it with Bower and NPM. Security improvements.",
-        "Creation of shortcodes and custom blocks,\
-          in addition to implementation and configuration of some plugins (ACF, Ninja Forms, among others) for WordPress websites \
-          focus to improve the user experience (UX), \
-          and doing some webscraping.",
-        "Git implementation with Gitea for code versioning\
+        "Working on the development and maintenance of over 32 WordPress sites using the \
+          <abbr title=\"Linux, Apache2, MariaDB and PHP\">LAMP</abbr> stack, \
+          including: \
+            implementing Composer and integrating it with Bower and NPM to manage theme dependencies, \
+            creating shortcodes, custom blocks and \
+            configuring plugins (ACF, Ninja Forms, among others) to improve the <abbr title=\"User Experience\">UX</abbr>, \
+            security improvements, and web scraping.",
+        "Git implementation with Gitea for code versioning \
           and creating CI/CD script with Gitea Actions to send changes related to the WordPress theme from \
           \"dev.\" environment to \"prod.\" environment.",
-        "Development with React Native of the mobile app \"Gol da Gente\" \
-          and availability in virtual stores (Google Play Store and Apple App Store).\
-          API development for with JS/TS, applying concepts such as MVC, patterns as Middleware and Repository, \
-          and integrating it with the SEFAZ-SE API, gov.br, IBGE and the ViaCEP webservice (json). \
-          The selected DBMS was PostgreSQL mainly due to its efficiency\
-          and was realized the <i>port</i> of app to the web version.",
+        "I developed the \"Gol da Gente\" mobile app using React Native \
+          and I deployed in virtual stores (Google Play Store and Apple App Store), besides I developed \
+          the API with JS/TS and PostgreSQL (through its efficience), \
+          applying concepts such as MVC, patterns as Middleware and Repository, \
+          integrating it with the SEFAZ-SE API, gov.br, IBGE and the ViaCEP (json), \
+          and I perfomed the <i>port</i> of app to the web version.",
         "Visual customization with twig and email notifications of the GLPI.",
         "Development of application with Angular, Bootstrap 5, Golang and Docker Compose.",
         "Prototyping with Lunacy software."
