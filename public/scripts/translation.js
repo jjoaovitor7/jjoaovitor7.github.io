@@ -12,7 +12,8 @@ const translations = {
         desenvolvo novas funcionalidades para sites de órgãos governamentais \
         responsável pelo desenvolvimento do app \"Gol da Gente\" (API, Android, iOS e Web), \
         cujo objetivo é trocar NFe's por ingressos de eventos esportivos.",
-      "Além disso, também tenho familiaridade com Kanban e posso auxiliar em traduções textuais de Inglês (en) para Português Brasileiro (pt-BR).",
+      "Além disso, também tenho familiaridade com Kanban \
+      e posso auxiliar em traduções textuais de Inglês (en) para Português Brasileiro (pt-BR).",
     ],
     "roles": [
       "Desenvolvedor Full-Stack",
@@ -29,11 +30,13 @@ const translations = {
       "period": "ago. 2021 - até o momento",
       "info": [
         "(alocado na ARSIN)",
-        "Atuando no desenvolvimento e manutenção de mais de 32 sites WordPress com a stack <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
+        "Atuando no desenvolvimento e manutenção de mais de 32 sites WordPress com a stack \
+        <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
         incluindo: \
           implementação do Composer, o integrando com o Bower e o NPM para gerenciar dependências dos temas, \
           criação de shortcodes, blocos customizados e \
-          configuração de alguns plugins (ACF, Ninja Forms, entre outros) buscando melhorar a <abbr title=\"Experiência do Usuário\">UX</abbr>, \
+          configuração de alguns plugins (ACF, Ninja Forms, entre outros) buscando melhorar a \
+          <abbr title=\"Experiência do Usuário\">UX</abbr>, \
           melhorias de segurança e webscraping.",
         "Implementação do Git com Gitea para versionamento do código \
           e criação de script CI/CD com Gitea Actions para envio de alterações relacionadas ao tema WordPress de \
@@ -46,17 +49,22 @@ const translations = {
           e por fim realizei o <i>port</i> do app para versão web.",
         "Customização visual com twig e das notificações por e-mail do GLPI.",
         "Desenvolvimento de aplicação com Angular, Bootstrap 5, Golang e Docker Compose.",
-        "Prototipação com o software Lunacy."
+        "Prototipação com o software Lunacy.",
+        "Desenvolvi o app mobile \"SAP - SE\" (Sistema de Administração Penitenciária [SAP] do Estado de Sergipe [SE]) com React Native \
+          utilizando a API do SAP da SEJUC e conceitos como redux, contracts, entre outros."
       ],
     },
     "work_2": {
       "title": "Estagiário de TI, EMGETIS.",
       "period": "dez. 2019 - ago. 2021",
       "info": [
-        "Atuei no desenvolvimento e manutenção de sites WordPress com a stack <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
-        além do suporte à usuários em sistemas do Detran (emulador) e em softwares de e-mail \"Expresso Livre\" e \"Zimbra\", acompanhando e solucionando os chamados através do GLPI. \
-        Obtive uma visão geral do software de monitoramento \"Zabbix\" e do Ansible \
-        e realizei backup de base de dados <abbr title=\"Microsoft SQL Server\">mssql</abbr> usando o <abbr title=\"Server Management Studio\">SMSS</abbr> e acesso remoto via RDesktop."
+        "Atuei no desenvolvimento e manutenção de sites WordPress com a stack \
+          <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
+          além do suporte à usuários em sistemas do Detran (emulador) \
+          e em softwares de e-mail \"Expresso Livre\" e \"Zimbra\", acompanhando e solucionando os chamados através do GLPI. \
+          Obtive uma visão geral do software de monitoramento \"Zabbix\" e do Ansible \
+          e realizei backup de base de dados <abbr title=\"Microsoft SQL Server\">mssql</abbr> \
+          usando o <abbr title=\"Server Management Studio\">SMSS</abbr> e acesso remoto via RDesktop."
       ]
     }
   },
@@ -73,7 +81,8 @@ const translations = {
         develop new features for public authority websites and \
         responsible for the development of the app \"Gol da Gente\" (API, Android, iOS and Web), \
         whose objective is to exchange NF-e's for sporting events tickets.",
-      "Additionally, I'm also familiar with Kanban and can help with textual translations from English (en) to Brazilian Portuguese (pt-BR).",
+      "Additionally, I'm also familiar with Kanban\
+        and can help with textual translations from English (en) to Brazilian Portuguese (pt-BR)."
     ],
     "roles": [
       "Full-Stack Developer",
@@ -108,17 +117,22 @@ const translations = {
           and I perfomed the <i>port</i> of app to the web version.",
         "Visual customization with twig and email notifications of the GLPI.",
         "Development of application with Angular, Bootstrap 5, Golang and Docker Compose.",
-        "Prototyping with Lunacy software."
+        "Prototyping with Lunacy software.",
+        "I developed the mobile app \"SAP - SE\" (Penitentiary Administration System of Sergipe State) with React Native \
+          using SEJUC SAP API and concepts as redux, contracts, among others."
       ],
     },
     "work_2": {
       "title": "IT Intern, EMGETIS.",
       "period": "dec. 2019 - aug. 2021",
       "info": [
-        "I worked on the development and maintenance of WordPress sites using the <abbr title=\"Linux, Apache2, MariaDB, and PHP\">LAMP</abbr> stack, \
-        as well as providing support to users of Detran systems (emulator) and email software \"Expresso Livre\" and \"Zimbra\", tracking and resolving tickets through GLPI. \
+        "I worked on the development and maintenance of WordPress sites using the \
+          <abbr title=\"Linux, Apache2, MariaDB, and PHP\">LAMP</abbr> stack, \
+          as well as providing support to users of Detran systems (emulator) \
+          and email software \"Expresso Livre\" and \"Zimbra\", tracking and resolving tickets through GLPI. \
         I obtained an overview of the monitoring software \"Zabbix\" \
-        and Ansible and also performed <abbr title=\"Microsoft SQL Server\">mssql</abbr> database backups using <abbr title=\"Server Management Studio\">SMSS</abbr> and remote access via RDesktop."
+          and Ansible and also performed <abbr title=\"Microsoft SQL Server\">mssql</abbr> database backups \
+          using <abbr title=\"Server Management Studio\">SMSS</abbr> and remote access via RDesktop."
       ]
     }
   }
