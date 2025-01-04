@@ -38,16 +38,13 @@ const translations = {
           configuração de alguns plugins (ACF, Ninja Forms, entre outros) buscando melhorar a \
           <abbr title=\"Experiência do Usuário\">UX</abbr>, \
           melhorias de segurança e webscraping.",
-        "Implementação do Git com Gitea para versionamento do código \
-          e criação de script CI/CD com Gitea Actions para envio de alterações relacionadas ao tema WordPress de \
-          ambiente de \"dev.\" pra ambiente de \"prod.\".",
+        "Implementação do Git com Gitea para versionamento do código.",
         "Desenvolvi o app mobile \"Gol da Gente\" com React Native \
           e disponibilizei em lojas virtuais (Google Play Store e Apple App Store), \
           além disso desenvolvi a API p/ o app com JS/TS e PostgreSQL (pela sua eficiência), \
           aplicando conceitos como MVC, patterns como Middleware e Repository, \
           e a integrando com a API da SEFAZ-SE, do gov.br, do IBGE e com o webservice do ViaCEP (json), \
           e por fim realizei o <i>port</i> do app para versão web.",
-        "Customização visual com twig e das notificações por e-mail do GLPI.",
         "Desenvolvimento de aplicação com Angular, Bootstrap 5, Golang e Docker Compose.",
         "Prototipação com o software Lunacy.",
         "Desenvolvi o app mobile \"SAP - SE\" (Sistema de Administração Penitenciária [SAP] do Estado de Sergipe [SE]) com React Native \
@@ -106,16 +103,13 @@ const translations = {
             creating shortcodes, custom blocks and \
             configuring plugins (ACF, Ninja Forms, among others) to improve the <abbr title=\"User Experience\">UX</abbr>, \
             security improvements, and web scraping.",
-        "Git implementation with Gitea for code versioning \
-          and creating CI/CD script with Gitea Actions to send changes related to the WordPress theme from \
-          \"dev.\" environment to \"prod.\" environment.",
+        "Git implementation with Gitea for code versioning.",
         "I developed the \"Gol da Gente\" mobile app using React Native \
           and I deployed in virtual stores (Google Play Store and Apple App Store), besides I developed \
           the API with JS/TS and PostgreSQL (through its efficience), \
           applying concepts such as MVC, patterns as Middleware and Repository, \
           integrating it with the SEFAZ-SE API, gov.br, IBGE and the ViaCEP (json), \
           and I perfomed the <i>port</i> of app to the web version.",
-        "Visual customization with twig and email notifications of the GLPI.",
         "Development of application with Angular, Bootstrap 5, Golang and Docker Compose.",
         "Prototyping with Lunacy software.",
         "I developed the mobile app \"SAP - SE\" (Penitentiary Administration System of Sergipe State) with React Native \
