@@ -55,7 +55,7 @@ const translations = {
           melhorias de segurança e webscraping.",
           "Implementação do Git com Gitea para versionamento do código.",
           "Desenvolvi o app mobile \"Gol da Gente\" com React Native \
-          e disponibilizei em lojas virtuais (Google Play Store e Apple App Store), \
+          e disponibilizei em lojas virtuais (Google Play Store [\"hoje\" com mais de 10.000 downloads] e Apple App Store), \
           além disso desenvolvi a API p/ o app com JS/TS e PostgreSQL (pela sua eficiência), \
           aplicando conceitos como MVC, patterns como Middleware e Repository, \
           e a integrando com a API da SEFAZ-SE, do gov.br, do IBGE e com o webservice do ViaCEP (json), \
@@ -129,7 +129,7 @@ const translations = {
             security improvements, and web scraping.",
           "Git implementation with Gitea for code versioning.",
           "I developed the \"Gol da Gente\" mobile app using React Native \
-          and I deployed in virtual stores (Google Play Store and Apple App Store), besides I developed \
+          and I deployed in virtual stores (Google Play Store [\"today\" with over 10.000 downloads] and Apple App Store), besides I developed \
           the API with JS/TS and PostgreSQL (through its efficience), \
           applying concepts such as MVC, patterns as Middleware and Repository, \
           integrating it with the SEFAZ-SE API, gov.br, IBGE and the ViaCEP (json), \
