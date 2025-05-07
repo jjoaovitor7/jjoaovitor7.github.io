@@ -69,7 +69,10 @@ const translations = {
       {
         "title": "Analista de Sistemas, ZDoc.",
         "period": "jan. 2025 - até o momento",
-        "info": []
+        "info": [
+          "Implementação da especificação do TCE, Serigy Schema, em sites governamentais que utilizam o WordPress, \
+          aplicando conceitos como template-pages, metabox, custom post type (cpt) e integrando com o plugin ACF."
+        ]
       }
     ],
   },
@@ -143,7 +146,10 @@ const translations = {
       {
         "title": "Systems Analyst, ZDoc.",
         "period": "jan. 2025 - until now",
-        "info": []
+        "info": [
+          "Implementation of the TCE specification, Serigy Schema, on government websites that use WordPress, \
+          applying concepts, such as template-pages, metabox, custom post type (cpt) and integrating with the ACF plugin."
+        ]
       }
     ]
   }
