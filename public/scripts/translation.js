@@ -71,7 +71,8 @@ const translations = {
         "period": "jan. 2025 - até o momento",
         "info": [
           "Implementação da especificação do TCE, Serigy Schema, em sites governamentais que utilizam o WordPress, \
-          aplicando conceitos como template-pages, metabox, custom post type (cpt) e integrando com o plugin ACF."
+          aplicando conceitos como template-pages, metabox, custom post type (cpt) e integrando com o plugin ACF.",
+          "Implementação de testes unitários de API com Playwright e BDD."
         ]
       }
     ],
@@ -148,7 +149,8 @@ const translations = {
         "period": "jan. 2025 - until now",
         "info": [
           "Implementation of the TCE specification, Serigy Schema, on government websites that use WordPress, \
-          applying concepts, such as template-pages, metabox, custom post type (cpt) and integrating with the ACF plugin."
+          applying concepts, such as template-pages, metabox, custom post type (cpt) and integrating with the ACF plugin.",
+          "Implementation API unit tests with Playwright and BDD."
         ]
       }
     ]
