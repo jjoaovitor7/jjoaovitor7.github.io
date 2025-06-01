@@ -33,9 +33,9 @@ const translations = {
         "info": [
           "Atuei no desenvolvimento e manutenção de sites WordPress com a stack \
             <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
-            além do suporte à usuários em sistemas do Detran (emulador) \
-            e em softwares de e-mail \"Expresso Livre\" e \"Zimbra\", acompanhando e solucionando os chamados através do GLPI. \
-            Obtive uma visão geral do software de monitoramento \"Zabbix\" e do Ansible \
+            além do suporte à usuários em sistemas do Detran <i>(emulador)</i> \
+            e em softwares de e-mail \"Expresso Livre\" e \"Zimbra\", acompanhando e atendendo os chamados através do GLPI. \
+            Obtive uma visão geral do software de monitoramento \"Zabbix\" \
             e realizei backup de base de dados <abbr title=\"Microsoft SQL Server\">mssql</abbr> \
             usando o <abbr title=\"Server Management Studio\">SMSS</abbr> e acesso remoto via RDesktop."
         ]
@@ -45,7 +45,7 @@ const translations = {
         "period": "ago. 2021 - jan. 2025 ",
         "info": [
           "(alocado na ARSIN)",
-          "Atuando no desenvolvimento e manutenção de mais de 32 sites WordPress com a stack \
+          "Atuei no desenvolvimento e manutenção de mais de 32 sites WordPress com a stack \
         <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
         incluindo: \
           implementação do Composer, o integrando com o Bower e o NPM para gerenciar dependências dos temas, \
@@ -54,16 +54,16 @@ const translations = {
           <abbr title=\"Experiência do Usuário\">UX</abbr>, \
           melhorias de segurança e webscraping.",
           "Implementação do Git com Gitea para versionamento do código.",
-          "Desenvolvi o app mobile \"Gol da Gente\" com React Native \
+          "Desenvolvi o app mobile \"Gol da Gente\" com o framework React Native \
           e disponibilizei em lojas virtuais (Google Play Store [\"hoje\" com mais de 10.000 downloads] e Apple App Store), \
-          além disso desenvolvi a API p/ o app com JS/TS e PostgreSQL (pela sua eficiência), \
-          aplicando conceitos como MVC, patterns como Middleware e Repository, \
-          e a integrando com a API da SEFAZ-SE, do gov.br, do IBGE e com o webservice do ViaCEP (json), \
-          e por fim realizei o <i>port</i> do app para versão web.",
+          utilizando contas de desenvolvedor pré-configuradas. \
+          Desenvolvi a API p/ o app com JS/TS e PostgreSQL (pela sua eficiência), \
+          aplicando conceitos como arquitetura MVC, patterns como Middleware e Repository, \
+          e a integrando com a API da SEFAZ-SE, do gov.br (OAuth), do IBGE e com o webservice do ViaCEP <i>(json)</i>. \
+          Realizei o <i>port</i> do app para versão web.",
           "Desenvolvimento de aplicação com Angular, Bootstrap 5, Golang e Docker Compose.",
-          "Prototipação com o software Lunacy.",
-          "Desenvolvi o app mobile \"SAP - SE\" (Sistema de Administração Penitenciária [SAP] do Estado de Sergipe [SE]) com React Native \
-          utilizando a API do SAP da SEJUC e conceitos como redux, contracts, entre outros."
+          "Desenvolvi o app mobile \"SAP - SE\" (Sistema de Administração Penitenciária [SAP] do Estado de Sergipe [SE]) com o framework React Native \
+          utilizando a API do SAP da SEJUC e conceitos como redux, contracts, entre outros. Prototipação com o software Lunacy."
         ]
       },
       {
@@ -112,10 +112,10 @@ const translations = {
         "info": [
           "I worked on the development and maintenance of WordPress sites using the \
           <abbr title=\"Linux, Apache2, MariaDB, and PHP\">LAMP</abbr> stack, \
-          as well as providing support to users of Detran systems (emulator) \
-          and email software \"Expresso Livre\" and \"Zimbra\", tracking and resolving tickets through GLPI. \
+          as well as providing support to users of Detran systems <i>(emulator)</i> \
+          and email software \"Expresso Livre\" and \"Zimbra\", tracking and attending tickets through GLPI. \
           I obtained an overview of the monitoring software \"Zabbix\" \
-          and Ansible and also performed <abbr title=\"Microsoft SQL Server\">mssql</abbr> database backups \
+          and also performed <abbr title=\"Microsoft SQL Server\">mssql</abbr> database backups \
           using <abbr title=\"Server Management Studio\">SMSS</abbr> and remote access via RDesktop."
         ]
       },
@@ -124,7 +124,7 @@ const translations = {
         "period": "aug. 2021 - jan. 2025",
         "info": [
           "(allocated at ARSIN)",
-          "Working on the development and maintenance of over 32 WordPress sites using the \
+          "I worked on the development and maintenance of over 32 WordPress sites using the \
           <abbr title=\"Linux, Apache2, MariaDB and PHP\">LAMP</abbr> stack, \
           including: \
             implementing Composer and integrating it with Bower and NPM to manage theme dependencies, \
@@ -132,16 +132,16 @@ const translations = {
             configuring plugins (ACF, Ninja Forms, among others) to improve the <abbr title=\"User Experience\">UX</abbr>, \
             security improvements, and web scraping.",
           "Git implementation with Gitea for code versioning.",
-          "I developed the \"Gol da Gente\" mobile app using React Native \
-          and I deployed in virtual stores (Google Play Store [\"today\" with over 10.000 downloads] and Apple App Store), besides I developed \
-          the API with JS/TS and PostgreSQL (through its efficience), \
-          applying concepts such as MVC, patterns as Middleware and Repository, \
-          integrating it with the SEFAZ-SE API, gov.br, IBGE and the ViaCEP (json), \
-          and I perfomed the <i>port</i> of app to the web version.",
+          "I developed the \"Gol da Gente\" mobile app using React Native framework \
+          and I deployed in virtual stores (Google Play Store [\"today\" with over 10.000 downloads] and Apple App Store), \
+          using pre-configured developer accounts.\
+          I developed the API with JS/TS and PostgreSQL (through its efficience), \
+          applying concepts such as MVC architecture, patterns as Middleware and Repository, \
+          integrating it with the SEFAZ-SE API, gov.br (OAuth), IBGE and the ViaCEP <i>(json)</i>. \
+          I perfomed the <i>port</i> of app to the web version.",
           "Development of application with Angular, Bootstrap 5, Golang and Docker Compose.",
-          "Prototyping with Lunacy software.",
-          "I developed the mobile app \"SAP - SE\" (Penitentiary Administration System of Sergipe State) with React Native \
-          using SEJUC SAP API and concepts as redux, contracts, among others."
+          "I developed the mobile app \"SAP - SE\" (Penitentiary Administration System of Sergipe State) with React Native framework \
+          using SEJUC SAP API and concepts as redux, contracts, among others. Prototyping with Lunacy software."
         ],
       },
       {
