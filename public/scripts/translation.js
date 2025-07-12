@@ -72,12 +72,13 @@ const translations = {
         "info": [
           "Implementação da especificação do TCE, Serigy Schema, em sites governamentais que utilizam o WordPress, \
           aplicando conceitos como template-pages, metabox, custom post type (CPT) e integrando com o plugin ACF. \
-          Migração de +8.000 dados de fontes variadas com TS, utilizando desde arquivos estruturados como .csv, .json, .xlsx, entre outros, \
+          Migração de +8.000 dados de fontes variadas com TS, utilizando desde arquivos estruturados como .csv, .json, .xlsx, entre outros, até webscraping, \
           reduzindo o \"trabalho braçal\" / inserção manual dos dados.",
           "Implementei testes unitários de API com Playwright e BDD (com Gherkin), aumentando a confiabilidade da API e agilidade nos testes.",
           "Documentei a API com a especificação Swagger, como também realizei a integração entre o Swagger e os padrões JWT e OAuth2.",
-          "Manutenção e desenvolvimento de novas funcionalidades para sites governamentais com a stack <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>.",
-          "Manutenção e desenvolvimento de novas funcionalidades para apps mobile com React Native, e API's."
+          "Manutenção e desenvolvimento de novas funcionalidades para sites governamentais com a stack \
+          <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
+          para apps mobile com React Native, e API's.",
         ]
       }
     ],
@@ -155,12 +156,13 @@ const translations = {
         "info": [
           "Implementation of the TCE specification, Serigy Schema, on government websites using WordPress, \
           applying concepts such as template-pages, metaboxes, custom post types (CPT), and integrating with the ACF plugin. \
-          Migration over 8.000 data from various sources with TS, using structured files such as .csv, .json, .xlsx, and others, \
+          Migration over 8.000 data from various sources with TS, using structured files such as .csv, .json, .xlsx, and others, even webscraping, \
           decreasing the \"manual work\" / manual data entry.",
           "I Implemented API unit tests with Playwright and BDD (with Gherkin), increasing API reliability and test agility.",
           "I documented API using the Swagger specification and integrated Swagger with the JWT and OAuth2 standards.",
-          "Maintenance and development of new features for government websites using the <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr> stack.",
-          "Maintenance and development of new features for mobile apps using React Native, and API's."
+          "Maintenance and development of new features for government websites using the \
+          <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
+          mobile apps using React Native, and API's.",
         ]
       }
     ]
