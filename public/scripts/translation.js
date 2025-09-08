@@ -32,12 +32,13 @@ const translations = {
         "period": "dez. 2019 - ago. 2021",
         "info": [
           "Atuei no desenvolvimento e manutenção de sites WordPress com a stack \
-            <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
-            além do suporte à usuários em sistemas do Detran <i>(emulador)</i> \
-            e em softwares de e-mail \"Expresso Livre\" e \"Zimbra\", acompanhando e atendendo os chamados através do GLPI. \
-            Obtive uma visão geral do software de monitoramento \"Zabbix\" \
-            e realizei backup de base de dados <abbr title=\"Microsoft SQL Server\">mssql</abbr> \
-            usando o <abbr title=\"Server Management Studio\">SMSS</abbr> e acesso remoto via RDesktop."
+            <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>. \
+          Prestei suporte à usuários em sistemas do Detran <i>(emulador)</i> \
+            e em softwares de gerenciamento de e-mail, acompanhando e atendendo chamados via sistema corporativo. \
+          Obtive uma visão geral do software de monitoramento \"Zabbix\". \
+          Realizei backup de base de dados \
+            <abbr title=\"Microsoft SQL Server\">mssql</abbr> \
+            com o <abbr title=\"Server Management Studio\">SMSS</abbr> via RDesktop."
         ]
       },
       {
@@ -46,24 +47,24 @@ const translations = {
         "info": [
           "(alocado na ARSIN)",
           "Atuei no desenvolvimento e manutenção de mais de 32 sites WordPress com a stack \
-        <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
-        incluindo: \
-          implementação do Composer, o integrando com o Bower e o NPM para gerenciar dependências dos temas, \
-          criação de shortcodes, blocos customizados e \
-          configuração de alguns plugins (ACF, Ninja Forms, entre outros) buscando melhorar a \
-          <abbr title=\"Experiência do Usuário\">UX</abbr>, \
-          melhorias de segurança e webscraping.",
-          "Implementação do Git com Gitea para versionamento do código.",
+          <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
+          incluindo: \
+            implementação do Composer, o integrando com o Bower e o NPM para gerenciar dependências dos temas, \
+            criação de shortcodes, blocos customizados e \
+            configuração de alguns plugins (ACF, Ninja Forms, entre outros) buscando melhorar a \
+            <abbr title=\"Experiência do Usuário\">UX</abbr>, \
+            melhorias de segurança e webscraping.",
+          "Implementação do Git com Gitea para versionamento de código, garantindo rastreabilidade e segurança.",
           "Desenvolvi o app mobile \"Gol da Gente\" com o framework React Native \
-          e disponibilizei em lojas virtuais (Google Play Store [\"hoje\" com mais de 10.000 downloads] e Apple App Store), \
-          utilizando contas de desenvolvedor pré-configuradas. \
+            e disponibilizei em lojas virtuais (Google Play Store [\"hoje\" com mais de 10.000 downloads] e Apple App Store), \
+            utilizando contas de desenvolvedor pré-configuradas. \
           Desenvolvi a API p/ o app com JS/TS e PostgreSQL (pela sua eficiência), \
-          aplicando conceitos como arquitetura MVC, patterns como Middleware e Repository, \
-          e a integrando com a API da SEFAZ-SE, do gov.br (OAuth), do IBGE e com o webservice do ViaCEP <i>(json)</i>. \
+            aplicando conceitos como arquitetura MVC, patterns como Middleware e Repository, \
+            e a integrando com a API da SEFAZ-SE, do gov.br (OAuth), do IBGE e com o webservice do ViaCEP <i>(json)</i>. \
           Realizei o <i>port</i> do app para versão web.",
           "Desenvolvimento de aplicação com Angular, Bootstrap 5, Golang e Docker Compose.",
           "Desenvolvi o app mobile \"SAP - SE\" (Sistema de Administração Penitenciária [SAP] do Estado de Sergipe [SE]) com o framework React Native \
-          utilizando a API do SAP da SEJUC e conceitos como redux, contracts, entre outros. Prototipação com o software Lunacy."
+            utilizando a API do SAP da SEJUC e conceitos como redux, contracts, entre outros. Prototipação com o software Lunacy."
         ]
       },
       {
@@ -71,14 +72,15 @@ const translations = {
         "period": "jan. 2025 - até o momento",
         "info": [
           "Implementação da especificação do TCE, Serigy Schema, em sites governamentais que utilizam o WordPress, \
-          aplicando conceitos como template-pages, metabox, custom post type (CPT) e integrando com o plugin ACF. \
-          Migração de +8.000 dados de fontes variadas com TS, utilizando desde arquivos estruturados como .csv, .json, .xlsx, entre outros, até webscraping, \
-          reduzindo o \"trabalho braçal\" / inserção manual dos dados.",
-          "Implementei testes unitários de API com Playwright e BDD (com Gherkin), aumentando a confiabilidade da API e agilidade nos testes.",
-          "Documentei a API com a especificação Swagger, como também realizei a integração entre o Swagger e os padrões JWT e OAuth2.",
+            aplicando conceitos como template-pages, metabox, custom post type (CPT) e integrando com o plugin ACF. \
+          Migrei com sucesso +8.000 dados de fontes variadas \
+           <i>(arquivos estruturados como .csv, .json, .xlsx, entre outros, até webscraping)</i> com TS, \
+            reduzindo o \"trabalho braçal\" / inserção manual dos dados.",
+          "Implementei testes unitários de API com Playwright e BDD (com Gherkin), aumentando a confiabilidade da API e agilidade nos testes. \
+          Documentei a API com a especificação Swagger, como também realizei a integração entre o Swagger e os padrões JWT e OAuth2.",
           "Manutenção e desenvolvimento de novas funcionalidades para sites governamentais com a stack \
-          <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
-          para apps mobile com React Native, e API's.",
+            <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
+            para apps mobile com React Native, e API's.",
         ]
       }
     ],
@@ -117,12 +119,13 @@ const translations = {
         "period": "dec. 2019 - aug. 2021",
         "info": [
           "I worked on the development and maintenance of WordPress sites using the \
-          <abbr title=\"Linux, Apache2, MariaDB, and PHP\">LAMP</abbr> stack, \
-          as well as providing support to users of Detran systems <i>(emulator)</i> \
-          and email software \"Expresso Livre\" and \"Zimbra\", tracking and attending tickets through GLPI. \
-          I obtained an overview of the monitoring software \"Zabbix\" \
-          and also performed <abbr title=\"Microsoft SQL Server\">mssql</abbr> database backups \
-          using <abbr title=\"Server Management Studio\">SMSS</abbr> and remote access via RDesktop."
+            <abbr title=\"Linux, Apache2, MariaDB, and PHP\">LAMP</abbr> stack.\
+          I provided user support for Detran systems <i>(emulator)</i> \
+            and email management software, tracking and attending tickets via corporate system. \
+          I obtained an overview of the monitoring software \"Zabbix\". \
+          I perfomed \
+            <abbr title=\"Microsoft SQL Server\">mssql</abbr> database backups \
+            with <abbr title=\"Server Management Studio\">SMSS</abbr> via RDesktop."
         ]
       },
       {
@@ -131,23 +134,23 @@ const translations = {
         "info": [
           "(allocated at ARSIN)",
           "I worked on the development and maintenance of over 32 WordPress sites using the \
-          <abbr title=\"Linux, Apache2, MariaDB and PHP\">LAMP</abbr> stack, \
+            <abbr title=\"Linux, Apache2, MariaDB and PHP\">LAMP</abbr> stack, \
           including: \
             implementing Composer and integrating it with Bower and NPM to manage theme dependencies, \
             creating shortcodes, custom blocks and \
             configuring plugins (ACF, Ninja Forms, among others) to improve the <abbr title=\"User Experience\">UX</abbr>, \
             security improvements, and web scraping.",
-          "Git implementation with Gitea for code versioning.",
+          "Git implementation with Gitea for code versioning, ensuring tracking and security.",
           "I developed the \"Gol da Gente\" mobile app using React Native framework \
-          and I deployed in virtual stores (Google Play Store [\"today\" with over 10.000 downloads] and Apple App Store), \
-          using pre-configured developer accounts.\
+            and I deployed in virtual stores (Google Play Store [\"today\" with over 10.000 downloads] and Apple App Store), \
+            using pre-configured developer accounts.\
           I developed the API with JS/TS and PostgreSQL (through its efficience), \
-          applying concepts such as MVC architecture, patterns as Middleware and Repository, \
-          integrating it with the SEFAZ-SE API, gov.br (OAuth), IBGE and the ViaCEP <i>(json)</i>. \
+            applying concepts such as MVC architecture, patterns as Middleware and Repository, \
+            integrating it with the SEFAZ-SE API, gov.br (OAuth), IBGE and the ViaCEP <i>(json)</i>. \
           I perfomed the <i>port</i> of app to the web version.",
           "Development of application with Angular, Bootstrap 5, Golang and Docker Compose.",
           "I developed the mobile app \"SAP - SE\" (Penitentiary Administration System of Sergipe State) with React Native framework \
-          using SEJUC SAP API and concepts as redux, contracts, among others. Prototyping with Lunacy software."
+            using SEJUC SAP API and concepts as redux, contracts, among others. Prototyping with Lunacy software."
         ],
       },
       {
@@ -156,10 +159,10 @@ const translations = {
         "info": [
           "Implementation of the TCE specification, Serigy Schema, on government websites using WordPress, \
           applying concepts such as template-pages, metaboxes, custom post types (CPT), and integrating with the ACF plugin. \
-          Migration over 8.000 data from various sources with TS, using structured files such as .csv, .json, .xlsx, and others, even webscraping, \
+          I migrated successfully over 8.000 data from various sources <i>(structured files such as .csv, .json, .xlsx, and others, even webscraping)</i> with TS, \
           decreasing the \"manual work\" / manual data entry.",
-          "I Implemented API unit tests with Playwright and BDD (with Gherkin), increasing API reliability and test agility.",
-          "I documented API using the Swagger specification and integrated Swagger with the JWT and OAuth2 standards.",
+          "I Implemented API unit tests with Playwright and BDD (with Gherkin), increasing API reliability and test agility. \
+          I documented API using the Swagger specification and integrated Swagger with the JWT and OAuth2 standards.",
           "Maintenance and development of new features for government websites using the \
           <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
           mobile apps using React Native, and API's.",
