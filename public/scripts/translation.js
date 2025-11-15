@@ -6,13 +6,12 @@ const translations = {
     "projects": "Projetos",
     "presentation": "Apresentação",
     "about": [
-      "Graduado em Ciência da Computação e tenho mais de 4 anos de experiência \
-        no setor de TI, com foco no desenvolvimento de API, web & mobile.",
-      "No momento trabalho como dev., desenvolvendo novas funcionalidades para sites de órgãos governamentais, \
-       e apps mobile como o \"Gol da Gente\" (API, Android, iOS e Web), \
-        cujo objetivo é trocar NFe's por ingressos para eventos esportivos.",
-      "Além disso, também tenho familiaridade com Kanban \
-      e posso auxiliar em traduções textuais de Inglês (en) para Português Brasileiro (pt-BR).",
+      "Bacharel em Ciência da Computação e desenvolvedor com mais de 4 anos de experiência nos escopos de APIs, web e mobile.",
+      "Hoje desenvolvo sites com WordPress <i>(LAMP stack)</i>, \
+      sistemas com TypeScript/JavaScript, PHP e Angular, \
+      e apps mobile com React Native <i>(e.g. Gol da Gente)</i> e Kotlin, \
+      desde a prototipagem <i>(utilizando o software open-source Lunacy)</i> até o deploy com o Docker.",
+      "Adicionalmente, possuo experiência com Kanban.",
     ],
     "roles": [
       "Desenvolvedor Full-Stack",
@@ -92,14 +91,12 @@ const translations = {
     "projects": "Projects",
     "presentation": "About",
     "about": [
-      "I'm graduated in Computer Science and I have more than 4 years of experience \
-        in IT sector, mainly in API, web & mobile development.",
-      "I currently work as developer, \
-        developing new features for public authority websites, \
-       and mobile applications such as \"Gol da Gente\" (API, Android, iOS and Web), \
-        whose objective is to exchange NF-e's for sporting events tickets.",
-      "Additionally, I'm also familiar with Kanban\
-        and can help with textual translations from English (en) to Brazilian Portuguese (pt-BR)."
+      "Bachelor in Computer Science and a developer with over 4 years of experience in the scopes of APIs, web, and mobile.",
+      "Currently, I develop websites with WordPress <i>(LAMP stack)</i>, \
+        systems using TypeScript/JavaScript, PHP, and Angular, \
+        and mobile apps with React Native <i>(e.g. Gol da Gente)</i> and Kotlin, \
+        from prototyping <i>(using the open-source software Lunacy)</i> to deployment with Docker.",
+      "Additionally, I have experience with Kanban."
     ],
     "roles": [
       "Full-Stack Developer",
