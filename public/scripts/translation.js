@@ -7,8 +7,8 @@ const translations = {
     "presentation": "Apresentação",
     "about": [
       "Bacharel em Ciência da Computação e desenvolvedor com mais de 4 anos de experiência nos escopos de APIs, web e mobile.",
-      "Hoje desenvolvo sites com WordPress <i>(LAMP stack)</i>, \
-      sistemas com TypeScript/JavaScript, PHP e Angular, \
+      "No momento atual, desenvolvo sites com WordPress <i>(LAMP stack)</i>, \
+      sistemas com TypeScript, Java (ou PHP) e Angular, \
       e apps mobile com React Native <i>(e.g. Gol da Gente)</i> e Kotlin, \
       desde a prototipagem <i>(utilizando o software open-source Lunacy)</i> até o deploy com o Docker.",
       "Adicionalmente, possuo experiência com Kanban.",
@@ -70,10 +70,10 @@ const translations = {
         "title": "Analista de Sistemas, ZDoc.",
         "period": "jan. 2025 - até o momento",
         "info": [
-          "Implementação da especificação do TCE, Serigy Schema, em sites governamentais que utilizam o WordPress, \
+          "Atuei na implementação da especificação do TCE, Serigy Schema, em sites governamentais que utilizam o WordPress, \
             aplicando conceitos como template-pages, metabox, custom post type (CPT) e integrando com o plugin ACF. \
-          Migrei com sucesso +8.000 dados de fontes variadas \
-           <i>(arquivos estruturados como .csv, .json, .xlsx, entre outros, até webscraping)</i> com TS, \
+          Adicionalmente, migrei +8.000 dados de fontes variadas \
+           <i>(desde arquivos estruturados como .csv, .json, .xlsx, entre outros, até webscraping)</i> com TypeScript, \
             reduzindo o \"trabalho braçal\" / inserção manual dos dados.",
           "Implementei testes unitários de API com Playwright e BDD (com Gherkin), aumentando a confiabilidade da API e agilidade nos testes. \
           Documentei a API com a especificação Swagger, como também realizei a integração entre o Swagger e os padrões JWT e OAuth2.",
@@ -93,7 +93,7 @@ const translations = {
     "about": [
       "Bachelor in Computer Science and a developer with over 4 years of experience in the scopes of APIs, web, and mobile.",
       "Currently, I develop websites with WordPress <i>(LAMP stack)</i>, \
-        systems using TypeScript/JavaScript, PHP, and Angular, \
+        systems using TypeScript, Java (or PHP) and Angular, \
         and mobile apps with React Native <i>(e.g. Gol da Gente)</i> and Kotlin, \
         from prototyping <i>(using the open-source software Lunacy)</i> to deployment with Docker.",
       "Additionally, I have experience with Kanban."
@@ -154,9 +154,9 @@ const translations = {
         "title": "Systems Analyst, ZDoc.",
         "period": "jan. 2025 - until now",
         "info": [
-          "Implementation of the TCE specification, Serigy Schema, on government websites using WordPress, \
+          "I worked on implementation of the TCE specification, Serigy Schema, on government websites using WordPress, \
           applying concepts such as template-pages, metaboxes, custom post types (CPT), and integrating with the ACF plugin. \
-          I migrated successfully over 8.000 data from various sources <i>(structured files such as .csv, .json, .xlsx, and others, even webscraping)</i> with TS, \
+          Additionally, I migrated over 8.000 data from various sources <i>(structured files such as .csv, .json, .xlsx, and others, even webscraping)</i> with TS, \
           decreasing the \"manual work\" / manual data entry.",
           "I Implemented API unit tests with Playwright and BDD (with Gherkin), increasing API reliability and test agility. \
           I documented API using the Swagger specification and integrated Swagger with the JWT and OAuth2 standards.",
