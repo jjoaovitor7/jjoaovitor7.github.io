@@ -44,7 +44,7 @@ const translations = {
         "title": "Desenvolvedor Full-Stack, EMGETIS.",
         "period": "ago. 2021 - jan. 2025 ",
         "info": [
-          "(alocado na ARSIN)",
+          "(alocado na ARSIN - Área de Sistemas e Informações)",
           "Atuei no desenvolvimento e manutenção de mais de 32 sites WordPress com a stack \
           <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
           incluindo: \
@@ -53,7 +53,7 @@ const translations = {
             configuração de alguns plugins (ACF, Ninja Forms, entre outros) buscando melhorar a \
             <abbr title=\"Experiência do Usuário\">UX</abbr>, \
             melhorias de segurança e webscraping.",
-          "Implementação do Git com Gitea para versionamento de código, garantindo rastreabilidade e segurança.",
+          "Implementei o Git com Gitea para versionamento de código, garantindo rastreabilidade e segurança.",
           "Desenvolvi o app mobile \"Gol da Gente\" com o framework React Native \
             e disponibilizei em lojas virtuais (Google Play Store [\"hoje\" com mais de 10.000 downloads] e Apple App Store), \
             utilizando contas de desenvolvedor pré-configuradas. \
@@ -75,11 +75,12 @@ const translations = {
           Adicionalmente, migrei +8.000 dados de fontes variadas \
            <i>(desde arquivos estruturados como .csv, .json, .xlsx, entre outros, até webscraping)</i> com TypeScript, \
             reduzindo o \"trabalho braçal\" / inserção manual dos dados.",
-          "Implementei testes unitários de API com Playwright e BDD (com Gherkin), aumentando a confiabilidade da API e agilidade nos testes. \
+          "Implementei testes funcionais de API com Playwright e BDD (com Gherkin), aumentando a confiabilidade da API e agilidade nos testes. \
           Documentei a API com a especificação Swagger, como também realizei a integração entre o Swagger e os padrões JWT e OAuth2.",
           "Manutenção e desenvolvimento de novas funcionalidades para sites governamentais com a stack \
             <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
             para apps mobile com React Native, e API's.",
+          "Refatorei código Java para Kotlin, seguindo recomendação oficial do React Native 0.73+."
         ]
       }
     ],
@@ -129,7 +130,7 @@ const translations = {
         "title": "Full-Stack Developer, EMGETIS.",
         "period": "aug. 2021 - jan. 2025",
         "info": [
-          "(allocated at ARSIN)",
+          "(allocated at ARSIN - Systems and Information Sector)",
           "I worked on the development and maintenance of over 32 WordPress sites using the \
             <abbr title=\"Linux, Apache2, MariaDB and PHP\">LAMP</abbr> stack, \
           including: \
@@ -137,7 +138,7 @@ const translations = {
             creating shortcodes, custom blocks and \
             configuring plugins (ACF, Ninja Forms, among others) to improve the <abbr title=\"User Experience\">UX</abbr>, \
             security improvements, and web scraping.",
-          "Git implementation with Gitea for code versioning, ensuring tracking and security.",
+          "I implemented Git with Gitea for code versioning, ensuring tracking and security.",
           "I developed the \"Gol da Gente\" mobile app using React Native framework \
             and I deployed in virtual stores (Google Play Store [\"today\" with over 10.000 downloads] and Apple App Store), \
             using pre-configured developer accounts.\
@@ -158,11 +159,12 @@ const translations = {
           applying concepts such as template-pages, metaboxes, custom post types (CPT), and integrating with the ACF plugin. \
           Additionally, I migrated over 8.000 data from various sources <i>(structured files such as .csv, .json, .xlsx, and others, even webscraping)</i> with TS, \
           decreasing the \"manual work\" / manual data entry.",
-          "I Implemented API unit tests with Playwright and BDD (with Gherkin), increasing API reliability and test agility. \
+          "I Implemented API functional tests with Playwright and BDD (with Gherkin), increasing API reliability and test agility. \
           I documented API using the Swagger specification and integrated Swagger with the JWT and OAuth2 standards.",
           "Maintenance and development of new features for government websites using the \
           <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
           mobile apps using React Native, and API's.",
+          "Refactored Java code to Kotlin, following the official React Native 0.73+ recommendation."
         ]
       }
     ]
