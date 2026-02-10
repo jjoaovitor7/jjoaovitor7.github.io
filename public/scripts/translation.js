@@ -76,7 +76,8 @@ const translations = {
            <i>(desde arquivos estruturados como .csv, .json, .xlsx, entre outros, até webscraping)</i> com TypeScript, \
             reduzindo o \"trabalho braçal\" / inserção manual dos dados.",
           "Implementei testes funcionais de API com Playwright e BDD (com Gherkin), aumentando a confiabilidade da API e agilidade nos testes. \
-          Documentei a API com a especificação Swagger, como também realizei a integração entre o Swagger e os padrões JWT e OAuth2.",
+          Documentei a API com a especificação Swagger, como também realizei a integração entre o Swagger e os padrões JWT e OAuth2. \
+          Implementei paginação em rotas de API, otimizando o desempenho, melhorando a experiência do usuário (UX) e reduzindo o overhead das requisições.",
           "Manutenção e desenvolvimento de novas funcionalidades para sites governamentais com a stack \
             <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
             para apps mobile com React Native, e API's.",
@@ -164,7 +165,8 @@ const translations = {
           "Maintenance and development of new features for government websites using the \
           <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
           mobile apps using React Native, and API's.",
-          "Refactored Java code to Kotlin, following the official React Native 0.73+ recommendation."
+          "I refactored Java code to Kotlin, following the official React Native 0.73+ recommendation.",
+          "I implemented pagination in API routes, optimizing performance, improving user experience (UX) and reducing request overhead."
         ]
       }
     ]
