@@ -142,14 +142,24 @@
 
       <section id="education" class="fading l-container text-white">
         <h2 class="display-4 fw-semibold mb-4">
-          {{ translations.education }}
+          {{ translations.education }}   
         </h2>
-        <h4>
-          {{ translations.educations[0].title }}
-        </h4>
-        <small>
-          {{ translations.educations[0].period }}
-        </small>
+        <div class="mt-4 mb-5">
+         <h4>
+            {{ translations.educations[0].title }}
+          </h4>
+          <small>
+            {{ translations.educations[0].period }}
+          </small>
+        </div>
+        <div>
+          <h4>
+            {{ translations.educations[1].title }}
+          </h4>
+          <small>
+            {{ translations.educations[1].period }}
+          </small>
+        </div>
       </section>
 
       <section id="work" class="fading l-container text-white">
@@ -173,9 +183,6 @@
               </li>
               <li>
                 {{ translations.works[2].info[2] }}
-              </li>
-              <li>
-                {{ translations.works[2].info[3] }}
               </li>
             </ul>
           </details>
@@ -233,7 +240,6 @@
         </h4>
 
         <div class="l-portfolio justify-content-center">
-          <!--ignore-->
           <card-project url="https://npmjs.com/package/discord-jokenpo"
             name="discord-jokenpo"
             stack="JavaScript <br />(Node.js)">
@@ -278,7 +284,6 @@
             name="SAP - SE"
             stack="React Native (Android)">
         </card-project>
-          <!--ignore-->
         </div>
       </section>
     </section>

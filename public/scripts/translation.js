@@ -23,7 +23,12 @@ const translations = {
       {
         "title": "Bacharelado em Ciência da Computação pela Universidade Tiradentes - UNIT.",
         "period": "jan. 2018 - ago. 2023",
+      },
+      {
+        "title": "Pós-graduação em Engenharia de Software - FACULESTE.",
+        "period": "jan. 2026 - até o momento",
       }
+
     ],
     "works": [
       {
@@ -108,9 +113,13 @@ const translations = {
     ],
     "educations": [
       {
-        "title": "Bachelor's degree in Computer Science from Tiradentes University - UNIT",
+        "title": "Bachelor's degree in Computer Science from Tiradentes University - UNIT.",
         "period": "jan. 2018 - aug. 2023",
-      }
+      },
+      {
+        "title": "PostGraduate in Software Engineering - FACULESTE.",
+        "period": "jan. 2026 - until now",
+      },
     ],
     "works": [
       {
@@ -164,9 +173,8 @@ const translations = {
           I documented API using the Swagger specification and integrated Swagger with the JWT and OAuth2 standards.",
           "Maintenance and development of new features for government websites using the \
           <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
-          mobile apps using React Native, and API's.",
-          "I refactored Java code to Kotlin, following the official React Native 0.73+ recommendation.",
-          "I implemented pagination in API routes, optimizing performance, improving user experience (UX) and reducing request overhead."
+          mobile apps using React Native, and API's. I implemented pagination in API routes, optimizing performance, improving user experience (UX) and reducing request overhead.",
+          "I refactored Java code to Kotlin, following the official React Native 0.73+ recommendation."
         ]
       }
     ]
