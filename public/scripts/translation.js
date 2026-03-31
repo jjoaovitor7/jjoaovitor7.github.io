@@ -6,12 +6,11 @@ const translations = {
     "projects": "Projetos",
     "presentation": "Apresentação",
     "about": [
-      "Bacharel em Ciência da Computação e desenvolvedor com mais de 4 anos de experiência nos escopos de APIs, web e mobile.",
-      "No momento atual, desenvolvo sites com WordPress <i>(LAMP stack)</i>, \
-      sistemas com TypeScript, Java (ou PHP) e Angular, \
-      e apps mobile com React Native <i>(e.g. Gol da Gente)</i> e Kotlin, \
-      desde a prototipagem <i>(utilizando o software open-source Lunacy)</i> até o deploy com o Docker.",
-      "Adicionalmente, possuo experiência com Kanban.",
+      "Bacharel em Ciência da Computação e desenvolvedor com mais de 4 anos de experiência nos escopos de mobile, APIs e web.",
+      "Atuo principalmente com React Native e Kotlin no desenvolvimento mobile, desde a prototipagem até a publicação do app. \
+      No escopo web, atuo com Angular, TypeScript e React, enquanto no back-end atuo com Go, além de TS, Java e PHP, em conjunto com PostgreSQL, MariaDB e Apache.",
+      "Tenho vivência em todo o ciclo de desenvolvimento, desde a prototipação (com ferramentas como Lunacy) até o deploy e containerização com Docker.",
+      "Adicionalmente, possuo experiência com Kanban, contribuindo para organização e eficiência no fluxo de desenvolvimento."
     ],
     "roles": [
       "Desenvolvedor Full-Stack",
@@ -98,12 +97,11 @@ const translations = {
     "projects": "Projects",
     "presentation": "About",
     "about": [
-      "Bachelor in Computer Science and a developer with over 4 years of experience in the scopes of APIs, web, and mobile.",
-      "Currently, I develop websites with WordPress <i>(LAMP stack)</i>, \
-        systems using TypeScript, Java (or PHP) and Angular, \
-        and mobile apps with React Native <i>(e.g. Gol da Gente)</i> and Kotlin, \
-        from prototyping <i>(using the open-source software Lunacy)</i> to deployment with Docker.",
-      "Additionally, I have experience with Kanban."
+      "Bachelor’s degree in Computer Science and developer with over 4 years of experience in mobile, APIs, and web scopes.",
+      "I primarily work with React Native and Kotlin for mobile development, covering everything from prototyping to app publication. \
+      On the web side, I work with Angular, TypeScript, and React, while on the back-end I work with Go, as well as TS, Java and PHP, alongside PostgreSQL, MariaDB and Apache.",
+      "I have experience across the entire development lifecycle, from prototyping (using tools like Lunacy) to deployment and containerization with Docker.",
+      "Additionally, I have experience with Kanban, contributing to a more organized and efficient development workflow."
     ],
     "roles": [
       "Full-Stack Developer",

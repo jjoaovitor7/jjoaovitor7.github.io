@@ -1,298 +1,311 @@
-<!DOCTYPE html>
+<!doctype html>
 <html dir="ltr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="author" content="jjoaovitor7" />
-  <meta name="description" content="jjoaovitor7." />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="robots" content="all" />
-  <meta http-equiv="cache-control" content="no-cache" />
-  <meta property="og:locale" content="pt_BR" />
-  <meta property="og:site_name" content="jjoaovitor7" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://jjoaovitor7.github.io/public/assets/favicon/favicon-32x32.png" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="jjoaovitor7" />
+    <meta name="description" content="jjoaovitor7." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="all" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="jjoaovitor7" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://jjoaovitor7.github.io/public/assets/favicon/favicon-32x32.png"
+    />
 
-  <link rel="stylesheet" type="text/css" href="./public/styles/main.css" />
-  <link rel="shortcut icon" type="image/png" href="./public/assets/favicon/favicon-32x32.png" />
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="https://jjoaovitor7.github.io/sitemap.xml">
+    <link rel="stylesheet" type="text/css" href="./public/styles/main.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./public/assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="sitemap"
+      type="application/xml"
+      title="Sitemap"
+      href="https://jjoaovitor7.github.io/sitemap.xml"
+    />
 
-  <link rel="stylesheet" href="./public/components/bootstrap/dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="./public/components/fontawesome/css/all.min.css" />
-  <link rel="stylesheet" href="./public/components/node_modules/bootstrap-icons/font/bootstrap-icons.min.css" />
+    <link
+      rel="stylesheet"
+      href="./public/components/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./public/components/fontawesome/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./public/components/node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+    />
 
-  <title>jjoaovitor7</title>
-</head>
+    <title>jjoaovitor7</title>
+  </head>
 
-<body>
-  <div id="container-loader"
-    class="bg-dark position-fixed d-flex justify-content-center align-items-center h-100 w-100">
-    <div class="loader"></div>
-  </div>
+  <body>
+    <div
+      id="container-loader"
+      class="bg-dark position-fixed d-flex justify-content-center align-items-center h-100 w-100"
+    >
+      <div class="loader"></div>
+    </div>
 
-  <aside id="nav-main">
-    <nav class="navbar w-100 h-100 navbar-expand-lg position-relative">
-      <div class="container-fluid flex-column justify-content-center align-self-start text-center py-4">
-
-        <div class="my-2">
-          <h4 id="title-name">
-            João Vítor Silva Ferreira
-          </h4>
-          <h4 id="title-role">
-            {{ translations.roles[0] }}
-          </h4>
-        </div>
-
-        <button type="button" class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#navbar-main"
-          aria-controls="navbar-main" aria-expanded="false" aria-label="Alternar navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-column" id="navbar-main">
-          <ul class="navbar-nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link active my-2" href="#about">
-                {{ translations.index }}
-              </a>
-            </li>
-            <li class="nav-item my-2">
-              <a class="nav-link" href="#education">
-                {{ translation.education }}
-              </a>
-            </li>
-            <li class="nav-item my-2">
-              <a class="nav-link" href="#work">
-                {{ translations.work }}
-              </a>
-            </li>
-            <li class="nav-item my-2">
-              <a class="nav-link" href="#projects">
-                {{ translations.projects }}
-              </a>
-            </li>
-          </ul>
-
-          <footer id="l-footer"
-            class="w-100 d-flex justify-content-center align-items-center position-absolute-md bottom-0 flex-column">
-            <div id="l-footer__social-media">
-              <a rel="noopener noreferrer" title="LinkedIn" target="_blank"
-                href="https://br.linkedin.com/in/jjoaovitor7">
-                <i class="fab fa-linkedin"></i>
-              </a>
-
-              <a rel="noopener noreferrer" title="GitHub" target="_blank" href="https://github.com/jjoaovitor7">
-                <i class="fab fa-square-github text-white"></i>
-              </a>
-            </div>
-
-            <p id="l-footer__page-author" class="shadow-blue text-white">
-              jjoaovitor7
-            </p>
-          </footer>
-        </div>
-      </div>
-    </nav>
-  </aside>
-
-  <main id="main">
-    <section id="content" class="d-flex flex-column align-items-center w-100 mx-2">
-      <section id="about" class="fading active l-container text-white">
-        <h2 class="display-4 fw-semibold mb-4">
-          {{ translations.presentation }}
-        </h2>
-        <p class="my-4">
-          {{ translations.about[0] }}
-        </p>
-        <p class="my-4">
-          {{ translations.about[1] }}
-        </p>
-        <p class="my-4">
-          {{ translations.about[2] }}
-        </p>
-
-        <div id="roles" class="row my-4">
-          <div class="block-col col-md-3 my-2">
-            <div class="block">
-              <i class="d-block bi bi-code"></i>
-              {{ translations.roles[0] }}
-            </div>
+    <aside id="nav-main">
+      <nav class="navbar w-100 h-100 navbar-expand-lg position-relative">
+        <div
+          class="container-fluid flex-column justify-content-center align-self-start text-center py-4"
+        >
+          <div class="my-2">
+            <h4 id="title-name">João Vítor Silva Ferreira</h4>
+            <h4 id="title-role">{{ translations.roles[0] }}</h4>
           </div>
-          <div class="block-col col-md-3 my-2">
-            <div class="block">
-              <i class="d-block bi bi-code"></i>
-              {{ translations.roles[1] }}
-            </div>
-          </div>
-          <div class="block-col col-md-3 my-2">
-            <div class="block">
-              <i class="d-block bi bi-code"></i>
-              {{ translations.roles[2] }}
-            </div>
-          </div>
-          <div class="block-col col-md-3 my-2">
-            <div class="block">
-              <i class="d-block bi bi-translate"></i>
-              {{ translations.roles[3] }}
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section id="education" class="fading l-container text-white">
-        <h2 class="display-4 fw-semibold mb-4">
-          {{ translations.education }}   
-        </h2>
-        <div class="mt-4 mb-5">
-         <h4>
-            {{ translations.educations[0].title }}
-          </h4>
-          <small>
-            {{ translations.educations[0].period }}
-          </small>
-        </div>
-        <div>
-          <h4>
-            {{ translations.educations[1].title }}
-          </h4>
-          <small>
-            {{ translations.educations[1].period }}
-          </small>
-        </div>
-      </section>
-
-      <section id="work" class="fading l-container text-white">
-        <h2 class="display-4 fw-semibold mb-4">
-          {{ translations.work}}
-        </h2>
-        <div class="mt-4 mb-5">
-          <h4>
-            {{ translations.works[2].title }}
-          </h4>
-          <small>
-            {{ translations.works[2].period }}
-          </small>
-          <details>
-            <ul>
-              <li>
-                {{ translations.works[2].info[0] }}
+          <button
+            type="button"
+            class="navbar-toggler bg-light"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-main"
+            aria-controls="navbar-main"
+            aria-expanded="false"
+            aria-label="Alternar navegação"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-column" id="navbar-main">
+            <ul class="navbar-nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active my-2" href="#about">
+                  {{ translations.index }}
+                </a>
               </li>
-              <li>
-                {{ translations.works[2].info[1] }}
+              <li class="nav-item my-2">
+                <a class="nav-link" href="#education">
+                  {{ translation.education }}
+                </a>
               </li>
-              <li>
-                {{ translations.works[2].info[2] }}
+              <li class="nav-item my-2">
+                <a class="nav-link" href="#work"> {{ translations.work }} </a>
+              </li>
+              <li class="nav-item my-2">
+                <a class="nav-link" href="#projects">
+                  {{ translations.projects }}
+                </a>
               </li>
             </ul>
-          </details>
-        </div>
-        <div class="my-5">
-          <h4>
-            {{ translations.works[1].title }}
-          </h4>
-          <small>
-            {{ translations.works[1].period }}
-          </small>
-          <details>
-            <ul>
-              <p>
-                {{ translations.works[1].info[0] }}
+
+            <footer
+              id="l-footer"
+              class="w-100 d-flex justify-content-center align-items-center position-absolute-md bottom-0 flex-column"
+            >
+              <div id="l-footer__social-media">
+                <a
+                  rel="noopener noreferrer"
+                  title="LinkedIn"
+                  target="_blank"
+                  href="https://br.linkedin.com/in/jjoaovitor7"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a
+                  rel="noopener noreferrer"
+                  title="GitHub"
+                  target="_blank"
+                  href="https://github.com/jjoaovitor7"
+                >
+                  <i class="fab fa-square-github text-white"></i>
+                </a>
+              </div>
+
+              <p id="l-footer__page-author" class="shadow-blue text-white">
+                jjoaovitor7
               </p>
-              <li>
-                {{ translations.works[1].info[1] }}
-              </li>
-              <li>
-                {{ translations.works[1].info[2] }}
-              </li>
-              <li>
-                {{ translations.works[1].info[3] }}
-              </li>
-              <li>
-                {{ translations.works[1].info[4] }}
-              </li>
-              <li>
-                {{ translations.works[1].info[5] }}
-              </li>
-            </ul>
-          </details>
+            </footer>
+          </div>
         </div>
-        <div class="mt-4 mb-5">
-          <h4>
-            {{ translations.works[0].title }}
+      </nav>
+    </aside>
+
+    <main id="main">
+      <section
+        id="content"
+        class="d-flex flex-column align-items-center w-100 mx-2"
+      >
+        <section id="about" class="fading active l-container text-white">
+          <h2 class="display-4 fw-semibold mb-4">
+            {{ translations.presentation }}
+          </h2>
+          <p class="my-4">{{ translations.about[0] }}</p>
+          <p class="my-4">{{ translations.about[1] }}</p>
+          <p class="my-4">{{ translations.about[2] }}</p>
+          <p class="my-4">{{ translations.about[3] }}</p>
+
+          <div id="roles" class="row my-4">
+            <div class="block-col col-md-3 my-2">
+              <div class="block">
+                <i class="d-block bi bi-code"></i>
+                {{ translations.roles[0] }}
+              </div>
+            </div>
+            <div class="block-col col-md-3 my-2">
+              <div class="block">
+                <i class="d-block bi bi-code"></i>
+                {{ translations.roles[1] }}
+              </div>
+            </div>
+            <div class="block-col col-md-3 my-2">
+              <div class="block">
+                <i class="d-block bi bi-code"></i>
+                {{ translations.roles[2] }}
+              </div>
+            </div>
+            <div class="block-col col-md-3 my-2">
+              <div class="block">
+                <i class="d-block bi bi-translate"></i>
+                {{ translations.roles[3] }}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="education" class="fading l-container text-white">
+          <h2 class="display-4 fw-semibold mb-4">
+            {{ translations.education }}
+          </h2>
+          <div class="mt-4 mb-5">
+            <h4>{{ translations.educations[0].title }}</h4>
+            <small> {{ translations.educations[0].period }} </small>
+          </div>
+          <div>
+            <h4>{{ translations.educations[1].title }}</h4>
+            <small> {{ translations.educations[1].period }} </small>
+          </div>
+        </section>
+
+        <section id="work" class="fading l-container text-white">
+          <h2 class="display-4 fw-semibold mb-4">{{ translations.work}}</h2>
+          <div class="mt-4 mb-5">
+            <h4>{{ translations.works[2].title }}</h4>
+            <small> {{ translations.works[2].period }} </small>
+            <details>
+              <ul>
+                <li>{{ translations.works[2].info[0] }}</li>
+                <li>{{ translations.works[2].info[1] }}</li>
+                <li>{{ translations.works[2].info[2] }}</li>
+              </ul>
+            </details>
+          </div>
+          <div class="my-5">
+            <h4>{{ translations.works[1].title }}</h4>
+            <small> {{ translations.works[1].period }} </small>
+            <details>
+              <ul>
+                <p>{{ translations.works[1].info[0] }}</p>
+                <li>{{ translations.works[1].info[1] }}</li>
+                <li>{{ translations.works[1].info[2] }}</li>
+                <li>{{ translations.works[1].info[3] }}</li>
+                <li>{{ translations.works[1].info[4] }}</li>
+                <li>{{ translations.works[1].info[5] }}</li>
+              </ul>
+            </details>
+          </div>
+          <div class="mt-4 mb-5">
+            <h4>{{ translations.works[0].title }}</h4>
+            <small> {{ translations.works[0].period }} </small>
+            <details>
+              <ul>
+                <li>{{ translations.works[0].info[0] }}</li>
+              </ul>
+            </details>
+          </div>
+        </section>
+
+        <section id="projects" class="fading l-container text-white">
+          <h4 class="display-4 fw-semibold mb-4">
+            {{ translations.projects }}
           </h4>
-          <small>
-            {{ translations.works[0].period }}
-          </small>
-          <details>
-            <ul>
-              <li>
-                {{ translations.works[0].info[0] }}
-              </li>
-            </ul>
-          </details>
-        </div>
+
+          <div class="l-portfolio justify-content-center">
+            <card-project
+              url="https://npmjs.com/package/discord-jokenpo"
+              name="discord-jokenpo"
+              stack="JavaScript <br />(Node.js)"
+            >
+            </card-project>
+
+            <card-project
+              url="https://github.com/jjoaovitor7/jjao-bot"
+              name="jjao-bot"
+              stack="JavaScript <br />(Node.js) <br />Firebase"
+            >
+            </card-project>
+
+            <card-project
+              url="https://goldagente.se.gov.br"
+              name="Gol da Gente"
+              stack="React Native <br />(Android & iOS) <br />(Web)"
+            >
+            </card-project>
+
+            <card-project
+              url="https://github.com/jjoaovitor7/HourWarning"
+              name="HourWarning"
+              stack="C# <br />(GTK#)"
+            >
+            </card-project>
+
+            <card-project
+              url="https://jjoaovitor7.github.io/map-sergipe"
+              name="map-sergipe"
+              stack="HTML, CSS, JavaScript"
+            >
+            </card-project>
+
+            <card-project
+              url="https://jjoaovitor7.github.io/DodgeGame"
+              name="DodgeGame"
+              stack="HTML, CSS, JavaScript"
+            >
+            </card-project>
+
+            <card-project
+              url="https://jjoaovitor7.github.io/Piano"
+              name="Piano"
+              stack="HTML, CSS, JavaScript"
+            >
+            </card-project>
+
+            <card-project
+              url="https://jjoaovitor7.github.io/TreeGenerator"
+              name="Tree Generator"
+              stack="HTML, CSS, JavaScript"
+            >
+            </card-project>
+
+            <card-project
+              url="https://play.google.com/store/apps/details?id=br.emgetis.sapse"
+              name="SAP - SE"
+              stack="React Native (Android)"
+            >
+            </card-project>
+          </div>
+        </section>
       </section>
+    </main>
 
-      <section id="projects" class="fading l-container text-white">
-        <h4 class="display-4 fw-semibold mb-4">
-          {{ translations.projects }}
-        </h4>
-
-        <div class="l-portfolio justify-content-center">
-          <card-project url="https://npmjs.com/package/discord-jokenpo"
-            name="discord-jokenpo"
-            stack="JavaScript <br />(Node.js)">
-          </card-project>
-
-          <card-project url="https://github.com/jjoaovitor7/jjao-bot"
-            name="jjao-bot"
-            stack="JavaScript <br />(Node.js) <br />Firebase">
-          </card-project>
-
-          <card-project url="https://goldagente.se.gov.br"
-            name="Gol da Gente"
-            stack="React Native <br />(Android & iOS) <br />(Web)">
-          </card-project>
-
-          <card-project url="https://github.com/jjoaovitor7/HourWarning"
-            name="HourWarning"
-            stack="C# <br />(GTK#)">
-          </card-project>
-
-          <card-project url="https://jjoaovitor7.github.io/map-sergipe"
-            name="map-sergipe"
-            stack="HTML, CSS, JavaScript">
-          </card-project>
-
-          <card-project url="https://jjoaovitor7.github.io/DodgeGame"
-            name="DodgeGame"
-            stack="HTML, CSS, JavaScript">
-          </card-project>
-
-          <card-project url="https://jjoaovitor7.github.io/Piano"
-            name="Piano"
-            stack="HTML, CSS, JavaScript">
-          </card-project>
-
-          <card-project url="https://jjoaovitor7.github.io/TreeGenerator"
-            name="Tree Generator"
-            stack="HTML, CSS, JavaScript">
-          </card-project>
-
-          <card-project url="https://play.google.com/store/apps/details?id=br.emgetis.sapse"
-            name="SAP - SE"
-            stack="React Native (Android)">
-        </card-project>
-        </div>
-      </section>
-    </section>
-  </main>
-
-  <script src="./public/components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="./public/components/particles.js/particles.min.js"></script>
-  <script src="./public/scripts/CardProject.js"></script>
-  <script src="./public/scripts/main.js"></script>
-  <script src="./public/scripts/translation.js"></script>
-</body>
+    <script src="./public/components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./public/components/particles.js/particles.min.js"></script>
+    <script src="./public/scripts/CardProject.js"></script>
+    <script src="./public/scripts/main.js"></script>
+    <script src="./public/scripts/translation.js"></script>
+  </body>
 </html>
