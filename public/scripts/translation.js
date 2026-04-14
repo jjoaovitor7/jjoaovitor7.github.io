@@ -58,16 +58,13 @@ const translations = {
             <abbr title=\"Experiência do Usuário\">UX</abbr>, \
             melhorias de segurança e webscraping.",
           "Implementei o Git com Gitea para versionamento de código, garantindo rastreabilidade e segurança.",
-          "Desenvolvi o app mobile \"Gol da Gente\" com o framework React Native \
-            e disponibilizei em lojas virtuais (Google Play Store [\"hoje\" com mais de 10.000 downloads] e Apple App Store), \
-            utilizando contas de desenvolvedor pré-configuradas. \
-          Desenvolvi a API p/ o app com JS/TS e PostgreSQL (pela sua eficiência), \
-            aplicando conceitos como arquitetura MVC, patterns como Middleware e Repository, \
-            e a integrando com a API da SEFAZ-SE, do gov.br (OAuth), do IBGE e com o webservice do ViaCEP <i>(json)</i>. \
-          Realizei o <i>port</i> do app para versão web.",
+          "Desenvolvi o app mobile \"Gol da Gente\" com o framework React Native e o publiquei na Google Play Store, alcançando mais de 10.000 downloads, e na Apple App Store, utilizando contas de desenvolvedor pré-configuradas. \
+           Desenvolvi a API com JS/TS e PostgreSQL (pela sua eficiência), adotando arquitetura MVC e patterns como Middleware e Repository. \
+           Integrei a API com a API da SEFAZ/SE, ao SSO do gov.br via OAuth, ao IBGE e ao webservice do ViaCEP (JSON), garantindo maior automação e confiabiliade dos dados. \
+           Realizei o <i>port</i> do app para versão web.",
           "Desenvolvimento de aplicação com Angular, Bootstrap 5, Golang e Docker Compose.",
-          "Desenvolvi o app mobile \"SAP - SE\" (Sistema de Administração Penitenciária [SAP] do Estado de Sergipe [SE]) com o framework React Native \
-            utilizando a API do SAP da SEJUC e conceitos como redux, contracts, entre outros. Prototipação com o software Lunacy."
+          "Desenvolvi o app mobile para o Sistema de Administração Penitenciária do Estado de Sergipe com o framework React Native, Redux e a API do SAP da SEJUC/SE. \
+           Prototipação com o software open-source Lunacy."
         ]
       },
       {
@@ -147,16 +144,13 @@ const translations = {
             configuring plugins (ACF, Ninja Forms, among others) to improve the <abbr title=\"User Experience\">UX</abbr>, \
             security improvements, and web scraping.",
           "I implemented Git with Gitea for code versioning, ensuring tracking and security.",
-          "I developed the \"Gol da Gente\" mobile app using React Native framework \
-            and I deployed in virtual stores (Google Play Store [\"today\" with over 10.000 downloads] and Apple App Store), \
-            using pre-configured developer accounts.\
-          I developed the API with JS/TS and PostgreSQL (through its efficience), \
-            applying concepts such as MVC architecture, patterns as Middleware and Repository, \
-            integrating it with the SEFAZ-SE API, gov.br (OAuth), IBGE and the ViaCEP <i>(json)</i>. \
-          I perfomed the <i>port</i> of app to the web version.",
-          "Development of application with Angular, Bootstrap 5, Golang and Docker Compose.",
-          "I developed the mobile app \"SAP - SE\" (Penitentiary Administration System of Sergipe State) with React Native framework \
-            using SEJUC SAP API and concepts as redux, contracts, among others. Prototyping with Lunacy software."
+          "I developed the mobile app \"Gol da Gente\" with React Native framework and published it on the Google Play Store, surpassing 10.000 downloads, as well as on the Apple App Store, using pre-configured developer accounts. \
+           I developed the API with JS/TS and PostgreSQL (for its efficiency), adopting MVC architecture and patterns such as Middleware and Repository. \
+           Integrated the API with the SEFAZ/SE API, gov.br SSO via OAuth, IBGE, and the ViaCEP webservice (JSON), ensuring greater data automation and reliability. \
+           Ported the app to a web version.",
+          "Application development with Angular, Bootstrap 5, Golang and Docker Compose.",
+          "I developed the mobile app for Penitentiary Administration System of Sergipe State with React Native framework, Redux and SEJUC/SE SAP API. \
+          Prototyping with Lunacy open-source software."
         ],
       },
       {
