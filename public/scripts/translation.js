@@ -13,7 +13,7 @@ const translations = {
       "Adicionalmente, possuo experiência com Kanban, contribuindo para organização e eficiência no fluxo de desenvolvimento."
     ],
     "roles": [
-      "Desenvolvedor Full-Stack",
+      "Desenvolvedor",
       "Desenvolvedor Web",
       "Desenvolvedor Mobile",
       "Tradutor"
@@ -101,7 +101,7 @@ const translations = {
       "Additionally, I have experience with Kanban, contributing to a more organized and efficient development workflow."
     ],
     "roles": [
-      "Full-Stack Developer",
+      "Developer",
       "Web Developer",
       "Mobile Developer",
       "Translator"
@@ -180,40 +180,20 @@ if (!["en", "pt-br"].includes(userLang)) {
 }
 document.documentElement.lang = userLang;
 
-const extractIndex = (str) => {
-  const match = str.match(/\[([^\]]+)\]/);
-  return match ? parseInt(match[1]) : null;
-};
-
-const removeIndex = (str) => str.replace(/\[.*?\]/g, '');
-
 function NativeTemplate() {
-  const htmlContent = document.body.innerHTML;
-
-  const fmtContent = htmlContent.replace(/\{\{(.*?)\}\}/g, (_, key) => {
-    key = key.trim();
-    const parts = key.split('.');
-    let extractedIndex;
-
-    let translationRef = translations[userLang];
-
-    for (let i = 1; i < parts.length; i++) {
-      extractedIndex = extractIndex(parts[i]);
-      let _key = removeIndex(parts[i]);
-
-      if (typeof translationRef === "object" && _key in translationRef) {
-        translationRef = translationRef[_key];
+  document.body.innerHTML = document.body.innerHTML.replace(/\{\{(.*?)\}\}/g, (_, key) => {
+    return key.trim().split('.').slice(1).reduce((obj, part) => {
+      const idx = part.match(/\[(\d+)\]/);
+      const keyName = idx ? part.slice(0, idx.index) : part;
+      if (obj && keyName in obj) {
+        obj = obj[keyName];
       }
-
-      if (extractedIndex !== null && Array.isArray(translationRef)) {
-        translationRef = translationRef[extractedIndex];
+      if (idx && Array.isArray(obj)) {
+        obj = obj[+idx[1]];
       }
-    }
-
-    return translationRef;
+      return obj;
+    }, translations[userLang]);
   });
-
-  document.body.innerHTML = fmtContent;
 }
 
 NativeTemplate();
