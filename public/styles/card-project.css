@@ -1,31 +1,78 @@
 .card {
   background-color: var(--color-primary);
-  padding: 3.2rem .8rem 0 .8rem;
-  margin: .8rem 0;
   border-bottom: 4px solid #00428c;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  transition: 0.3s;
-  min-width: 16rem;
-  height: 14rem;
-  text-align: center;
-  box-shadow: #000 0 0 32px -16.8px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: #000 0 4px 24px -8px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-.card p {
-  margin: .4rem;
-  font-family: "Lato", sans-serif;
-  font-size: 1.6rem;
-  color: #d1d1d1;
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: #000 0 14px 32px -4px;
 }
 
-.card a {
-  color: #076fe6;
+.card > a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   text-decoration: none;
+  color: inherit;
 }
 
-.card a:active {
-  color: inherit;
+.card__figure {
+  margin: 0;
+  width: 100%;
+  height: 200px;
+  flex-shrink: 0;
+  background: var(--color-primary);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card__img {
+  transform: scale(1.04);
+}
+
+.card__caption {
+  height: 120px;
+  padding: 0 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.card__name {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  color: #076fe6;
+  font-weight: bold;
+}
+
+.card:hover .card__name {
+  color: #3d9aff;
+}
+
+.card__stack {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  color: #888;
+  line-height: 1.5;
 }
