@@ -82,7 +82,9 @@ const translations = {
           "Manutenção e desenvolvimento de novas funcionalidades para sites governamentais com a stack \
             <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
             para apps mobile com React Native, e API's.",
-          "Refatorei código Java para Kotlin, seguindo recomendação oficial do React Native 0.73+."
+          "Refatorei código Java para Kotlin, seguindo recomendação oficial do React Native 0.73+.",
+          "Integrei o Gitea com o Keycloak (OpenID Connect + OAuth2).",
+          "Criei temas customizados do Keycloak com Apache Freemarker (Java) e CSS."
         ]
       }
     ],
@@ -166,7 +168,9 @@ const translations = {
           "Maintenance and development of new features for government websites using the \
           <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
           mobile apps using React Native, and API's. I implemented pagination in API routes, optimizing performance, improving user experience (UX) and reducing request overhead.",
-          "I refactored Java code to Kotlin, following the official React Native 0.73+ recommendation."
+          "I refactored Java code to Kotlin, following the official React Native 0.73+ recommendation.",
+          "I integrated Gitea with Keycloak (OpenID Connect + OAuth2).",
+          "I created custom Keycloak themes with Apache Freemarker (Java) and CSS."
         ]
       }
     ]
