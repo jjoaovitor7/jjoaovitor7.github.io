@@ -83,8 +83,8 @@ const translations = {
             <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
             para apps mobile com React Native, e API's.",
           "Refatorei código Java para Kotlin, seguindo recomendação oficial do React Native 0.73+.",
-          "Integrei o Gitea com o Keycloak (OpenID Connect + OAuth2).",
-          "Criei temas customizados do Keycloak com Apache Freemarker (Java) e CSS.",
+          "Integrei o Gitea ao Keycloak com OpenID Connect (OIDC) e OAuth2, além de desenvolver temas de autenticação do Keycloak com Apache FreeMarker (Java) e CSS.",
+          "Estruturação de quadros (boards) com o Gitea Projetos, por meio de issues e Kanban para registro, organização, atribuição e acompanhamento de tarefas.",
           "Refatorei a versão web do Gol da Gente para Angular, principalmente por motivos de segurança e manutenibilidade."
         ]
       }
@@ -170,8 +170,8 @@ const translations = {
           <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
           mobile apps using React Native, and API's. I implemented pagination in API routes, optimizing performance, improving user experience (UX) and reducing request overhead.",
           "I refactored Java code to Kotlin, following the official React Native 0.73+ recommendation.",
-          "I integrated Gitea with Keycloak (OpenID Connect + OAuth2).",
-          "I created custom Keycloak themes with Apache Freemarker (Java) and CSS.",
+          "I integrated Gitea with Keycloak via OpenID Connect (OIDC) and OAuth2, as well as developing custom Keycloak authentication themes with Apache FreeMarker (Java) and CSS.",
+          "Structuring boards with Gitea Projects, using issues and Kanban for registration, organization, assignment, and tracking of tasks.",
           "Refactored the web version of Gol da Gente to Angular, mainly for security and maintainability reasons."
         ]
       }
