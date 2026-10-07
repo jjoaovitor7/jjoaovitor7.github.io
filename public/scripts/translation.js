@@ -74,18 +74,19 @@ const translations = {
           "Atuei na implementação da especificação do TCE, Serigy Schema, em sites governamentais que utilizam o WordPress, \
             aplicando conceitos como template-pages, metabox, custom post type (CPT) e integrando com o plugin ACF. \
           Adicionalmente, migrei +8.000 dados de fontes variadas \
-           <i>(desde arquivos estruturados como .csv, .json, .xlsx, entre outros, até webscraping)</i> com TypeScript, \
+           <i>(desde arquivos estruturados como .csv, .json, .xlsx, entre outros, até webscraping)</i> com TS, \
             reduzindo o \"trabalho braçal\" / inserção manual dos dados.",
           "Implementei testes funcionais de API com Playwright e BDD (com Gherkin), aumentando a confiabilidade da API e agilidade nos testes. \
           Documentei a API com a especificação Swagger, como também realizei a integração entre o Swagger e os padrões JWT e OAuth2. \
           Implementei paginação em rotas de API, otimizando o desempenho, melhorando a experiência do usuário (UX) e reduzindo o overhead das requisições.",
           "Manutenção e desenvolvimento de novas funcionalidades para sites governamentais com a stack \
             <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
-            para apps mobile com React Native, e API's.",
+            para apps mobile com React Native, e APIs.",
           "Refatorei código Java para Kotlin, seguindo recomendação oficial do React Native 0.73+.",
           "Integrei o Gitea ao Keycloak com OpenID Connect (OIDC) e OAuth2, além de desenvolver temas de autenticação do Keycloak com Apache FreeMarker (Java), CSS e JavaScript.",
           "Estruturação de quadros (boards) com o Gitea Projetos, por meio de issues e Kanban para registro, organização, atribuição e acompanhamento de tarefas.",
-          "Refatorei a versão web do Gol da Gente para Angular, principalmente por motivos de segurança e manutenibilidade."
+          "Refatorei a versão web do Gol da Gente para Angular, principalmente por motivos de segurança e manutenibilidade.",
+          "Implementei pipelines de CI/CD com análise sintática para aplicações Lua, JS/TS e PHP, melhorando a qualidade e a eficiência do processo de desenvolvimento."
         ]
       }
     ],
@@ -160,19 +161,22 @@ const translations = {
         "title": "Systems Analyst, ZDoc.",
         "period": "jan. 2025 - until now",
         "info": [
-          "I worked on implementation of the TCE specification, Serigy Schema, on government websites using WordPress, \
+          "I worked on the implementation of the TCE specification, Serigy Schema, on government websites using WordPress, \
           applying concepts such as template-pages, metaboxes, custom post types (CPT), and integrating with the ACF plugin. \
-          Additionally, I migrated over 8.000 data from various sources <i>(structured files such as .csv, .json, .xlsx, and others, even webscraping)</i> with TS, \
-          decreasing the \"manual work\" / manual data entry.",
-          "I Implemented API functional tests with Playwright and BDD (with Gherkin), increasing API reliability and test agility. \
-          I documented API using the Swagger specification and integrated Swagger with the JWT and OAuth2 standards.",
+          Additionally, I migrated over 8,000 data entries from various sources \
+          <i>(structured files such as .csv, .json, .xlsx, among others, even web scraping)</i> with TS, \
+          reducing manual data entry.",
+          "I implemented API functional tests with Playwright and BDD (with Gherkin), increasing API reliability and test agility. \
+          I documented the API using the Swagger specification and integrated Swagger with the JWT and OAuth2 standards. \
+          I implemented pagination in API routes, optimizing performance, improving user experience (UX), and reducing request overhead.",
           "Maintenance and development of new features for government websites using the \
-          <abbr title=\"Linux, Apache2, MariaDB e PHP\">LAMP</abbr>, \
-          mobile apps using React Native, and API's. I implemented pagination in API routes, optimizing performance, improving user experience (UX) and reducing request overhead.",
+          <abbr title=\"Linux, Apache2, MariaDB and PHP\">LAMP</abbr> stack, \
+          mobile apps using React Native, and APIs.",
           "I refactored Java code to Kotlin, following the official React Native 0.73+ recommendation.",
-          "I integrated Gitea with Keycloak via OpenID Connect (OIDC) and OAuth2, as well as developing custom Keycloak authentication themes with Apache FreeMarker (Java), CSS and JavaScript.",
-          "Structuring boards with Gitea Projects, using issues and Kanban for registration, organization, assignment, and tracking of tasks.",
-          "Refactored the web version of Gol da Gente to Angular, mainly for security and maintainability reasons."
+          "I integrated Gitea with Keycloak via OpenID Connect (OIDC) and OAuth2, as well as developing custom Keycloak authentication themes with Apache FreeMarker (Java), CSS, and JavaScript.",
+          "I structured boards with Gitea Projects, using issues and Kanban for task registration, organization, assignment, and tracking.",
+          "I refactored the web version of Gol da Gente to Angular, mainly for security and maintainability reasons.",
+          "I implemented CI/CD pipelines with syntax analysis for Lua, JS/TS, and PHP applications, improving the quality and efficiency of the development process."
         ]
       }
     ]
